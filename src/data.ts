@@ -31,7 +31,7 @@ Currently, I am playing the role Sales Director China at Aspen Technology, where
 
 Before Aspen Technology, I played role Vice President of the Digital Business Unit APAC at Hamon, where I had full P&L responsibility. I grew the business by 500%, expanded into nine international markets, increased market share by 52%, improved gross margin by 16 percentage points, and successfully transformed China-manufactured industrial solutions into competitive international offerings.
 
-Earlier at Alstom, I scaled the business from US$10 million to US$150 million across six Asian markets.
+Earlier at Alstom, I scaled the business from US$10 million to US$150 million in annual revenue across six Asian markets.
 
 What particularly attracts me to this role is the transformation mandate. I believe my combination of P&L leadership, internationalization, operating-model transformation, mining customer understanding, and lifecycle business experience can bring a complementary perspective to help LGMRT build a scalable and differentiated global midmarket business.`,
     tips: [
