@@ -143,6 +143,24 @@ export default function App() {
   // Active view model for responsive devices (mobile viewport switching)
   const [activeMobileTab, setActiveMobileTab] = useState<'index' | 'script' | 'tips'>('script');
 
+  // Mobile scroll tracking to auto-hide headers
+  const [isMobileHeaderHidden, setIsMobileHeaderHidden] = useState<boolean>(false);
+  const lastScrollY = useRef<number>(0);
+
+  const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
+    if (window.innerWidth >= 1024) return;
+    const currentScrollY = e.currentTarget.scrollTop;
+    if (currentScrollY > lastScrollY.current + 10) {
+      setIsMobileHeaderHidden(true);
+    } else if (currentScrollY < lastScrollY.current - 10) {
+      setIsMobileHeaderHidden(false);
+    }
+    if (currentScrollY <= 20) {
+      setIsMobileHeaderHidden(false);
+    }
+    lastScrollY.current = currentScrollY;
+  };
+
   // --- Effects ---
   // Save sidebar width preference
   useEffect(() => {
@@ -413,7 +431,12 @@ export default function App() {
       className="w-full h-screen flex flex-col bg-[#f8fafc] text-[#1e293b] font-sans overflow-hidden select-none"
     >
       {/* Mobile Navigation Header Tabs Bar (Visible only on non-lg screens) */}
-      <div id="mobile-navigation-bar" className="lg:hidden bg-white border-b border-[#e2e8f0] p-4 flex items-center justify-between shrink-0 select-none">
+      <div 
+        id="mobile-navigation-bar" 
+        className={`lg:hidden bg-white flex items-center justify-between shrink-0 select-none transition-all duration-300 origin-top overflow-hidden ${
+          isMobileHeaderHidden ? 'max-h-0 opacity-0 p-0 border-transparent' : 'max-h-24 opacity-100 p-4 border-b border-[#e2e8f0]'
+        }`}
+      >
         <div className="flex items-center gap-2">
           <Layers className="w-4 h-4 text-[#0f172a]" />
           <span className="text-[11px] font-bold tracking-widest text-[#0f172a] font-mono">SANDVIK PREP</span>
@@ -565,7 +588,7 @@ export default function App() {
           )}
 
           {/* Sidebar Items List (Elegant Minimal layout matches design HTML exactly) */}
-          <div id="sidebar-items-list" className="flex-1 overflow-y-auto p-3 bg-white divide-y divide-slate-100">
+          <div id="sidebar-items-list" className="flex-1 overflow-y-auto p-3 bg-white divide-y divide-slate-100" onScroll={handleScroll}>
             {filteredItems.length === 0 ? (
               <div id="sidebar-empty-state" className="flex flex-col items-center justify-center p-8 text-center bg-[#f8fafc] rounded-xl border border-dashed border-slate-200 mx-2 mt-2">
                 <p className="text-xs text-slate-400">No matching preparation items</p>
@@ -668,7 +691,7 @@ export default function App() {
               ${activeMobileTab === 'script' ? 'flex w-full' : 'hidden lg:flex'}`}
           >
             {/* Script Plain Header Toolbar */}
-            <div id="script-header-toolbar" className="p-4 sm:p-6 px-6 sm:px-10 border-b border-[#e2e8f0] flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white shrink-0">
+            <div id="script-header-toolbar" className={`px-6 sm:px-10 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white shrink-0 transition-all duration-300 origin-top overflow-hidden ${isMobileHeaderHidden ? 'max-h-0 opacity-0 py-0 border-transparent lg:max-h-[500px] lg:opacity-100 lg:py-4 lg:sm:py-6 lg:border-b lg:border-[#e2e8f0]' : 'max-h-[500px] opacity-100 py-4 sm:py-6 border-b border-[#e2e8f0]'}`}>
               <div>
                 <div className="flex items-center gap-2 mb-1.5">
                   <span className="text-[11px] bg-[#eff6ff] text-[#2563eb] px-2.5 py-0.5 rounded-full font-medium">
@@ -745,7 +768,7 @@ export default function App() {
             </div>
 
             {/* Scrollable Script Body Area (Includes drop caps as requested by Professional Polish) */}
-            <div id="script-scroll-body" className="flex-1 overflow-y-auto p-5 sm:p-8 lg:p-12 bg-white">
+            <div id="script-scroll-body" className="flex-1 overflow-y-auto p-5 sm:p-8 lg:p-12 bg-white" onScroll={handleScroll}>
               
               {/* Highlight Legend Indicator block */}
               <div id="legend-pills-bar" className="mb-6 sm:mb-8 bg-[#f8fafc] border border-[#e2e8f0] p-3 px-4 rounded-xl flex flex-wrap gap-x-5 gap-y-2 items-center text-xs text-[#64748b] max-w-2xl mx-auto shadow-2xs">
@@ -811,7 +834,7 @@ export default function App() {
               ${activeMobileTab === 'tips' ? 'flex w-full' : 'hidden lg:flex'}`}
           >
             {/* Header with bold side block */}
-            <div id="tips-header" className="p-6 border-b border-[#e2e8f0] bg-white shrink-0 flex items-center justify-between">
+            <div id="tips-header" className={`px-6 bg-white shrink-0 flex items-center justify-between transition-all duration-300 origin-top overflow-hidden ${isMobileHeaderHidden ? 'max-h-0 opacity-0 py-0 border-transparent lg:max-h-32 lg:opacity-100 lg:py-6 lg:border-b lg:border-[#e2e8f0]' : 'max-h-32 opacity-100 py-6 border-b border-[#e2e8f0]'}`}>
               <div>
                 <span className="text-[9px] font-mono tracking-widest text-[#64748b] uppercase">Deliverables Checklist</span>
                 <h2 className="text-sm font-bold text-[#0f172a] flex items-center gap-2 mt-0.5">
@@ -838,7 +861,7 @@ export default function App() {
             </div>
 
             {/* Solid minimalistic custom list items as in professional design HTML */}
-            <div id="tips-items-list" className="flex-1 overflow-y-auto p-5 space-y-3">
+            <div id="tips-items-list" className="flex-1 overflow-y-auto p-5 space-y-3" onScroll={handleScroll}>
               <AnimatePresence mode="popLayout">
                 {activeItem.tips.map((tip, index) => {
                   const isChecked = !!checkedTipsMap[tip];
