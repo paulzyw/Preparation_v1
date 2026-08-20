@@ -10,11 +10,14 @@ export interface CheatsheetItem {
 export const CATEGORIES: { [key: number]: string } = {
   0: "Profile",
   1: "Role & Fit",
-  2: "Case Studies",
-  3: "Collaboration",
-  4: "Industry Vision",
-  5: "Growth & Career",
-  6: "Questions"
+  2: "Motivation",
+  3: "Leadership",
+  4: "Market Knowledge",
+  5: "Case Studies",
+  6: "Collaboration",
+  7: "Vision & Strategy",
+  8: "Growth & Career",
+  9: "Questions"
 };
 
 export const CHEATSHEET_DATA: CheatsheetItem[] = [
@@ -103,7 +106,7 @@ What attracted me to LGMRT is that this role brings together exactly those exper
     id: "interest",
     title: "Interest in LGMRT Role",
     group: 1,
-    category: "Role & Fit",
+    category: "Motivation",
     script: `What attracted me most is actually the transformation mandate rather than simply the seniority of the position.
 
 From my understanding, Sandvik is looking to take LGMRT from a strong Chinese midmarket OEM and develop it into a globally competitive second-tier offering. That requires much more than simply selling more equipment. It requires a differentiated market position, the right international go-to-market model, scalable operations, strong dealer and partner ecosystems, and a lifecycle business that combines equipment with aftermarket value.
@@ -232,7 +235,7 @@ At Hamon, this helped turn resistance into commitment and ultimately supported o
     id: "leadership",
     title: "Leadership Style",
     group: 3,
-    category: "Collaboration",
+    category: "Leadership",
     script: `[Vision → Alignment → Empowerment → Accountability → Execution]
 
 I would describe my leadership style as strategic, collaborative, outcome-oriented, and transparent.
@@ -256,7 +259,7 @@ I would describe my leadership style as strategic, collaborative, outcome-orient
     id: "china_to_global",
     title: "Expand China to Global",
     group: 4,
-    category: "Industry Vision",
+    category: "Case Studies",
     script: `This is actually one of the areas where I believe my experience is particularly relevant.
 
 At Hamon, I was responsible for expanding a China-based industrial offering internationally.
@@ -280,7 +283,7 @@ These experiences taught me that successful internationalization requires decidi
     id: "mining_exp",
     title: "Mining Experience",
     group: 4,
-    category: "Industry Vision",
+    category: "Case Studies",
     script: `My experience spans both the mining and infrastructure sides of asset-intensive industries.
 
 In mining, through Aspen Technology, I have worked with leading organizations including Shenhua Group and Zijin Mining. My work has focused on helping them improve equipment reliability, maintenance effectiveness, asset availability, and operational productivity. In one set of initiatives, we helped reduce unplanned equipment downtime by 25% and improve asset availability by 15%.
@@ -301,7 +304,7 @@ That customer perspective is something I believe can complement the equipment-bu
     id: "sandvik_lgmrt",
     title: "About Sandvik & LGMRT",
     group: 4,
-    category: "Industry Vision",
+    category: "Market Knowledge",
     script: `I understand Sandvik as a global industrial technology group with strong positions in mining and infrastructure, with a particularly strong portfolio across drilling, underground loading and hauling, rock tools, aftermarket, and increasingly automation, digitalization and electrification. In mining, Sandvik has a strong premium position, competing mainly with players such as Epiroc, Caterpillar and Komatsu Mining.
 
 Regarding LGMRT, my understanding is that it is a joint venture between Sandvik and Lingong Group, established in 2016 to address the midmarket. It combines Sandvik's mining and rock technology with Lingong's midmarket manufacturing and operating capabilities, covering surface drilling, underground drilling, and underground loading and hauling. It was originally focused on China, with the ambition to expand into selected international markets.
@@ -319,7 +322,7 @@ What particularly interests me is the next stage of that journey: moving LGMRT f
     id: "target_op_model",
     title: "Target Operating Model",
     group: 4,
-    category: "Industry Vision",
+    category: "Vision & Strategy",
     script: `# Target Operating Model
 ## Script
 1. What would your target operating model for LGMRT look like?
@@ -346,7 +349,7 @@ The principle of my intention of building operating model is simple: centralize 
     id: "op_system",
     title: "Operating System",
     group: 4,
-    category: "Industry Vision",
+    category: "Vision & Strategy",
     script: `# Operating System
 1. Operating model should have 7 dimensions (Dimension - Key Question)
 1). Strategy & Portfolio - Where do we play and where do we win?
@@ -456,7 +459,7 @@ A repeatable global midmarket operating model`,
     id: "trans_brief",
     title: "Transformation Brief",
     group: 4,
-    category: "Industry Vision",
+    category: "Vision & Strategy",
     script: `# Transformation Brief
 
 1. What will your transformation strategy for LGMRT be?
@@ -479,7 +482,7 @@ Build LGMRT into a globally scalable mid-market business with sustainable profit
     id: "trans_strategy",
     title: "LGMRT Transformation Strategy",
     group: 4,
-    category: "Industry Vision",
+    category: "Vision & Strategy",
     script: `# LGMRT Transformation Strategy
 
 1. The strategic thesis
@@ -636,7 +639,7 @@ China efficiency + global customer proximity.
     id: "how_to_start",
     title: "How to Start",
     group: 1,
-    category: "Role & Fit",
+    category: "Vision & Strategy",
     script: `I would start with a structured diagnostic rather than immediately imposing a strategy.
 
 First, I would understand the LGMRT P&L, portfolio economics, customer segments, competitive position, dealer network, aftermarket performance, supply chain, and organizational capabilities.
@@ -677,7 +680,7 @@ Most importantly, I am looking for the right long-term business leadership oppor
     id: "leave_aspen",
     title: "Leave for Sandvik",
     group: 5,
-    category: "Growth & Career",
+    category: "Motivation",
     script: `I have had a very successful and rewarding experience with Aspen Technology, and I am proud of what I have achieved there, particularly the 280% revenue growth and the relationships I have built with major industrial and mining customers. So I am not looking to leave because of dissatisfaction.
 
 What attracts me to Sandvik is the opportunity to take the next step in my leadership journey. The LGMRT role goes beyond commercial leadership—it combines full P&L responsibility, business transformation, operating-model development, international expansion, organization leadership, and lifecycle business development.

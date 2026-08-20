@@ -117,7 +117,7 @@ export default function App() {
   const [fontSize, setFontSize] = useState<'normal' | 'large' | 'xlarge'>('normal');
 
   // Active Category filter
-  const [selectedCategoryGroup, setSelectedCategoryGroup] = useState<number | 'all'>('all');
+  const [selectedCategoryGroup, setSelectedCategoryGroup] = useState<string>('all');
 
   // Rehearsal timer states
   const [isTimerRunning, setIsTimerRunning] = useState<boolean>(false);
@@ -213,7 +213,7 @@ export default function App() {
   const filteredItems = useMemo(() => {
     return CHEATSHEET_DATA.filter(item => {
       // Category filter check
-      const matchesCategory = selectedCategoryGroup === 'all' || item.group === selectedCategoryGroup;
+      const matchesCategory = selectedCategoryGroup === 'all' || item.category === selectedCategoryGroup;
       
       // Search query check (fuzzy matching title, script or tips)
       if (!searchQuery.trim()) return matchesCategory;
@@ -559,8 +559,8 @@ export default function App() {
                       <span className="truncate tracking-wide text-[12.5px] font-medium">{item.title}</span>
                     </div>
 
-                    <span className={`text-[10px] font-mono px-1.5 py-0.5 rounded-sm shrink-0 font-bold transition-colors ${isSelected ? 'bg-white/90 text-slate-800 shadow-3xs' : `${colors.accentBg} text-slate-700`}`}>
-                      ({item.group})
+                    <span className={`text-[9px] font-sans px-1.5 py-0.5 rounded-sm shrink-0 font-medium transition-colors ${isSelected ? 'bg-white/90 text-slate-800 shadow-3xs' : `${colors.accentBg} text-slate-700`}`}>
+                      {item.category}
                     </span>
                   </button>
                 );
@@ -711,28 +711,31 @@ export default function App() {
                   </button>
                 </div>
 
-                {/* Search Bar just below */}
+                {/* Category Dropdown just below */}
                 <div className="relative w-64">
-                  <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-[#94a3b8]">
-                    <Search className="w-3.5 h-3.5" />
+                  <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-[#64748b]">
+                    <Layers className="w-3.5 h-3.5" />
                   </span>
-                  <input 
-                    id="cheatsheet-search-input-desktop"
-                    type="text"
-                    placeholder="Search scripts or keywords..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full pl-9 pr-8 py-1.5 bg-[#f8fafc] border border-[#e2e8f0] text-xs rounded-lg text-slate-800 placeholder:text-slate-400 focus:outline-hidden focus:border-slate-400 focus:ring-1 focus:ring-slate-300 transition-all font-sans shadow-2xs"
-                  />
-                  {searchQuery && (
-                    <button 
-                      id="clear-search-button-desktop"
-                      onClick={() => setSearchQuery("")}
-                      className="absolute inset-y-0 right-2.5 flex items-center text-slate-400 hover:text-slate-600 text-xs cursor-pointer"
-                    >
-                      Clear
-                    </button>
-                  )}
+                  <select
+                    id="category-filter-select-desktop"
+                    value={selectedCategoryGroup}
+                    onChange={(e) => {
+                      setSelectedCategoryGroup(e.target.value);
+                    }}
+                    className="w-full pl-9 pr-8 py-1.5 bg-[#f8fafc] border border-[#e2e8f0] text-xs rounded-lg text-slate-800 focus:outline-hidden focus:border-slate-400 focus:ring-1 focus:ring-slate-300 transition-all font-sans shadow-2xs appearance-none cursor-pointer"
+                  >
+                    <option value="all">All Categories</option>
+                    {Object.values(CATEGORIES).map((catName) => (
+                      <option key={catName} value={catName}>
+                        {catName}
+                      </option>
+                    ))}
+                  </select>
+                  <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none text-[#64748b]">
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </span>
                 </div>
               </div>
             </div>
@@ -803,28 +806,31 @@ export default function App() {
                     </button>
                   </div>
 
-                  {/* Search Bar just below */}
+                  {/* Category Dropdown just below */}
                   <div className="relative w-full">
-                    <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-[#94a3b8]">
-                      <Search className="w-3.5 h-3.5" />
+                    <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-[#64748b]">
+                      <Layers className="w-3.5 h-3.5" />
                     </span>
-                    <input 
-                      id="cheatsheet-search-input-mobile"
-                      type="text"
-                      placeholder="Search scripts or keywords..."
-                      value={searchQuery}
-                      onChange={(e) => setSearchQuery(e.target.value)}
-                      className="w-full pl-9 pr-8 py-2 bg-[#f8fafc] border border-[#e2e8f0] text-xs rounded-lg text-slate-800 placeholder:text-slate-400 focus:outline-hidden focus:border-slate-400 focus:ring-1 focus:ring-slate-300 transition-all font-sans shadow-2xs"
-                    />
-                    {searchQuery && (
-                      <button 
-                        id="clear-search-button-mobile"
-                        onClick={() => setSearchQuery("")}
-                        className="absolute inset-y-0 right-2.5 flex items-center text-slate-400 hover:text-slate-600 text-xs cursor-pointer"
-                      >
-                        Clear
-                      </button>
-                    )}
+                    <select
+                      id="category-filter-select-mobile"
+                      value={selectedCategoryGroup}
+                      onChange={(e) => {
+                        setSelectedCategoryGroup(e.target.value);
+                      }}
+                      className="w-full pl-9 pr-8 py-2 bg-[#f8fafc] border border-[#e2e8f0] text-xs rounded-lg text-slate-800 focus:outline-hidden focus:border-slate-400 focus:ring-1 focus:ring-slate-300 transition-all font-sans shadow-2xs appearance-none cursor-pointer"
+                    >
+                      <option value="all">All Categories</option>
+                      {Object.values(CATEGORIES).map((catName) => (
+                        <option key={catName} value={catName}>
+                          {catName}
+                        </option>
+                      ))}
+                    </select>
+                    <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none text-[#64748b]">
+                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -842,10 +848,6 @@ export default function App() {
                 <div className="flex items-center gap-1.5 whitespace-nowrap">
                   <span className="w-2 h-2 rounded-full bg-[#f0f9ff] border border-sky-300 inline-block" style={{ backgroundColor: '#f0f9ff' }} />
                   <span>Key Delivery Words</span>
-                </div>
-                <div className="flex items-center gap-1.5 whitespace-nowrap">
-                  <span className="w-2 h-2 rounded-full bg-amber-100 border border-amber-300 inline-block" />
-                  <span>Search Highlight</span>
                 </div>
               </div>
 
