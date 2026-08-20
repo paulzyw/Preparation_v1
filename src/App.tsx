@@ -785,7 +785,7 @@ export default function App() {
                     {activeItem.script.split('\n\n').map((paragraph, index) => (
                       <p 
                         key={index}
-                        className={`script-paragraph text-[#334155] leading-snug text-justify font-sans
+                        className={`script-paragraph text-[#334155] leading-snug text-left font-sans
                           ${index === 0 ? 'first-of-type:first-letter:text-4xl first-of-type:first-letter:font-bold first-of-type:first-letter:float-left first-of-type:first-letter:mr-2.5 first-of-type:first-letter:text-[#0f172a] first-of-type:first-letter:leading-none' : ''}`}
                       >
                         {renderScriptWithHighlights(
