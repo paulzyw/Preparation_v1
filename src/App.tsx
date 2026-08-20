@@ -20,6 +20,7 @@ import {
   TrendingUp, 
   Gauge, 
   ChevronRight, 
+  ChevronLeft,
   Info,
   Calendar,
   Layers,
@@ -129,6 +130,9 @@ export default function App() {
   // Sidebar hidden toggle on tablet screens to optimize view
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(true);
 
+  // Key Points sidebar fold/unfold state
+  const [tipsSidebarOpen, setTipsSidebarOpen] = useState<boolean>(true);
+
   // Resizable sidebar states
   const [sidebarWidth, setSidebarWidth] = useState<number>(() => {
     try {
@@ -142,24 +146,6 @@ export default function App() {
 
   // Active view model for responsive devices (mobile viewport switching)
   const [activeMobileTab, setActiveMobileTab] = useState<'index' | 'script' | 'tips'>('script');
-
-  // Mobile scroll tracking to auto-hide headers
-  const [isMobileHeaderHidden, setIsMobileHeaderHidden] = useState<boolean>(false);
-  const lastScrollY = useRef<number>(0);
-
-  const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
-    if (window.innerWidth >= 1024) return;
-    const currentScrollY = e.currentTarget.scrollTop;
-    if (currentScrollY > lastScrollY.current + 10) {
-      setIsMobileHeaderHidden(true);
-    } else if (currentScrollY < lastScrollY.current - 10) {
-      setIsMobileHeaderHidden(false);
-    }
-    if (currentScrollY <= 20) {
-      setIsMobileHeaderHidden(false);
-    }
-    lastScrollY.current = currentScrollY;
-  };
 
   // --- Effects ---
   // Save sidebar width preference
@@ -249,15 +235,15 @@ export default function App() {
   const preparationPercentage = Math.round((practicedCount / totalItemsCount) * 100);
 
   // Calculate reading parameters
-  const characterCount = activeItem.script.replace(/\s+/g, '').length;
-  const estimatedReadMinutes = Math.max(1, Math.ceil(characterCount / 220)); // Approx 220 CPM for professional Chinese delivery
+  const wordCount = activeItem.script.trim().split(/\s+/).length;
+  const estimatedReadMinutes = Math.max(1, Math.ceil(wordCount / 130)); // Approx 130 WPM for professional delivery
   
   // Real-time rehearsal statistics
-  const speakingPaceCPM = useMemo(() => {
+  const speakingPaceWPM = useMemo(() => {
     if (elapsedTime <= 2) return 0;
     const minutes = elapsedTime / 60;
-    return Math.round(characterCount / minutes);
-  }, [elapsedTime, characterCount]);
+    return Math.round(wordCount / minutes);
+  }, [elapsedTime, wordCount]);
 
   const togglePracticed = (id: string) => {
     setPracticedMap(prev => ({
@@ -433,9 +419,7 @@ export default function App() {
       {/* Mobile Navigation Header Tabs Bar (Visible only on non-lg screens) */}
       <div 
         id="mobile-navigation-bar" 
-        className={`lg:hidden bg-white flex items-center justify-between shrink-0 select-none transition-all duration-300 origin-top overflow-hidden ${
-          isMobileHeaderHidden ? 'max-h-0 opacity-0 p-0 border-transparent' : 'max-h-24 opacity-100 p-4 border-b border-[#e2e8f0]'
-        }`}
+        className="lg:hidden bg-white flex items-center justify-between shrink-0 select-none p-4 border-b border-[#e2e8f0]"
       >
         <div className="flex items-center gap-2">
           <Layers className="w-4 h-4 text-[#0f172a]" />
@@ -526,69 +510,8 @@ export default function App() {
             )}
           </div>
 
-          {/* Sidebar Search and Filter controls */}
-          {sidebarOpen && (
-            <div id="sidebar-controls" className="p-5 border-b border-[#e2e8f0] bg-white space-y-3">
-              {/* Search Input */}
-              <div className="relative">
-                <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-[#94a3b8]">
-                  <Search className="w-3.5 h-3.5" />
-                </span>
-                <input 
-                  id="cheatsheet-search-input"
-                  type="text"
-                  placeholder="Search scripts or keywords..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-9 pr-8 py-2 bg-[#f8fafc] border border-[#e2e8f0] text-xs rounded-lg text-slate-800 placeholder:text-slate-400 focus:outline-hidden focus:border-slate-400 focus:ring-1 focus:ring-slate-300 transition-all font-sans"
-                />
-                {searchQuery && (
-                  <button 
-                    id="clear-search-button"
-                    onClick={() => setSearchQuery("")}
-                    className="absolute inset-y-0 right-2.5 flex items-center text-slate-400 hover:text-slate-600 text-xs cursor-pointer"
-                  >
-                    Clear
-                  </button>
-                )}
-              </div>
-
-              {/* Category selection selector bar */}
-              <div className="flex items-center gap-1 overflow-x-auto pb-1 scrollbar-none select-none">
-                <button
-                  id="filter-category-all"
-                  onClick={() => setSelectedCategoryGroup('all')}
-                  className={`px-2.5 py-1 text-[10px] font-medium rounded-md whitespace-nowrap transition-all duration-200 border cursor-pointer
-                    ${selectedCategoryGroup === 'all' 
-                      ? 'bg-[#0f172a] text-white border-[#0f172a] font-bold shadow-xs' 
-                      : 'bg-white text-slate-600 hover:bg-slate-50 border-[#e2e8f0]'}`}
-                >
-                  All
-                </button>
-                {Object.entries(CATEGORIES).map(([key, label]) => {
-                  const groupIdx = parseInt(key, 10);
-                  const isSelected = selectedCategoryGroup === groupIdx;
-                  const shortLabel = label.split(' ')[0] || label;
-                  return (
-                    <button
-                      id={`filter-category-${groupIdx}`}
-                      key={groupIdx}
-                      onClick={() => setSelectedCategoryGroup(groupIdx)}
-                      className={`px-2.5 py-1 text-[10px] font-medium rounded-md whitespace-nowrap transition-all duration-200 border cursor-pointer
-                        ${isSelected 
-                          ? 'bg-[#0f172a] text-white border-[#0f172a] font-bold shadow-xs' 
-                          : 'bg-white text-slate-600 hover:bg-slate-50 border-[#e2e8f0]'}`}
-                    >
-                      {shortLabel}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-
           {/* Sidebar Items List (Elegant Minimal layout matches design HTML exactly) */}
-          <div id="sidebar-items-list" className="flex-1 overflow-y-auto p-3 bg-white divide-y divide-slate-100" onScroll={handleScroll}>
+          <div id="sidebar-items-list" className="flex-1 overflow-y-auto p-3 bg-white divide-y divide-slate-100">
             {filteredItems.length === 0 ? (
               <div id="sidebar-empty-state" className="flex flex-col items-center justify-center p-8 text-center bg-[#f8fafc] rounded-xl border border-dashed border-slate-200 mx-2 mt-2">
                 <p className="text-xs text-slate-400">No matching preparation items</p>
@@ -690,8 +613,8 @@ export default function App() {
             className={`flex-1 flex flex-col h-full border-r border-[#e2e8f0] bg-white relative overflow-hidden
               ${activeMobileTab === 'script' ? 'flex w-full' : 'hidden lg:flex'}`}
           >
-            {/* Script Plain Header Toolbar */}
-            <div id="script-header-toolbar" className={`px-6 sm:px-10 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white shrink-0 transition-all duration-300 origin-top overflow-hidden ${isMobileHeaderHidden ? 'max-h-0 opacity-0 py-0 border-transparent lg:max-h-[500px] lg:opacity-100 lg:py-4 lg:sm:py-6 lg:border-b lg:border-[#e2e8f0]' : 'max-h-[500px] opacity-100 py-4 sm:py-6 border-b border-[#e2e8f0]'}`}>
+            {/* Script Plain Header Toolbar (Desktop only) */}
+            <div id="script-header-toolbar" className="hidden lg:flex px-6 sm:px-10 flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white shrink-0 py-4 sm:py-6 border-b border-[#e2e8f0]">
               <div>
                 <div className="flex items-center gap-2 mb-1.5">
                   <span className="text-[11px] bg-[#eff6ff] text-[#2563eb] px-2.5 py-0.5 rounded-full font-medium">
@@ -700,7 +623,7 @@ export default function App() {
                   <span className="text-slate-300">•</span>
                   <span className="text-[11px] text-[#64748b] font-mono flex items-center gap-1 bg-[#f8fafc] px-2 py-0.5 border border-[#e2e8f0] rounded-md">
                     <Clock className="w-3" />
-                    Est. Read: {estimatedReadMinutes} min ({characterCount} words)
+                    Est. Read: {estimatedReadMinutes} min ({wordCount} words)
                   </span>
                 </div>
                 
@@ -721,54 +644,190 @@ export default function App() {
               </div>
 
               {/* Top Typography Toolbar Control layout */}
-              <div className="flex items-center gap-3">
-                {/* FontSize selectors */}
-                <div className="flex items-center bg-[#f8fafc] border border-[#e2e8f0] p-0.5 rounded-lg text-slate-700 shadow-xs">
-                  <button 
-                    id="font-size-decrease-button"
-                    onClick={() => setFontSize('normal')}
-                    className={`p-1 px-3 text-xs font-semibold rounded-md transition-colors cursor-pointer ${fontSize === 'normal' ? 'bg-[#0f172a] text-white shadow-xs' : 'hover:bg-slate-200/55'}`}
-                    title="Standard Font Size"
+              <div className="flex flex-col items-end gap-2.5">
+                {/* Upper Buttons Row */}
+                <div className="flex items-center gap-3">
+                  {/* FontSize selectors */}
+                  <div className="flex items-center bg-[#f8fafc] border border-[#e2e8f0] p-0.5 rounded-lg text-slate-700 shadow-xs">
+                    <button 
+                      id="font-size-decrease-button"
+                      onClick={() => setFontSize('normal')}
+                      className={`p-1 px-3 text-xs font-semibold rounded-md transition-colors cursor-pointer ${fontSize === 'normal' ? 'bg-[#0f172a] text-white shadow-xs' : 'hover:bg-slate-200/55'}`}
+                      title="Standard Font Size"
+                    >
+                      A
+                    </button>
+                    <button 
+                      id="font-size-medium-button"
+                      onClick={() => setFontSize('large')}
+                      className={`p-1 px-3 text-xs font-semibold rounded-md transition-colors cursor-pointer ${fontSize === 'large' ? 'bg-[#0f172a] text-white shadow-xs' : 'hover:bg-slate-200/55'}`}
+                      title="Medium Font Size"
+                    >
+                      A+
+                    </button>
+                    <button 
+                      id="font-size-large-button"
+                      onClick={() => setFontSize('xlarge')}
+                      className={`p-1 px-3 text-xs font-semibold rounded-md transition-colors cursor-pointer ${fontSize === 'xlarge' ? 'bg-[#0f172a] text-white shadow-xs' : 'hover:bg-slate-200/55'}`}
+                      title="Large Font Size"
+                    >
+                      A++
+                    </button>
+                  </div>
+
+                  {/* Copy Button */}
+                  <button
+                    id="copy-script-to-clipboard-button"
+                    onClick={copyScriptToClipboard}
+                    className="p-2 border border-[#e2e8f0] hover:bg-[#f1f5f9] rounded-lg text-slate-800 transition-colors cursor-pointer relative shadow-xs shrink-0"
+                    title="Copy Script"
                   >
-                    A
+                    <Clipboard className="w-4 h-4" />
+                    {showCopied && (
+                      <span className="absolute bottom-full right-1/2 translate-x-1/2 mb-2 bg-[#0f172a] text-white text-[10px] py-1 px-2.5 rounded-md whitespace-nowrap shadow-lg">
+                        Copied!
+                      </span>
+                    )}
                   </button>
-                  <button 
-                    id="font-size-medium-button"
-                    onClick={() => setFontSize('large')}
-                    className={`p-1 px-3 text-xs font-semibold rounded-md transition-colors cursor-pointer ${fontSize === 'large' ? 'bg-[#0f172a] text-white shadow-xs' : 'hover:bg-slate-200/55'}`}
-                    title="Medium Font Size"
+
+                  {/* Key Points Sidebar Fold/Unfold Button */}
+                  <button
+                    id="toggle-tips-sidebar-button"
+                    onClick={() => setTipsSidebarOpen(!tipsSidebarOpen)}
+                    className="hidden lg:flex p-2 border border-[#e2e8f0] hover:bg-[#f1f5f9] rounded-lg text-slate-800 transition-colors cursor-pointer relative shadow-xs shrink-0 items-center gap-1.5 text-xs font-semibold"
+                    title={tipsSidebarOpen ? "Fold Key Points Panel" : "Unfold Key Points Panel"}
                   >
-                    A+
-                  </button>
-                  <button 
-                    id="font-size-large-button"
-                    onClick={() => setFontSize('xlarge')}
-                    className={`p-1 px-3 text-xs font-semibold rounded-md transition-colors cursor-pointer ${fontSize === 'xlarge' ? 'bg-[#0f172a] text-white shadow-xs' : 'hover:bg-slate-200/55'}`}
-                    title="Large Font Size"
-                  >
-                    A++
+                    {tipsSidebarOpen ? (
+                      <>
+                        <span>Hide Key Points</span>
+                        <ChevronRight className="w-4 h-4" />
+                      </>
+                    ) : (
+                      <>
+                        <ChevronLeft className="w-4 h-4" />
+                        <span>Show Key Points</span>
+                      </>
+                    )}
                   </button>
                 </div>
 
-                {/* Copy Button */}
-                <button
-                  id="copy-script-to-clipboard-button"
-                  onClick={copyScriptToClipboard}
-                  className="p-2 border border-[#e2e8f0] hover:bg-[#f1f5f9] rounded-lg text-slate-800 transition-colors cursor-pointer relative shadow-xs shrink-0"
-                  title="Copy Script"
-                >
-                  <Clipboard className="w-4 h-4" />
-                  {showCopied && (
-                    <span className="absolute bottom-full right-1/2 translate-x-1/2 mb-2 bg-[#0f172a] text-white text-[10px] py-1 px-2.5 rounded-md whitespace-nowrap shadow-lg">
-                      Copied!
-                    </span>
+                {/* Search Bar just below */}
+                <div className="relative w-64">
+                  <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-[#94a3b8]">
+                    <Search className="w-3.5 h-3.5" />
+                  </span>
+                  <input 
+                    id="cheatsheet-search-input-desktop"
+                    type="text"
+                    placeholder="Search scripts or keywords..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="w-full pl-9 pr-8 py-1.5 bg-[#f8fafc] border border-[#e2e8f0] text-xs rounded-lg text-slate-800 placeholder:text-slate-400 focus:outline-hidden focus:border-slate-400 focus:ring-1 focus:ring-slate-300 transition-all font-sans shadow-2xs"
+                  />
+                  {searchQuery && (
+                    <button 
+                      id="clear-search-button-desktop"
+                      onClick={() => setSearchQuery("")}
+                      className="absolute inset-y-0 right-2.5 flex items-center text-slate-400 hover:text-slate-600 text-xs cursor-pointer"
+                    >
+                      Clear
+                    </button>
                   )}
-                </button>
+                </div>
               </div>
             </div>
 
             {/* Scrollable Script Body Area (Includes drop caps as requested by Professional Polish) */}
-            <div id="script-scroll-body" className="flex-1 overflow-y-auto p-5 sm:p-8 lg:p-12 bg-white" onScroll={handleScroll}>
+            <div id="script-scroll-body" className="flex-1 overflow-y-auto p-5 sm:p-8 lg:p-12 bg-white select-text">
+              
+              {/* Mobile Compact Header (Scrolls naturally with content!) */}
+              <div className="lg:hidden mb-6 pb-6 border-b border-[#e2e8f0] flex flex-col gap-3">
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="text-[11px] bg-[#eff6ff] text-[#2563eb] px-2.5 py-0.5 rounded-full font-medium">
+                    {activeItem.category}
+                  </span>
+                  <span className="text-slate-300">•</span>
+                  <span className="text-[11px] text-[#64748b] font-mono flex items-center gap-1 bg-[#f8fafc] px-2 py-0.5 border border-[#e2e8f0] rounded-md">
+                    <Clock className="w-3" />
+                    Est. Read: {estimatedReadMinutes} min ({wordCount} words)
+                  </span>
+                </div>
+                
+                <div className="flex items-center justify-between gap-2">
+                  <h1 className="text-xl font-bold tracking-tight text-[#0f172a]">
+                    {activeItem.title}
+                  </h1>
+                  <button
+                    id={`mark-practiced-inline-mobile-${activeItem.id}`}
+                    onClick={() => togglePracticed(activeItem.id)}
+                    className={`text-[10px] px-2 py-1 rounded-md border transition-all cursor-pointer flex items-center gap-1 font-normal shrink-0
+                      ${practicedMap[activeItem.id] 
+                        ? 'bg-[#f1f5f9] border-[#e2e8f0] text-emerald-700 font-semibold' 
+                        : 'bg-white border-slate-200 text-[#64748b]'}`}
+                  >
+                    <Check className={`w-3 ${practicedMap[activeItem.id] ? 'text-emerald-600' : 'text-slate-400'}`} />
+                    {practicedMap[activeItem.id] ? "Mastered" : "Practice"}
+                  </button>
+                </div>
+
+                {/* Typography & Copy Toolbar on Mobile */}
+                <div className="flex flex-col gap-2.5 pt-2 border-t border-slate-100">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center bg-[#f8fafc] border border-[#e2e8f0] p-0.5 rounded-lg text-slate-700 shadow-xs">
+                      <button 
+                        onClick={() => setFontSize('normal')}
+                        className={`p-1 px-2.5 text-xs font-semibold rounded-md transition-colors cursor-pointer ${fontSize === 'normal' ? 'bg-[#0f172a] text-white' : 'hover:bg-slate-200/55'}`}
+                      >
+                        A
+                      </button>
+                      <button 
+                        onClick={() => setFontSize('large')}
+                        className={`p-1 px-2.5 text-xs font-semibold rounded-md transition-colors cursor-pointer ${fontSize === 'large' ? 'bg-[#0f172a] text-white' : 'hover:bg-slate-200/55'}`}
+                      >
+                        A+
+                      </button>
+                      <button 
+                        onClick={() => setFontSize('xlarge')}
+                        className={`p-1 px-2.5 text-xs font-semibold rounded-md transition-colors cursor-pointer ${fontSize === 'xlarge' ? 'bg-[#0f172a] text-white' : 'hover:bg-slate-200/55'}`}
+                      >
+                        A++
+                      </button>
+                    </div>
+
+                    <button
+                      onClick={copyScriptToClipboard}
+                      className="p-1.5 px-3 border border-[#e2e8f0] hover:bg-[#f1f5f9] rounded-lg text-slate-800 transition-colors cursor-pointer flex items-center gap-1 text-xs font-semibold"
+                    >
+                      <Clipboard className="w-3.5 h-3.5" />
+                      <span>Copy Outline</span>
+                    </button>
+                  </div>
+
+                  {/* Search Bar just below */}
+                  <div className="relative w-full">
+                    <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-[#94a3b8]">
+                      <Search className="w-3.5 h-3.5" />
+                    </span>
+                    <input 
+                      id="cheatsheet-search-input-mobile"
+                      type="text"
+                      placeholder="Search scripts or keywords..."
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      className="w-full pl-9 pr-8 py-2 bg-[#f8fafc] border border-[#e2e8f0] text-xs rounded-lg text-slate-800 placeholder:text-slate-400 focus:outline-hidden focus:border-slate-400 focus:ring-1 focus:ring-slate-300 transition-all font-sans shadow-2xs"
+                    />
+                    {searchQuery && (
+                      <button 
+                        id="clear-search-button-mobile"
+                        onClick={() => setSearchQuery("")}
+                        className="absolute inset-y-0 right-2.5 flex items-center text-slate-400 hover:text-slate-600 text-xs cursor-pointer"
+                      >
+                        Clear
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </div>
               
               {/* Highlight Legend Indicator block */}
               <div id="legend-pills-bar" className="mb-6 sm:mb-8 bg-[#f8fafc] border border-[#e2e8f0] p-3 px-4 rounded-xl flex flex-wrap gap-x-5 gap-y-2 items-center text-xs text-[#64748b] max-w-2xl mx-auto shadow-2xs">
@@ -830,38 +889,71 @@ export default function App() {
           {/* 3. RIGHT SIDE - TIP CONTENT DISPLAY (Professional Polish clean border & sidebar lists) */}
           <section 
             id="tips-display-panel"
-            className={`w-full lg:w-80 bg-[#f8fafc] flex flex-col h-full relative overflow-hidden
+            className={`w-full bg-[#f8fafc] flex flex-col h-full relative overflow-hidden transition-all duration-300 border-l border-[#e2e8f0]
+              ${tipsSidebarOpen ? 'lg:w-80' : 'lg:w-0 lg:border-l-0 lg:opacity-0 pointer-events-none'}
               ${activeMobileTab === 'tips' ? 'flex w-full' : 'hidden lg:flex'}`}
           >
-            {/* Header with bold side block */}
-            <div id="tips-header" className={`px-6 bg-white shrink-0 flex items-center justify-between transition-all duration-300 origin-top overflow-hidden ${isMobileHeaderHidden ? 'max-h-0 opacity-0 py-0 border-transparent lg:max-h-32 lg:opacity-100 lg:py-6 lg:border-b lg:border-[#e2e8f0]' : 'max-h-32 opacity-100 py-6 border-b border-[#e2e8f0]'}`}>
-              <div>
+            {/* Header with bold side block (Desktop only) */}
+            <div id="tips-header" className="hidden lg:flex px-4 bg-white shrink-0 flex-col justify-center gap-1.5 py-4 border-b border-[#e2e8f0]">
+              <div className="flex items-center justify-between">
                 <span className="text-[9px] font-mono tracking-widest text-[#64748b] uppercase">Deliverables Checklist</span>
-                <h2 className="text-sm font-bold text-[#0f172a] flex items-center gap-2 mt-0.5">
-                  <span className="w-1 h-3.5 bg-[#0f172a] rounded-xs" />
-                  Key Points / Delivery Keywords ({activeItem.tips.length})
-                </h2>
+                
+                {/* Quick reset checklist & fold button */}
+                <div className="flex items-center gap-2">
+                  <button
+                    id="reset-tip-checklist-button"
+                    onClick={() => setCheckedTipsMap({})}
+                    className="text-[10px] text-slate-500 hover:text-[#0f172a] hover:underline font-bold flex items-center gap-1 cursor-pointer whitespace-nowrap"
+                  >
+                    Reset Checklist
+                  </button>
+                  <span className="text-slate-300 hidden lg:inline">|</span>
+                  <button
+                    id="collapse-tips-sidebar-inline-button"
+                    onClick={() => setTipsSidebarOpen(false)}
+                    className="hidden lg:flex p-1 hover:bg-[#f1f5f9] rounded-md text-[#64748b] transition-colors cursor-pointer shrink-0"
+                    title="Fold Panel"
+                  >
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
+                </div>
               </div>
-              
-              {/* Quick reset checklist */}
-              <button
-                id="reset-tip-checklist-button"
-                onClick={() => setCheckedTipsMap({})}
-                className="text-[11px] text-[#0f172a] hover:underline font-bold flex items-center gap-1 cursor-pointer"
-              >
-                Reset Checklist
-              </button>
+
+              <h2 className="text-sm font-bold text-[#0f172a] flex items-center gap-2">
+                <span className="w-1 h-3.5 bg-[#0f172a] rounded-xs shrink-0" />
+                <span className="truncate">Key Points / Delivery Keywords ({activeItem.tips.length})</span>
+              </h2>
             </div>
 
-            {/* Interactive instructions bar */}
-            <div id="interactive-takeaway-banner" className="p-4 bg-white border-b border-[#e2e8f0] text-xs text-slate-700 leading-relaxed">
+            {/* Interactive instructions bar (Desktop only) */}
+            <div id="interactive-takeaway-banner" className="hidden lg:block p-4 bg-white border-b border-[#e2e8f0] text-xs text-slate-700 leading-relaxed">
               <p>
                 <strong>Interactive Synergy:</strong> Hover over a card below to <strong>highlight the corresponding script segment</strong>. Click to check off items you have mastered.
               </p>
             </div>
 
             {/* Solid minimalistic custom list items as in professional design HTML */}
-            <div id="tips-items-list" className="flex-1 overflow-y-auto p-5 space-y-3" onScroll={handleScroll}>
+            <div id="tips-items-list" className="flex-1 overflow-y-auto p-5 space-y-3 select-text">
+              
+              {/* Mobile Tips Header (Scrolls naturally with list) */}
+              <div className="lg:hidden pb-4 border-b border-[#e2e8f0] mb-4 flex flex-col gap-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-[9px] font-mono tracking-widest text-[#64748b] uppercase">Deliverables Checklist</span>
+                  <button
+                    onClick={() => setCheckedTipsMap({})}
+                    className="text-[10px] text-slate-500 hover:text-[#0f172a] hover:underline font-bold cursor-pointer"
+                  >
+                    Reset Checklist
+                  </button>
+                </div>
+                <h2 className="text-sm font-bold text-[#0f172a] flex items-center gap-2">
+                  <span className="w-1 h-3.5 bg-[#0f172a] rounded-xs shrink-0" />
+                  <span>Key Points / Keywords ({activeItem.tips.length})</span>
+                </h2>
+                <p className="text-[11px] text-slate-500 leading-normal mt-1 bg-slate-50 p-2.5 rounded-lg border border-slate-100">
+                  <strong>Interactive Synergy:</strong> Tap checklist cards below to cross off keywords you have mastered.
+                </p>
+              </div>
               <AnimatePresence mode="popLayout">
                 {activeItem.tips.map((tip, index) => {
                   const isChecked = !!checkedTipsMap[tip];

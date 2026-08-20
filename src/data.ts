@@ -27,11 +27,11 @@ export const CHEATSHEET_DATA: CheatsheetItem[] = [
 
 I am an industrial business transformation and growth executive with more than 15 years of experience leading businesses across mining, infrastructure, energy, and other asset-intensive industries, with a strong focus on P&L performance, business strategy, operating model development, international expansion, and lifecycle customer value.
 
-Currently, I am playing the role Sales Director China at Aspen Technology, where I lead the commercial strategy and P&L execution for the China business. Over the past several years, I have delivered 280% revenue growth, increased annual revenue from US$5.5 million to US$21.3 million, and achieved more than 230% of quota. Importantly for this opportunity, I have worked directly with major mining companies such as Shenhua Group and Zijin Mining etc., helping them transform maintenance from reactive to predictive models, reducing unplanned equipment downtime by 25% and improving asset availability by 15%.
+Currently, I am playing the role of Sales Director China at Aspen Technology, where I lead the commercial strategy and P&L execution for the China business. Over the past several years, I have delivered 280% revenue growth, increased annual revenue from US$5.5 million to US$21.3 million, and achieved 230% of quota. Importantly for this opportunity, I have worked directly with major mining companies such as Shenhua Group and Zijin Mining etc., helping them transform maintenance from reactive to predictive models, reducing unplanned equipment downtime by 25% and improving asset availability by 15%.
 
-Before Aspen Technology, I played role Vice President of the Digital Business Unit APAC at Hamon, where I had full P&L responsibility. I grew the business by 500%, expanded into nine international markets, increased market share by 52%, improved gross margin by 16 percentage points, and successfully transformed China-manufactured industrial solutions into competitive international offerings.
+Before Aspen Technology, I played role of Vice President of the Digital Business Unit APAC at Hamon, where I had full P&L responsibility. I grew the business by 500%, expanded into nine international markets, increased market share by 52%, improved gross margin by 16 percentage points, and successfully transformed China-based industrial solutions into competitive international offerings.
 
-Earlier at Alstom, I scaled the business from US$10 million to US$150 million in annual revenue across six Asian markets.
+Earlier at Alstom, I scaled the annual revenue from US$10 million to US$150 million in 7 years across six Asian markets through successfully transforming China BU into a competitive international midmarket solution provider.
 
 What particularly attracts me to this role is the transformation mandate. I believe my combination of P&L leadership, internationalization, operating-model transformation, mining customer understanding, and lifecycle business experience can bring a complementary perspective to help LGMRT build a scalable and differentiated global midmarket business.`,
     tips: [
@@ -58,7 +58,7 @@ What particularly attracts me to this role is the transformation mandate. I beli
   },
   {
     id: "no_mining_exp",
-    title: "No Mining-Equipment Experience",
+    title: "No Mining-Equip. Expce.",
     group: 1,
     category: "Role & Fit",
     script: `I agree that my background is different from the traditional mining-equipment candidate, and I see that as a distinction rather than something I would try to hide.
@@ -88,9 +88,9 @@ I would complement that with the deep mining-equipment expertise already present
     category: "Profile",
     script: `Certainly. I am an industrial business transformation and growth executive with more than 15 years of experience across mining, infrastructure, energy, and other asset-intensive industries, with a strong focus on P&L leadership, business growth, operating-model development, international expansion, and lifecycle customer value.
 
-Currently, I am Sales Director China at Aspen Technology, where I lead commercial strategy and P&L execution. I have delivered 280% revenue growth, increased annual revenue from US$5.5 million to US$21.3 million, and achieved more than 230% of quota. Importantly, I have worked directly with major mining companies including Shenhua Group and Zijin Mining, helping them transform maintenance from reactive to predictive models, reducing unplanned downtime by 25% and improving asset availability by 15%.
+Currently, I am Sales Director China at Aspen Technology, where I lead commercial strategy and P&L execution. I have delivered 280% revenue growth, increased annual revenue from US$5.5 million to US$21.3 million, and achieved 230% of quota. Importantly, I have worked directly with major mining companies including Shenhua Group and Zijin Mining, helping them transform maintenance from reactive to predictive models, reducing unplanned downtime by 25% and improving asset availability by 15%.
 
-Before Aspen, I was Vice President of the Digital Business Unit APAC at Hamon with full P&L responsibility. I grew the business by 500%, expanded into nine international markets, increased market share by 52%, improved gross margin by 16 percentage points, and successfully transformed China-manufactured industrial solutions into competitive international offerings.
+Before Aspen, I was Vice President of the Digital Business Unit APAC at Hamon with full P&L responsibility. I grew the business by 500%, expanded into nine international markets, increased market share by 52%, improved gross margin by 16 percentage points, and successfully transformed China-based industrial solutions into competitive international offerings.
 
 What attracted me to LGMRT is that this role brings together exactly those experiences: transforming an industrial business, building an international growth platform, developing the operating model, and creating stronger lifecycle value.`,
     tips: [
