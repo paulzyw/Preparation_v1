@@ -34,6 +34,12 @@ jobs:
             exit 1
           else
             echo "WASMER_TOKEN is present and configured."
+            export WASMER_TOKEN=$(echo -n "$WASMER_TOKEN" | tr -d '\n\r ')
+            echo "=== Diagnostic Debug Info ==="
+            echo "Token length: ${#WASMER_TOKEN} characters"
+            echo "Running 'wasmer whoami' to verify identity..."
+            wasmer whoami || echo "WARNING: wasmer whoami failed to authenticate!"
+            echo "================================="
           fi
         env:
           WASMER_TOKEN: ${{ secrets.WASMER_TOKEN }}
