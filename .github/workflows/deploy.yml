@@ -28,6 +28,6 @@ jobs:
         uses: wasmerio/setup-wasmer@v1
 
       - name: Deploy to Wasmer Edge
-        run: wasmer deploy
+        run: wasmer deploy --non-interactive --owner paulzyw02
         env:
           WASMER_TOKEN: ${{ secrets.WASMER_TOKEN }}
