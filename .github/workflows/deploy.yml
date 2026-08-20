@@ -27,11 +27,18 @@ jobs:
       - name: Set up Wasmer CLI
         uses: wasmerio/setup-wasmer@v1
 
-      - name: Authenticate Wasmer CLI
-        run: wasmer login ${{ secrets.WASMER_TOKEN }}
-
-      - name: Verify Wasmer Identity (Diagnostic)
-        run: wasmer whoami
+      - name: Validate GitHub Secrets Configuration
+        run: |
+          if [ -z "$WASMER_TOKEN" ]; then
+            echo "::error::WASMER_TOKEN is not configured in your repository secrets! Please go to Settings > Secrets and variables > Actions, and add WASMER_TOKEN with your Wasmer access token."
+            exit 1
+          else
+            echo "WASMER_TOKEN is present and configured."
+          fi
+        env:
+          WASMER_TOKEN: ${{ secrets.WASMER_TOKEN }}
 
       - name: Deploy to Wasmer Edge
         run: wasmer deploy --non-interactive --owner paulzyw02
+        env:
+          WASMER_TOKEN: ${{ secrets.WASMER_TOKEN }}

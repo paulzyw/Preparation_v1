@@ -1,6 +1,7 @@
 ---
 kind: wasmer.io/App.v0
 name: Preparation
+owner: paulzyw02
 package: .
 env:
   SERVER_PORT: "80"
