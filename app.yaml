@@ -1,6 +1,7 @@
 ---
 kind: wasmer.io/App.v0
 name: preparation
+# Deployment configuration for the interview preparation app
 owner: paulzyw02
 package: .
 env:

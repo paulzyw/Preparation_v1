@@ -2,6 +2,7 @@
 name = "paulzyw02/preparation"
 version = "0.1.0"
 description = "Interview preparation material"
+# Package configured for new deployment
 
 [dependencies]
 "wasmer/static-web-server" = "^1"
