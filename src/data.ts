@@ -23,7 +23,7 @@ export const CHEATSHEET_DATA: CheatsheetItem[] = [
     title: "Self-Introduction",
     group: 0,
     category: "Profile",
-    script: `First and foremost, I would like to thank you for your interest in my profile and taking the time for having for this interview session. Let me briefly introduce my background and why I am particularly interested in this opportunity at Sandvik.
+    script: `First and foremost, I would like to thank you for your interest in my profile and taking the time for having me for this interview session. Let me briefly introduce my background and why I am particularly interested in this opportunity at Sandvik.
 
 I am an industrial business transformation and growth executive with more than 15 years of experience leading businesses across mining, infrastructure, energy, and other asset-intensive industries, with a strong focus on P&L performance, business strategy, operating model development, international expansion, and lifecycle customer value.
 
