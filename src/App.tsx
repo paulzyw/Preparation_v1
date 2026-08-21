@@ -28,8 +28,8 @@ import {
 } from 'lucide-react';
 import { CHEATSHEET_DATA, CATEGORIES, CheatsheetItem } from './data';
 
-const GROUP_COLORS: Record<number, { bg: string; hover: string; selected: string; textSelected: string; borderSelected: string; accentBg: string }> = {
-  0: { 
+const CATEGORY_COLORS: Record<string, { bg: string; hover: string; selected: string; textSelected: string; borderSelected: string; accentBg: string }> = {
+  "Profile": { 
     bg: 'bg-slate-100/70', 
     hover: 'hover:bg-slate-200/90', 
     selected: 'bg-slate-200/100',
@@ -37,7 +37,7 @@ const GROUP_COLORS: Record<number, { bg: string; hover: string; selected: string
     borderSelected: 'border-slate-800',
     accentBg: 'bg-slate-200/60'
   },
-  1: { 
+  "Role & Fit": { 
     bg: 'bg-sky-100/70', 
     hover: 'hover:bg-sky-100/90', 
     selected: 'bg-sky-100',
@@ -45,15 +45,15 @@ const GROUP_COLORS: Record<number, { bg: string; hover: string; selected: string
     borderSelected: 'border-sky-600',
     accentBg: 'bg-sky-100/50'
   },
-  2: { 
-    bg: 'bg-emerald-100/70', 
-    hover: 'hover:bg-emerald-100/90', 
-    selected: 'bg-emerald-100',
-    textSelected: 'text-emerald-950 font-bold',
-    borderSelected: 'border-emerald-600',
-    accentBg: 'bg-emerald-100/50'
+  "Motivation": { 
+    bg: 'bg-teal-100/70', 
+    hover: 'hover:bg-teal-100/90', 
+    selected: 'bg-teal-100',
+    textSelected: 'text-teal-950 font-bold',
+    borderSelected: 'border-teal-600',
+    accentBg: 'bg-teal-100/50'
   },
-  3: { 
+  "Leadership": { 
     bg: 'bg-indigo-100/70', 
     hover: 'hover:bg-indigo-100/90', 
     selected: 'bg-indigo-100',
@@ -61,7 +61,7 @@ const GROUP_COLORS: Record<number, { bg: string; hover: string; selected: string
     borderSelected: 'border-indigo-600',
     accentBg: 'bg-indigo-100/50'
   },
-  4: { 
+  "Market Knowledge": { 
     bg: 'bg-amber-100/70', 
     hover: 'hover:bg-amber-100/90', 
     selected: 'bg-amber-100',
@@ -69,7 +69,23 @@ const GROUP_COLORS: Record<number, { bg: string; hover: string; selected: string
     borderSelected: 'border-amber-600',
     accentBg: 'bg-amber-100/50'
   },
-  5: { 
+  "Case Studies": { 
+    bg: 'bg-emerald-100/70', 
+    hover: 'hover:bg-emerald-100/90', 
+    selected: 'bg-emerald-100',
+    textSelected: 'text-emerald-950 font-bold',
+    borderSelected: 'border-emerald-600',
+    accentBg: 'bg-emerald-100/50'
+  },
+  "Vision & Strategy": { 
+    bg: 'bg-violet-100/70', 
+    hover: 'hover:bg-violet-100/90', 
+    selected: 'bg-violet-100',
+    textSelected: 'text-violet-950 font-bold',
+    borderSelected: 'border-violet-600',
+    accentBg: 'bg-violet-100/50'
+  },
+  "Growth & Career": { 
     bg: 'bg-rose-100/70', 
     hover: 'hover:bg-rose-100/90', 
     selected: 'bg-rose-100',
@@ -77,13 +93,13 @@ const GROUP_COLORS: Record<number, { bg: string; hover: string; selected: string
     borderSelected: 'border-rose-600',
     accentBg: 'bg-rose-100/50'
   },
-  6: { 
-    bg: 'bg-teal-100/70', 
-    hover: 'hover:bg-teal-100/90', 
-    selected: 'bg-teal-100',
-    textSelected: 'text-teal-950 font-bold',
-    borderSelected: 'border-teal-600',
-    accentBg: 'bg-teal-100/50'
+  "Questions": { 
+    bg: 'bg-fuchsia-100/70', 
+    hover: 'hover:bg-fuchsia-100/90', 
+    selected: 'bg-fuchsia-100',
+    textSelected: 'text-fuchsia-950 font-bold',
+    borderSelected: 'border-fuchsia-600',
+    accentBg: 'bg-fuchsia-100/50'
   }
 };
 
@@ -529,7 +545,7 @@ export default function App() {
               filteredItems.map((item) => {
                 const isSelected = item.id === selectedId;
                 const isPracticed = !!practicedMap[item.id];
-                const colors = GROUP_COLORS[item.group] || GROUP_COLORS[0];
+                const colors = CATEGORY_COLORS[item.category] || CATEGORY_COLORS["Profile"];
                 return (
                   <button
                     id={`cheatsheet-item-button-${item.id}`}
@@ -869,7 +885,7 @@ export default function App() {
                     {activeItem.script.split('\n\n').map((paragraph, index) => (
                       <p 
                         key={index}
-                        className={`script-paragraph text-[#334155] leading-snug text-left font-sans
+                        className={`script-paragraph text-[#334155] leading-snug text-left font-sans whitespace-pre-line
                           ${index === 0 ? 'first-of-type:first-letter:text-4xl first-of-type:first-letter:font-bold first-of-type:first-letter:float-left first-of-type:first-letter:mr-2.5 first-of-type:first-letter:text-[#0f172a] first-of-type:first-letter:leading-none' : ''}`}
                       >
                         {renderScriptWithHighlights(

@@ -45,69 +45,11 @@ What particularly attracts me to this role is the transformation mandate. I beli
     ]
   },
   {
-    id: "positioning",
-    title: "Interview Positioning",
-    group: 0,
-    category: "Profile",
-    script: `I am an industrial business transformation leader who has repeatedly grown and internationalized businesses, built scalable operating models, and created lifecycle value for asset-intensive customers. While I am not a traditional mining-equipment OEM executive, I bring direct mining-customer experience, industrial equipment globalization experience, full P&L leadership, and a proven record of transforming China-based businesses into international growth platforms.`,
-    tips: [
-      "Transformation leader",
-      "Grow and internationalize businesses",
-      "Mining-customer experience",
-      "Industrial equipment globalization",
-      "P&L",
-      "Transform China-based business into international growth platform"
-    ]
-  },
-  {
-    id: "no_mining_exp",
-    title: "No Mining-Equip. Expce.",
-    group: 1,
-    category: "Role & Fit",
-    script: `I agree that my background is different from the traditional mining-equipment candidate, and I see that as a distinction rather than something I would try to hide.
-
-I have spent my career on the business side of asset-intensive industries, including working directly with major mining companies on equipment reliability, maintenance, productivity and lifecycle performance.
-
-At the same time, I have directly led an industrial business with full P&L responsibility and successfully transformed China-manufactured solutions into internationally competitive offerings across nine markets.
-
-So I bring two perspectives that I believe are particularly relevant to LGMRT:
-1) I understand the customer and lifecycle economics of asset-intensive industries,
-2) and I have already led a transformation very similar to the internationalization challenge Sandvik is now asking LGMRT to undertake.
-
-I would complement that with the deep mining-equipment expertise already present within Sandvik and LGMRT.`,
-    tips: [
-      "Distinction, not to hide.",
-      "Work directly with major mining companies",
-      "P&L responsibility",
-      "Success in transforming China-manufactured solutions into internationally competitive offerings",
-      "Relevant in 1) understand asset-intensive industries and 2) led similar transformation",
-      "I can combine my transformation/business expertise with the technical mining expertise already inside the organization."
-    ]
-  },
-  {
-    id: "career",
-    title: "Career Brief",
-    group: 0,
-    category: "Profile",
-    script: `Certainly. I am an industrial business transformation and growth executive with more than 15 years of experience across mining, infrastructure, energy, and other asset-intensive industries, with a strong focus on P&L leadership, business growth, operating-model development, international expansion, and lifecycle customer value.
-
-Currently, I am Sales Director China at Aspen Technology, where I lead commercial strategy and P&L execution. I have delivered 280% revenue growth, increased annual revenue from US$5.5 million to US$21.3 million, and achieved 230% of quota. Importantly, I have worked directly with major mining companies including Shenhua Group and Zijin Mining, helping them transform maintenance from reactive to predictive models, reducing unplanned downtime by 25% and improving asset availability by 15%.
-
-Before Aspen, I was Vice President of the Digital Business Unit APAC at Hamon with full P&L responsibility. I grew the business by 500%, expanded into nine international markets, increased market share by 52%, improved gross margin by 16 percentage points, and successfully transformed China-based industrial solutions into competitive international offerings.
-
-What attracted me to LGMRT is that this role brings together exactly those experiences: transforming an industrial business, building an international growth platform, developing the operating model, and creating stronger lifecycle value.`,
-    tips: [
-      "Transformation and Growth executive",
-      "Mining, infrastructure, energy, other asset-intensive industries",
-      "P&L, business growth, operating-model development, international expansion, lifecycle customer value"
-    ]
-  },
-  {
     id: "interest",
     title: "Interest in LGMRT Role",
     group: 1,
     category: "Motivation",
-    script: `What attracted me most is actually the transformation mandate rather than simply the seniority of the position.
+    script: `What attracted most is actually the transformation mandate rather than simply the seniority of the position.
 
 From my understanding, Sandvik is looking to take LGMRT from a strong Chinese midmarket OEM and develop it into a globally competitive second-tier offering. That requires much more than simply selling more equipment. It requires a differentiated market position, the right international go-to-market model, scalable operations, strong dealer and partner ecosystems, and a lifecycle business that combines equipment with aftermarket value.
 
@@ -152,45 +94,94 @@ So although I don't come from the conventional mining-equipment OEM career path,
     ]
   },
   {
-    id: "translate",
-    title: "Translating Experience",
-    group: 1,
-    category: "Role & Fit",
-    script: `I agree that my background is different from the traditional mining-equipment candidate, and I think it's important to be transparent about that.
+    id: "leave_aspen",
+    title: "Leave for Sandvik",
+    group: 5,
+    category: "Motivation",
+    script: `I have had a very successful and rewarding experience with Aspen Technology, and I am proud of what I have achieved there, particularly the 280% revenue growth and the relationships I have built with major industrial and mining customers. So I am not looking to leave because of dissatisfaction.
 
-At the same time, I have spent much of my career working with asset-intensive industries and directly with mining customers. At Aspen, for example, I have worked with Shenhua Group and Zijin Mining to transform maintenance operations from reactive to predictive approaches, reducing unplanned equipment downtime by 25% and improving asset availability by 15%.
+What attracts me to Sandvik is the opportunity to take the next step in my leadership journey. The LGMRT role goes beyond commercial leadership—it combines full P&L responsibility, business transformation, operating-model development, international expansion, organization leadership, and lifecycle business development.
 
-More importantly, I have directly led an industrial business with full P&L responsibility. At Hamon, I transformed China-manufactured industrial solutions into internationally competitive offerings, expanded into nine markets, increased market share by 52%, and improved gross margin by 16 percentage points.
+These are areas where I have progressively built experience throughout my career, particularly through my previous P&L leadership at Hamon.
 
-So I don't see myself as bringing the same profile as a career mining-equipment executive. Instead, I bring complementary capabilities in business transformation, internationalization, operating models, customer lifecycle value, and commercial strategy. I would combine those capabilities with the deep mining-equipment expertise already existing within Sandvik and LGMRT.`,
+What makes this opportunity particularly compelling is the transformation mandate: building a globally competitive midmarket industrial business from a strong Chinese foundation.
+
+I believe my experience in P&L leadership, internationalization, industrial transformation, and mining customer value creation can contribute meaningfully to that ambition.
+
+So for me, this is really about taking on a broader and more strategic business leadership challenge.`,
     tips: [
-      "Asset-intensive industries, mining customers",
-      "Aspen, Shenhua, Zijin",
-      "Full P&L, lead business, transformed China-manufactured industrial solution to internationally competitive offering",
-      "Not same as mining-equipment executive",
-      "Bring complementary capabilities in business transformation, internationalization, operating models, lifecycle value"
+      "Successful and rewarding experience, proud of what achieved",
+      "Not looking to leave because of dissatisfaction",
+      "Attract me to Sandvik: next step in my leadership journey, LGMRT role require P&L, transformation, internationalization, lifecycle",
+      "Particularly compelling: transformation",
+      "I believe my experience can contribute meaningfully to Sandvik ambition"
     ]
   },
   {
-    id: "p_l",
-    title: "P&L Experience",
-    group: 2,
-    category: "Case Studies",
-    script: `My strongest direct P&L experience was at Hamon, where I was Vice President of the APAC Digital Business Unit with full responsibility for business performance.
+    id: "no_mining_exp",
+    title: "No Mining-Equip. Expce.",
+    group: 1,
+    category: "Role & Fit",
+    script: `I agree that my background is different from the traditional mining-equipment candidate, and I see that as a distinction rather than something I would try to hide.
 
-I was responsible not only for revenue growth but also for profitability, market development, commercial strategy, resource allocation, pricing, and operating performance. During that period, I grew annual revenue by 500%, expanded the business into nine international markets, increased market share by 52%, and improved gross margin by 16 percentage points.
+I have spent my career on the business side of asset-intensive industries, including working directly with major mining companies on equipment reliability, maintenance, productivity and lifecycle performance.
 
-What was important to me was that growth and profitability had to develop together. We therefore worked on pricing strategy, cost optimization, delivery models, resource allocation, and commercial processes rather than pursuing revenue growth at any cost.
+At the same time, I have directly led an industrial business with full P&L responsibility and successfully transformed China-manufactured solutions into internationally competitive offerings across nine markets.
 
-My current Aspen role has further strengthened my commercial and business-performance discipline. I delivered 280% revenue growth and achieved more than 230% of annual quota.
+So I bring two perspectives that I believe are particularly relevant to LGMRT:
+1) I understand the customer and lifecycle economics of asset-intensive industries,
+2) and I have already led a transformation very similar to the internationalization challenge Sandvik is now asking LGMRT to undertake.
 
-So I view P&L leadership as balancing growth, margin, customers, people, and operating capabilities—not simply maximizing sales.`,
+I would complement that with the deep mining-equipment expertise already present within Sandvik and LGMRT.`,
     tips: [
-      "P&L at Hamon, full responsibility for business performance",
-      "Revenue growth, profitability, market development, commercial strategy, resource allocation, pricing, operating performance",
-      "Grew revenue by 500%, expanded into 9 international markets, increased market share by 52%, improved gross margin by 16%",
-      "Aspen commercial discipline: 280% growth, 230% quota",
-      "Balancing growth, margin, customers, people, and operating capabilities"
+      "Distinction, not to hide.",
+      "Work directly with major mining companies",
+      "P&L responsibility",
+      "Success in transforming China-manufactured solutions into internationally competitive offerings",
+      "Relevant in 1) understand asset-intensive industries and 2) led similar transformation",
+      "I can combine my transformation/business expertise with the technical mining expertise already inside the organization."
+    ]
+  },
+  {
+    id: "leadership",
+    title: "Leadership Style",
+    group: 3,
+    category: "Leadership",
+    script: `[Vision → Alignment → Empowerment → Accountability → Execution]
+
+I would describe my leadership style as strategic, collaborative, outcome-oriented, and transparent.
+
+1) I believe the first responsibility of a leader is to establish clarity—where we are going, why it matters, what success looks like, and how different functions contribute. Once that is clear, I focus strongly on empowerment and accountability rather than trying to control every decision.
+
+2) I have spent much of my career working across China, APAC, and Western multinational organizations, so I am very comfortable operating in cross-cultural and matrix environments. At Hamon, for example, I had to align sales, engineering, operations, and international partners across multiple countries while driving a common growth agenda.
+
+3) I also believe transformation requires stakeholder alignment. People will not support a transformation simply because the strategy is logically correct. They need to understand the reason for change and see how they can contribute to it.
+
+4) That's the leadership approach I would bring to LGMRT: clear direction, strong stakeholder alignment, disciplined execution, and empowerment of the organization.`,
+    tips: [
+      "Strategic, collaborative, outcome-oriented, execution, and transparent",
+      "Establish clarity",
+      "Cross-cultural and matrix environments",
+      "Transformation require stakeholder alignment",
+      "Bring to LGMRT: clear direction, strong stakeholder alignment, disciplined execution, and empowerment"
+    ]
+  },
+  {
+    id: "sandvik_lgmrt",
+    title: "About Sandvik & LGMRT",
+    group: 4,
+    category: "Market Knowledge",
+    script: `I understand Sandvik as a global industrial technology group with strong positions in mining and infrastructure, with a particularly strong portfolio across drilling, underground loading and hauling, rock tools, aftermarket, and increasingly automation, digitalization and electrification. In mining, Sandvik has a strong premium position, competing mainly with players such as Epiroc, Caterpillar and Komatsu Mining.
+
+Regarding LGMRT, my understanding is that it is a joint venture between Sandvik and Lingong Group, established in 2016 to address the midmarket. It combines Sandvik's mining and rock technology with Lingong's midmarket manufacturing and operating capabilities, covering surface drilling, underground drilling, and underground loading and hauling. It was originally focused on China, with the ambition to expand into selected international markets.
+
+What particularly interests me is the next stage of that journey: moving LGMRT from a strong Chinese midmarket business into a scalable international second-tier offering, with differentiated positioning, dealer channels, and stronger equipment-plus-aftermarket lifecycle economics. That's the transformation challenge I find particularly compelling, because it closely matches my experience in P&L leadership, internationalization, industrial transformation, and lifecycle business development.`,
+    tips: [
+      "Global industrial technology group with strong positions",
+      "Drilling, underground loading and hauling, rock tools, aftermarket",
+      "In mining, strong premium position (Epiroc, Caterpillar and Komatsu Mining)",
+      "LGMRT, joint venture in 2016, to address midmarket",
+      "Next stage: Chinese midmarket -> globally competitive second-tier offering"
     ]
   },
   {
@@ -232,27 +223,24 @@ At Hamon, this helped turn resistance into commitment and ultimately supported o
     ]
   },
   {
-    id: "leadership",
-    title: "Leadership Style",
-    group: 3,
-    category: "Leadership",
-    script: `[Vision → Alignment → Empowerment → Accountability → Execution]
+    id: "mining_exp",
+    title: "Mining Experience",
+    group: 4,
+    category: "Case Studies",
+    script: `My experience spans both the mining and infrastructure sides of asset-intensive industries.
 
-I would describe my leadership style as strategic, collaborative, outcome-oriented, and transparent.
+In mining, through Aspen Technology, I have worked with leading organizations including Shenhua Group and Zijin Mining. My work has focused on helping them improve equipment reliability, maintenance effectiveness, asset availability, and operational productivity. In one set of initiatives, we helped reduce unplanned equipment downtime by 25% and improve asset availability by 15%.
 
-1) I believe the first responsibility of a leader is to establish clarity—where we are going, why it matters, what success looks like, and how different functions contribute. Once that is clear, I focus strongly on empowerment and accountability rather than trying to control every decision.
+On the infrastructure side, earlier in my career at Alstom, I worked extensively with infrastructure and EPC organizations involved in major power-generation projects, including hydroelectric and coal-fired power plants. I also developed business across six Asian markets.
 
-2) I have spent much of my career working across China, APAC, and Western multinational organizations, so I am very comfortable operating in cross-cultural and matrix environments. At Hamon, for example, I had to align sales, engineering, operations, and international partners across multiple countries while driving a common growth agenda.
+So my experience is not limited to selling into these industries. I have spent significant time understanding how asset-intensive customers think about reliability, productivity, lifecycle economics, project execution, and long-term customer value.
 
-3) I also believe transformation requires stakeholder alignment. People will not support a transformation simply because the strategy is logically correct. They need to understand the reason for change and see how they can contribute to it.
-
-4) That's the leadership approach I would bring to LGMRT: clear direction, strong stakeholder alignment, disciplined execution, and empowerment of the organization.`,
+That customer perspective is something I believe can complement the equipment-business experience required for LGMRT.`,
     tips: [
-      "Strategic, collaborative, outcome-oriented, execution, and transparent",
-      "Establish clarity",
-      "Cross-cultural and matrix environments",
-      "Transformation require stakeholder alignment",
-      "Bring to LGMRT: clear direction, strong stakeholder alignment, disciplined execution, and empowerment"
+      "Both mining and infrastructure sides of asset-intensive industries",
+      "Aspen, mining, Shenhua, Zijin, focused on helping them improve reliability and availability",
+      "Infrastructure side, Alstom, infrastructure and EPC organizations, power-generation projects",
+      "Customer perspective: understanding reliability, productivity, lifecycle economics, project execution"
     ]
   },
   {
@@ -280,42 +268,48 @@ These experiences taught me that successful internationalization requires decidi
     ]
   },
   {
-    id: "mining_exp",
-    title: "Mining Experience",
-    group: 4,
+    id: "p_l",
+    title: "P&L Experience",
+    group: 2,
     category: "Case Studies",
-    script: `My experience spans both the mining and infrastructure sides of asset-intensive industries.
+    script: `My strongest direct P&L experience was at Hamon, where I was Vice President of the APAC Digital Business Unit with full responsibility for business performance.
 
-In mining, through Aspen Technology, I have worked with leading organizations including Shenhua Group and Zijin Mining. My work has focused on helping them improve equipment reliability, maintenance effectiveness, asset availability, and operational productivity. In one set of initiatives, we helped reduce unplanned equipment downtime by 25% and improve asset availability by 15%.
+I was responsible not only for revenue growth but also for profitability, market development, commercial strategy, resource allocation, pricing, and operating performance. During that period, I grew annual revenue by 500%, expanded the business into nine international markets, increased market share by 52%, and improved gross margin by 16 percentage points.
 
-On the infrastructure side, earlier in my career at Alstom, I worked extensively with infrastructure and EPC organizations involved in major power-generation projects, including hydroelectric and coal-fired power plants. I also developed business across six Asian markets.
+What was important to me was that growth and profitability had to develop together. We therefore worked on pricing strategy, cost optimization, delivery models, resource allocation, and commercial processes rather than pursuing revenue growth at any cost.
 
-So my experience is not limited to selling into these industries. I have spent significant time understanding how asset-intensive customers think about reliability, productivity, lifecycle economics, project execution, and long-term customer value.
+My current Aspen role has further strengthened my commercial and business-performance discipline. I delivered 280% revenue growth and achieved more than 230% of annual quota.
 
-That customer perspective is something I believe can complement the equipment-business experience required for LGMRT.`,
+So I view P&L leadership as balancing growth, margin, customers, people, and operating capabilities—not simply maximizing sales.`,
     tips: [
-      "Both mining and infrastructure sides of asset-intensive industries",
-      "Aspen, mining, Shenhua, Zijin, focused on helping them improve reliability and availability",
-      "Infrastructure side, Alstom, infrastructure and EPC organizations, power-generation projects",
-      "Customer perspective: understanding reliability, productivity, lifecycle economics, project execution"
+      "P&L at Hamon, full responsibility for business performance",
+      "Revenue growth, profitability, market development, commercial strategy, resource allocation, pricing, operating performance",
+      "Grew revenue by 500%, expanded into 9 international markets, increased market share by 52%, improved gross margin by 16%",
+      "Aspen commercial discipline: 280% growth, 230% quota",
+      "Balancing growth, margin, ... and operating capabilities"
     ]
   },
   {
-    id: "sandvik_lgmrt",
-    title: "About Sandvik & LGMRT",
+    id: "trans_brief",
+    title: "Transformation Brief",
     group: 4,
-    category: "Market Knowledge",
-    script: `I understand Sandvik as a global industrial technology group with strong positions in mining and infrastructure, with a particularly strong portfolio across drilling, underground loading and hauling, rock tools, aftermarket, and increasingly automation, digitalization and electrification. In mining, Sandvik has a strong premium position, competing mainly with players such as Epiroc, Caterpillar and Komatsu Mining.
+    category: "Vision & Strategy",
+    script: `# Transformation Brief
 
-Regarding LGMRT, my understanding is that it is a joint venture between Sandvik and Lingong Group, established in 2016 to address the midmarket. It combines Sandvik's mining and rock technology with Lingong's midmarket manufacturing and operating capabilities, covering surface drilling, underground drilling, and underground loading and hauling. It was originally focused on China, with the ambition to expand into selected international markets.
+1. What will your transformation strategy for LGMRT be?
 
-What particularly interests me is the next stage of that journey: moving LGMRT from a strong Chinese midmarket business into a scalable international second-tier offering, with differentiated positioning, dealer channels, and stronger equipment-plus-aftermarket lifecycle economics. That's the transformation challenge I find particularly compelling, because it closely matches my experience in P&L leadership, internationalization, industrial transformation, and lifecycle business development.`,
+I would transform LGMRT from a China-centered equipment business into a globally scalable midmarket platform by combining competitive equipment economics with differentiated reliability, a strong dealer-led go-to-market model, a high-value aftermarket and lifecycle business, and a China-efficient but globally localized operating model.
+
+2. Others
+Transform LGMRT from a China-centric value manufacturer into the world's most trusted mid-market drilling solutions company, delivering Sandvik-level reliability at a differentiated cost structure while preserving Sandvik's premium positioning.
+
+Build LGMRT into a globally scalable mid-market business with sustainable profitability while complementing, rather than competing with, Sandvik's premium portfolio.
+
+3. Transform it into A trusted global value brand under the Sandvik family.`,
     tips: [
-      "Global industrial technology group with strong positions",
-      "Drilling, underground loading and hauling, rock tools, aftermarket",
-      "In mining, strong premium position (Epiroc, Caterpillar and Komatsu Mining)",
-      "LGMRT, joint venture in 2016, to address midmarket",
-      "Next stage: Chinese midmarket -> globally competitive second-tier offering"
+      "transform LGMRT from a China-centered equipment business into a globally scalable midmarket platform",
+      "world's most trusted mid-market drilling solutions company",
+      "trusted global value brand under the Sandvik family"
     ]
   },
   {
@@ -323,20 +317,20 @@ What particularly interests me is the next stage of that journey: moving LGMRT f
     title: "Target Operating Model",
     group: 4,
     category: "Vision & Strategy",
-    script: `# Target Operating Model
-## Script
-1. What would your target operating model for LGMRT look like?
+    script: `## Script
+1. Question: What would your target operating model for LGMRT look like?
 2. Principle:
 China-enabled, globally connected, locally customer-centric
 China scale & cost advantage 
 •	Sandvik technology, governance & global capabilities 
 •	local market/customer proximity = scalable global midmarket operating model
+3. Answer:
 1) I would build LGMRT around a China-enabled but globally connected operating model. 
 2) I would centralize activities where scale and cost competitiveness matter—product platforms, engineering, manufacturing, procurement and core processes—while empowering local markets in customer relationships, dealers, service, parts and market development. 
 3) I would also integrate equipment and aftermarket into one lifecycle business model, rather than treating aftermarket as an add-on. 
 4) Finally, I would establish very clear decision rights, P&L accountability and performance KPIs across the global matrix. 
 
-The principle of my intention of building operating model is simple: centralize what creates scale, localize what creates customer value, and create one operating system than can be replicated internationally.`,
+The principle of my intention of building operating model is simple: centralize what creates scale, localize what creates customer value, and create one operating system that can be replicated internationally.`,
     tips: [
       "China-enabled but globally connected operating model",
       "centralize activities where scale and cost competitiveness matter",
@@ -453,29 +447,6 @@ A repeatable global midmarket operating model`,
       "Decision-rights model (RACI Matrix)",
       "Continuous improvement management rhythm",
       "3-Phase Operating model transformation journey"
-    ]
-  },
-  {
-    id: "trans_brief",
-    title: "Transformation Brief",
-    group: 4,
-    category: "Vision & Strategy",
-    script: `# Transformation Brief
-
-1. What will your transformation strategy for LGMRT be?
-
-I would transform LGMRT from a China-centered equipment business into a globally scalable midmarket platform by combining competitive equipment economics with differentiated reliability, a strong dealer-led go-to-market model, a high-value aftermarket and lifecycle business, and a China-efficient but globally localized operating model.
-
-2. Others
-Transform LGMRT from a China-centric value manufacturer into the world's most trusted mid-market drilling solutions company, delivering Sandvik-level reliability at a differentiated cost structure while preserving Sandvik's premium positioning.
-
-Build LGMRT into a globally scalable mid-market business with sustainable profitability while complementing, rather than competing with, Sandvik's premium portfolio.
-
-3. Transform it into A trusted global value brand under the Sandvik family.`,
-    tips: [
-      "transform LGMRT from a China-centered equipment business into a globally scalable midmarket platform",
-      "world's most trusted mid-market drilling solutions company",
-      "trusted global value brand under the Sandvik family"
     ]
   },
   {
@@ -636,6 +607,46 @@ China efficiency + global customer proximity.
     ]
   },
   {
+    id: "strength",
+    title: "Strengths",
+    group: 5,
+    category: "Growth & Career",
+    script: `I would highlight three strengths.
+
+First, I am a transformation-oriented business leader who can connect strategy with execution and measurable P&L outcomes.
+
+Second, I have a proven ability to internationalize and scale industrial businesses, including transforming China-manufactured solutions into competitive global offerings.
+
+Third, I combine strong commercial and stakeholder leadership with a deep understanding of asset-intensive customers, including mining and infrastructure.
+
+I think that combination allows me to build growth while also strengthening the operating model and long-term customer value.`,
+    tips: [
+      "Transformation-oriented business leader",
+      "Proven ability to internationalize and scale industrial businesses",
+      "Combine commercial leadership with deep understanding",
+      "Build growth, strengthen operating model and long-term customer value"
+    ]
+  },
+  {
+    id: "weakness",
+    title: "Weaknesses",
+    group: 5,
+    category: "Growth & Career",
+    script: `One area where I have been deliberately developing is my depth of direct mining-equipment OEM experience.
+
+I have strong mining-customer and asset-performance experience, but I have not spent my career inside a traditional mining-equipment manufacturer.
+
+I address that by learning quickly, engaging closely with technical and operational experts, and grounding decisions in customer and business economics.
+
+I see this as a development area, but also as an opportunity to bring a complementary transformation and commercial perspective to LGMRT.`,
+    tips: [
+      "depth of direct mining-equipment OEM experience",
+      "mining-customer, but no career inside",
+      "Address by learning quickly",
+      "Development area"
+    ]
+  },
+  {
     id: "how_to_start",
     title: "How to Start",
     group: 1,
@@ -677,83 +688,56 @@ Most importantly, I am looking for the right long-term business leadership oppor
     ]
   },
   {
-    id: "leave_aspen",
-    title: "Leave for Sandvik",
-    group: 5,
-    category: "Motivation",
-    script: `I have had a very successful and rewarding experience with Aspen Technology, and I am proud of what I have achieved there, particularly the 280% revenue growth and the relationships I have built with major industrial and mining customers. So I am not looking to leave because of dissatisfaction.
-
-What attracts me to Sandvik is the opportunity to take the next step in my leadership journey. The LGMRT role goes beyond commercial leadership—it combines full P&L responsibility, business transformation, operating-model development, international expansion, organization leadership, and lifecycle business development.
-
-These are areas where I have progressively built experience throughout my career, particularly through my previous P&L leadership at Hamon.
-
-What makes this opportunity particularly compelling is the transformation mandate: building a globally competitive midmarket industrial business from a strong Chinese foundation.
-
-I believe my experience in P&L leadership, internationalization, industrial transformation, and mining customer value creation can contribute meaningfully to that ambition.
-
-So for me, this is really about taking on a broader and more strategic business leadership challenge.`,
-    tips: [
-      "Successful and rewarding experience, proud of what achieved",
-      "Not looking to leave because of dissatisfaction",
-      "Attract me to Sandvik: next step in my leadership journey, LGMRT role require P&L, transformation, internationalization, lifecycle",
-      "Particularly compelling: transformation",
-      "I believe my experience can contribute meaningfully to Sandvik ambition"
-    ]
-  },
-  {
-    id: "strength",
-    title: "Strengths",
-    group: 5,
-    category: "Growth & Career",
-    script: `I would highlight three strengths.
-
-First, I am a transformation-oriented business leader who can connect strategy with execution and measurable P&L outcomes.
-
-Second, I have a proven ability to internationalize and scale industrial businesses, including transforming China-manufactured solutions into competitive global offerings.
-
-Third, I combine strong commercial and stakeholder leadership with a deep understanding of asset-intensive customers, including mining and infrastructure.
-
-I think that combination allows me to build growth while also strengthening the operating model and long-term customer value.`,
-    tips: [
-      "Transformation-oriented business leader",
-      "Proven ability to internationalize and scale industrial businesses",
-      "Combine commercial leadership with deep understanding",
-      "Build growth, strengthen operating model and long-term customer value"
-    ]
-  },
-  {
-    id: "weakness",
-    title: "Weaknesses",
-    group: 5,
-    category: "Growth & Career",
-    script: `One area where I have been deliberately developing is my depth of direct mining-equipment OEM experience.
-
-I have strong mining-customer and asset-performance experience, but I have not spent my career inside a traditional mining-equipment manufacturer.
-
-I address that by learning quickly, engaging closely with technical and operational experts, and grounding decisions in customer and business economics.
-
-I see this as a development area, but also as an opportunity to bring a complementary transformation and commercial perspective to LGMRT.`,
-    tips: [
-      "depth of direct mining-equipment OEM experience",
-      "mining-customer, but no career inside",
-      "Address by learning quickly",
-      "Development area"
-    ]
-  },
-  {
-    id: "closing",
-    title: "Closing Statement",
+    id: "career",
+    title: "Career Chief",
     group: 0,
     category: "Profile",
-    script: `I would simply reinforce that I recognize I am not the conventional mining-equipment candidate.
+    script: `Certainly. I am an industrial business transformation and growth executive with more than 15 years of experience across mining, infrastructure, energy, and other asset-intensive industries, with a strong focus on P&L leadership, business growth, operating-model development, international expansion, and lifecycle customer value.
 
-What I believe I bring is a combination of capabilities that directly addresses the transformation mandate: full P&L leadership, industrial business transformation, China-to-global internationalization, mining customer understanding, lifecycle value creation, and cross-cultural leadership.
+Currently, I am Sales Director China at Aspen Technology, where I lead commercial strategy and P&L execution. I have delivered 280% revenue growth, increased annual revenue from US$5.5 million to US$21.3 million, and achieved 230% of quota. Importantly, I have worked directly with major mining companies including Shenhua Group and Zijin Mining, helping them transform maintenance from reactive to predictive models, reducing unplanned downtime by 25% and improving asset availability by 15%.
 
-Having looked carefully at what Sandvik is trying to accomplish with LGMRT, I am genuinely excited about the opportunity and believe my experience could contribute meaningfully to that journey.`,
+Before Aspen, I was Vice President of the Digital Business Unit APAC at Hamon with full P&L responsibility. I grew the business by 500%, expanded into nine international markets, increased market share by 52%, improved gross margin by 16 percentage points, and successfully transformed China-based industrial solutions into competitive international offerings.
+
+What attracted me to LGMRT is that this role brings together exactly those experiences: transforming an industrial business, building an international growth platform, developing the operating model, and creating stronger lifecycle value.`,
     tips: [
-      "Recognize not from mining-equipment OEM",
-      "Believe combination of capabilities directly address...",
-      "Excited about the opportunity, and believe contribute meaningfully..."
+      "Transformation and Growth executive",
+      "Mining, infrastructure, energy, other asset-intensive industries",
+      "P&L, business growth, operating-model development, international expansion, lifecycle customer value"
+    ]
+  },
+  {
+    id: "translate",
+    title: "Translating Experience",
+    group: 1,
+    category: "Role & Fit",
+    script: `I agree that my background is different from the traditional mining-equipment candidate, and I think it's important to be transparent about that.
+
+At the same time, I have spent much of my career working with asset-intensive industries and directly with mining customers. At Aspen, for example, I have worked with Shenhua Group and Zijin Mining to transform maintenance operations from reactive to predictive approaches, reducing unplanned equipment downtime by 25% and improving asset availability by 15%.
+
+More importantly, I have directly led an industrial business with full P&L responsibility. At Hamon, I transformed China-manufactured industrial solutions into internationally competitive offerings, expanded into nine markets, increased market share by 52%, and improved gross margin by 16 percentage points.
+
+So I don't see myself as bringing the same profile as a career mining-equipment executive. Instead, I bring complementary capabilities in business transformation, internationalization, operating models, customer lifecycle value, and commercial strategy. I would combine those capabilities with the deep mining-equipment expertise already existing within Sandvik and LGMRT.`,
+    tips: [
+      "Asset-intensive industries, mining customers",
+      "Aspen, Shenhua, Zijin",
+      "Full P&L, lead business, transformed China-manufactured industrial solution to internationally competitive offering",
+      "Not same as mining-equipment executive",
+      "Bring complementary capabilities in business transformation, internationalization, operating models, lifecycle value"
+    ]
+  },
+  {
+    id: "positioning",
+    title: "Interview Positioning",
+    group: 0,
+    category: "Profile",
+    script: `I am an industrial business transformation leader who has repeatedly grown and internationalized businesses, built scalable operating models, and created lifecycle value for asset-intensive customers. While I am not a traditional mining-equipment OEM executive, I bring direct mining-customer experience, industrial equipment globalization experience, full P&L leadership, and a proven record of transforming China-based businesses into international growth platforms.`,
+    tips: [
+      "Transformation leader",
+      "Grow and internationalize businesses",
+      "Mining-customer experience",
+      "Industrial equipment globalization",
+      "P&L",
+      "Transform China-based business into international growth platform"
     ]
   },
   {
@@ -776,6 +760,22 @@ Given the breadth of the mandate, what would you say distinguishes the candidate
       "What is the real transformation challenge?",
       "What differentiates the successful candidate?",
       "When you think about LGMRT three years from now, what would you most like to see fundamentally different?"
+    ]
+  },
+  {
+    id: "closing",
+    title: "Closing Statement",
+    group: 0,
+    category: "Profile",
+    script: `I would simply reinforce that I recognize I am not the conventional mining-equipment candidate.
+
+What I believe I bring is a combination of capabilities that directly addresses the transformation mandate: full P&L leadership, industrial business transformation, China-to-global internationalization, mining customer understanding, lifecycle value creation, and cross-cultural leadership.
+
+Having looked carefully at what Sandvik is trying to accomplish with LGMRT, I am genuinely excited about the opportunity and believe my experience could contribute meaningfully to that journey.`,
+    tips: [
+      "Recognize not from mining-equipment OEM",
+      "Believe combination of capabilities directly address...",
+      "Excited about the opportunity, and believe contribute meaningfully..."
     ]
   }
 ];
