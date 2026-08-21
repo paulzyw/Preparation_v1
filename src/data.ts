@@ -839,7 +839,7 @@ Transform LGMRT into A trusted global value brand under the Sandvik family
 
 5. Achievement:
 
-1) Aspen: 280% revenue growth, annual revenue (recurring) $5.5M to $21.3M, achieved 230% of quaota
+1) Aspen: 280% revenue growth, annual revenue (recurring) $5.5M to $21.3M, achieved 230% of quaota, mining company engagement experience with Shenhua, Zijin etc., predictive solutions transformed their maintenance from reactive to predictive model, reduced unplanned equipment downtime by 25%, improved asset availability by 15%.
 
 2) Hamon: 500% revenue growth, 9 international market expansion, increase market share 52%, improve gross margin 16 percentage point, transformed China-based industrial solutions into competitive international offerings.
 
