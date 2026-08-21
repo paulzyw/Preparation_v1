@@ -41,7 +41,7 @@ What particularly attracts me to this role is the transformation mandate. I beli
       "Thank you for...",
       "Industrial business transformation and growth executive",
       "Aspen Technology, delivered..., mining companies...transform maintenance model",
-      "Hamon, delivered, expanded international markets, transformed China-manufactured solution"
+      "Hamon, delivered, expanded international markets, transformed China-based solution"
     ]
   },
   {
@@ -51,9 +51,9 @@ What particularly attracts me to this role is the transformation mandate. I beli
     category: "Motivation",
     script: `What attracted most is actually the transformation mandate rather than simply the seniority of the position.
 
-From my understanding, Sandvik is looking to take LGMRT from a strong Chinese midmarket OEM and develop it into a globally competitive second-tier offering. That requires much more than simply selling more equipment. It requires a differentiated market position, the right international go-to-market model, scalable operations, strong dealer and partner ecosystems, and a lifecycle business that combines equipment with aftermarket value.
+From my understanding, Sandvik is looking to take LGMRT from a strong Chinese midmarket OEM and develop it into a globally competitive second-tier offering without competition against Sandvik premium portfolio. That requires much more than simply selling more equipment. It requires a differentiated market position, the right international go-to-market model, scalable operations model, strong dealer and partner ecosystems, and a lifecycle business that combines equipment with aftermarket value.
 
-Those are areas where I have spent a significant part of my career. At Hamon, I had full P&L responsibility and transformed China-manufactured industrial solutions into international offerings, expanding into nine markets while growing revenue by 500% and improving gross margin by 16 percentage points.
+Those are areas where I have spent a significant part of my career. At Hamon, I had full P&L responsibility and transformed China-based industrial solutions into international offerings, expanding into nine markets while growing revenue by 500% and improving gross margin by 16 percentage points.
 
 At Aspen, I have developed strong relationships with mining customers and helped them improve equipment reliability and maintenance performance through predictive technologies.
 
@@ -61,9 +61,9 @@ So I see a very strong connection between what Sandvik wants to accomplish with 
 
 That is what makes the opportunity particularly compelling to me.`,
     tips: [
-      "Transformation mandate",
+      "attracted by Transformation mandate",
       "Strong Chinese midmarket OEM -> globally competitive second-tier offering",
-      "Market proposition, international go-to-market model, scalable operations, strong dealer and partner ecosystem, lifecycle business",
+      "Market proposition, international go-to-market model, scalable operations model, strong dealer and partner ecosystem, lifecycle business",
       "Hamon experience (P&L, Transformation, improve margin)",
       "Aspen, mining customers, transform maintenance model, reliability, maintenance performance",
       "Strong connection, compelling to me"
@@ -84,7 +84,7 @@ Third, I understand mining and infrastructure customers. At Aspen, I have worked
 
 And fourth, I have experience building operating models and leading across cultures and global matrix organizations.
 
-So although I don't come from the conventional mining-equipment OEM career path, I bring a combination of P&L leadership, industrial transformation, internationalization, mining-customer understanding, and lifecycle value creation that I believe is highly relevant to the challenge Sandvik has defined for LGMRT.`,
+So although I don't come from the conventional mining-equipment OEM career path, I bring a combination of P&L leadership, industrial transformation, internationalization, mining-customer expereince & understanding, and lifecycle value creation that I believe is highly relevant to the challenge Sandvik has defined for LGMRT.`,
     tips: [
       "P&L and business leadership experience (Hamon-P&L-500%-Gross margin)",
       "Transformation (China-based to international business) - Expand international market",
@@ -126,7 +126,7 @@ So for me, this is really about taking on a broader and more strategic business 
 
 I have spent my career on the business side of asset-intensive industries, including working directly with major mining companies on equipment reliability, maintenance, productivity and lifecycle performance.
 
-At the same time, I have directly led an industrial business with full P&L responsibility and successfully transformed China-manufactured solutions into internationally competitive offerings across nine markets.
+At the same time, I have directly led an industrial business with full P&L responsibility and successfully transformed China-based solutions into internationally competitive offerings across nine markets.
 
 So I bring two perspectives that I believe are particularly relevant to LGMRT:
 1) I understand the customer and lifecycle economics of asset-intensive industries,
@@ -137,7 +137,7 @@ I would complement that with the deep mining-equipment expertise already present
       "Distinction, not to hide.",
       "Work directly with major mining companies",
       "P&L responsibility",
-      "Success in transforming China-manufactured solutions into internationally competitive offerings",
+      "Success in transforming China-based solutions into internationally competitive offerings",
       "Relevant in 1) understand asset-intensive industries and 2) led similar transformation",
       "I can combine my transformation/business expertise with the technical mining expertise already inside the organization."
     ]
@@ -147,23 +147,20 @@ I would complement that with the deep mining-equipment expertise already present
     title: "Leadership Style",
     group: 3,
     category: "Leadership",
-    script: `[Vision → Alignment → Empowerment → Accountability → Execution]
+    script: `I would describe my leadership style as outcome-oriented but people-focused, customer-first, strategic but hands-on, and grounded in innovation and adaptability. 
 
-I would describe my leadership style as strategic, collaborative, outcome-oriented, and transparent.
+I believe leadership starts with creating a clear vision and direction, then translating that into meaningful goals and building collaborative, high-performing teams that are empowered, skillful, and accountable for delivering results.
 
-1) I believe the first responsibility of a leader is to establish clarity—where we are going, why it matters, what success looks like, and how different functions contribute. Once that is clear, I focus strongly on empowerment and accountability rather than trying to control every decision.
+I stay close to customers and their business to understand what matters most, while giving my teams the ownership and trust to execute. 
 
-2) I have spent much of my career working across China, APAC, and Western multinational organizations, so I am very comfortable operating in cross-cultural and matrix environments. At Hamon, for example, I had to align sales, engineering, operations, and international partners across multiple countries while driving a common growth agenda.
+I combine strategic direction with operational discipline to drive growth and profitability, and I encourage teams to continuously challenge assumptions and adapt as markets evolve. 
 
-3) I also believe transformation requires stakeholder alignment. People will not support a transformation simply because the strategy is logically correct. They need to understand the reason for change and see how they can contribute to it.
-
-4) That's the leadership approach I would bring to LGMRT: clear direction, strong stakeholder alignment, disciplined execution, and empowerment of the organization.`,
+Overall, this approach has helped me build strong teams, strengthen customer relationships, and deliver sustainable growth across mining, infrastructure, energy, and other asset-intensive industries.`,
     tips: [
-      "Strategic, collaborative, outcome-oriented, execution, and transparent",
-      "Establish clarity",
-      "Cross-cultural and matrix environments",
-      "Transformation require stakeholder alignment",
-      "Bring to LGMRT: clear direction, strong stakeholder alignment, disciplined execution, and empowerment"
+      "Outcome-oriented but people-focused",
+      "Customer-first",
+      "Strategic but hands-on",
+      "Grounded in innovation and adaptability"
     ]
   },
   {
@@ -193,7 +190,7 @@ What particularly interests me is the next stage of that journey: moving LGMRT f
 
 When I took responsibility for the APAC business, one of the priorities was to move from a primarily regional business model toward a more scalable international growth platform. I worked across commercial strategy, market positioning, operating processes, pricing, cost structure, customer engagement, and international market development.
 
-A particularly important part was transforming China-manufactured industrial solutions into offerings that could compete effectively in international markets. We strengthened the value proposition, differentiation, quality positioning, commercial model, and customer engagement approach.
+A particularly important part was transforming China-based industrial solutions into offerings that could compete effectively in international markets. We strengthened the value proposition, differentiation, quality positioning, commercial model, and customer engagement approach.
 
 As a result, we expanded into nine international markets, increased market share by 52%, grew revenue by 500%, and improved gross margin by 16 percentage points.
 
@@ -317,17 +314,24 @@ Build LGMRT into a globally scalable mid-market business with sustainable profit
     title: "Target Operating Model",
     group: 4,
     category: "Vision & Strategy",
-    script: `## Script
-1. Question: What would your target operating model for LGMRT look like?
-2. Principle:
+    script: `Question: What would your target operating model for LGMRT look like?
+
+1. Principle:
+
 China-enabled, globally connected, locally customer-centric
+
 China scale & cost advantage 
-•	Sandvik technology, governance & global capabilities 
-•	local market/customer proximity = scalable global midmarket operating model
-3. Answer:
+1) Sandvik technology, governance & global capabilities 
+2) local market/customer proximity = scalable global midmarket operating model
+
+2. Answer:
+
 1) I would build LGMRT around a China-enabled but globally connected operating model. 
+
 2) I would centralize activities where scale and cost competitiveness matter—product platforms, engineering, manufacturing, procurement and core processes—while empowering local markets in customer relationships, dealers, service, parts and market development. 
+
 3) I would also integrate equipment and aftermarket into one lifecycle business model, rather than treating aftermarket as an add-on. 
+
 4) Finally, I would establish very clear decision rights, P&L accountability and performance KPIs across the global matrix. 
 
 The principle of my intention of building operating model is simple: centralize what creates scale, localize what creates customer value, and create one operating system that can be replicated internationally.`,
@@ -344,8 +348,8 @@ The principle of my intention of building operating model is simple: centralize 
     title: "Operating System",
     group: 4,
     category: "Vision & Strategy",
-    script: `# Operating System
-1. Operating model should have 7 dimensions (Dimension - Key Question)
+    script: `1. Operating model should have 7 dimensions (Dimension - Key Question)
+
 1). Strategy & Portfolio - Where do we play and where do we win?
 2). Product & Engineering - What should be globalized vs localized?
 3). Manufacturing & Supply Chain - How do we leverage China scale while serving global markets?
@@ -355,6 +359,7 @@ The principle of my intention of building operating model is simple: centralize 
 7). Performance Management - How do we manage P&L and continuous improvement?
 
 2. Manage dealers through a structured Dealer Performance Management System
+
 1). KPIs could include:
 Revenue
 Gross margin
@@ -367,6 +372,7 @@ Service response time
 Customer satisfaction
 
 3. Aftermarket operating model
+
 1) The lifecycle:
 Equipment
 → Commissioning
@@ -385,6 +391,7 @@ Customer success
 Lifecycle solutions
 
 4. P&L operating model
+
 1) The business should manage:
 Revenue
 Equipment + Parts + Service + Lifecycle Solutions
@@ -401,12 +408,14 @@ Cash
 Working Capital + Inventory + Receivables + Capex
 
 5. Decision-rights model (RACI Matrix)
+
 1) Parties
 Global-LGMART-Regional (Dealer)
 2) Decisions including
 Product platform, Manufacturing, Global Pricing framework, Local pricing, Market Entry, Dealer selection, Customer relationship, Parts strategy, Service execution, Technology partnerships
 
-6. Continuous improvement operating system+
+6. Continuous improvement operating system
+
 1) Create a management rhythm around:
 a. Monthly
 P&L + commercial + operational review
@@ -420,8 +429,9 @@ e. Establish a transformation dashboard covering:
 Growth | Margin | Market | Customer | Aftermarket | Operations | People
 
 7. Operating model transformation journey
+
 1) Phase 1 — Clarify
-0–6 months - Define:
+0-6 months - Define:
 •	Roles
 •	Decision rights
 •	P&L ownership
@@ -429,15 +439,17 @@ Growth | Margin | Market | Customer | Aftermarket | Operations | People
 •	Dealer model
 •	Aftermarket ownership
 •	KPIs
+
 2) Phase 2 — Integrate
-6–18 months - Integrate:
+6-18 months - Integrate:
 •	Sales + aftermarket
 •	Product + market feedback
 •	Dealers + service
 •	China operations + international markets
 •	Global + regional teams
+
 3) Phase 3 — Scale
-18–36 months - Create:
+18-36 months - Create:
 A repeatable global midmarket operating model`,
     tips: [
       "7 dimensions of operating model",
@@ -615,7 +627,7 @@ China efficiency + global customer proximity.
 
 First, I am a transformation-oriented business leader who can connect strategy with execution and measurable P&L outcomes.
 
-Second, I have a proven ability to internationalize and scale industrial businesses, including transforming China-manufactured solutions into competitive global offerings.
+Second, I have a proven ability to internationalize and scale industrial businesses, including transforming China-based solutions into competitive global offerings.
 
 Third, I combine strong commercial and stakeholder leadership with a deep understanding of asset-intensive customers, including mining and infrastructure.
 
@@ -714,13 +726,13 @@ What attracted me to LGMRT is that this role brings together exactly those exper
 
 At the same time, I have spent much of my career working with asset-intensive industries and directly with mining customers. At Aspen, for example, I have worked with Shenhua Group and Zijin Mining to transform maintenance operations from reactive to predictive approaches, reducing unplanned equipment downtime by 25% and improving asset availability by 15%.
 
-More importantly, I have directly led an industrial business with full P&L responsibility. At Hamon, I transformed China-manufactured industrial solutions into internationally competitive offerings, expanded into nine markets, increased market share by 52%, and improved gross margin by 16 percentage points.
+More importantly, I have directly led an industrial business with full P&L responsibility. At Hamon, I transformed China-based industrial solutions into internationally competitive offerings, expanded into nine markets, increased market share by 52%, and improved gross margin by 16 percentage points.
 
 So I don't see myself as bringing the same profile as a career mining-equipment executive. Instead, I bring complementary capabilities in business transformation, internationalization, operating models, customer lifecycle value, and commercial strategy. I would combine those capabilities with the deep mining-equipment expertise already existing within Sandvik and LGMRT.`,
     tips: [
       "Asset-intensive industries, mining customers",
       "Aspen, Shenhua, Zijin",
-      "Full P&L, lead business, transformed China-manufactured industrial solution to internationally competitive offering",
+      "Full P&L, lead business, transformed China-based industrial solution to internationally competitive offering",
       "Not same as mining-equipment executive",
       "Bring complementary capabilities in business transformation, internationalization, operating models, lifecycle value"
     ]
@@ -745,16 +757,19 @@ So I don't see myself as bringing the same profile as a career mining-equipment 
     title: "Questions 2 Ask",
     group: 6,
     category: "Questions",
-    script: `1. **What would define success for this role?**
+    script: `1. What would define success for this role?
+
 From your perspective, what are the two or three most important outcomes Sandvik would expect the new VP Midmarket China to deliver during the first 12 to 24 months?
 
-2. **What is the real transformation challenge?**
+2. What is the real transformation challenge?
+
 The role description emphasizes transforming LGMRT from a strong Chinese midmarket OEM into an international second-tier offering. From what you have learned from the business, where do you see the biggest transformation challenge today—market positioning, international go-to-market, operating model, aftermarket, organization, or something else?
 
-3. **What differentiates the successful candidate?**
+3. What differentiates the successful candidate?
+
 Given the breadth of the mandate, what would you say distinguishes the candidate Sandvik ultimately wants for this role from someone who may have strong mining-equipment experience but less experience in business transformation and international growth?
 
-4. **When you think about LGMRT three years from now, what would you most like to see fundamentally different from today?**`,
+4. When you think about LGMRT three years from now, what would you most like to see fundamentally different from today?`,
     tips: [
       "What would define success for this role?",
       "What is the real transformation challenge?",
@@ -776,6 +791,66 @@ Having looked carefully at what Sandvik is trying to accomplish with LGMRT, I am
       "Recognize not from mining-equipment OEM",
       "Believe combination of capabilities directly address...",
       "Excited about the opportunity, and believe contribute meaningfully..."
+    ]
+  },
+    {
+    id: "note",
+    title: "My Note",
+    group: 0,
+    category: "Profile",
+    script: `Note
+
+    1. Pillars:
+P&L Leadership, or P&L Performance
+Business Strategy
+Business (Industrial) Transformation
+International Expansion
+Internationalization
+Operating Model Development
+Operations (Operating model) Transformation
+Lifecyle Customer Value
+Mining customer experience and understanding
+Transform China-based solutions into competitive international offerings
+
+2. Operating Model:
+Strategy & portfolio (Where to play and where to win)
+Manuafacturing & Supply chain
+Market position
+Go to market model
+Scalable operating model
+Dealer and partner ecosystem
+Lifecycle business combining equipment with aftermarket value
+Performance management
+
+3. Operating Model Principle:
+
+China-enabled, globally connected, locally customer-centric
+China scale & cost advantage:
+1) Sandvik technology, governance & global capabilities
+2) local market/customer proximity = scalable global midmarket operating model
+
+4. Transformation Statement:
+
+Transform LGMRT from a strong Chinese midmarket OEM into a globally competitive second-tier offering without competition against Sandvik premium portfolio.
+
+Transform LGMRT from a China-centric value manufacturer into the world's most trusted mid-market drilling solutions company.
+
+Transform LGMRT into A trusted global value brand under the Sandvik family
+
+5. Achievement:
+
+1) Aspen: 280% revenue growth, annual revenue (recurring) $5.5M to $21.3M, achieved 230% of quaota
+
+2) Hamon: 500% revenue growth, 9 international market expansion, increase market share 52%, improve gross margin 16 percentage point, transformed China-based industrial solutions into competitive international offerings.
+
+3) Alstom: Annual revenue scaled from $10M to $150M in 7 years, developed 6 international markets, transformed China BU into a competitive international midmarket solution provider.
+`,
+    tips: [
+      "Pillars",
+      "Operating model",
+      "Operating model principle",
+      "Transformation Statement",
+      "Achievement"
     ]
   }
 ];
