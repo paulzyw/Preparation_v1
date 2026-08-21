@@ -286,6 +286,28 @@ So I view P&L leadership as balancing growth, margin, customers, people, and ope
       "Balancing growth, margin, ... and operating capabilities"
     ]
   },
+    {
+    id: "collaboration",
+    title: "Cross-functional",
+    group: 2,
+    category: "Collaboration",
+    script: `I have spent much of my career working in global, cross-functional matrix organizations, and I believe success in a matrix depends less on authority and more on alignment, trust, and clarity. 
+
+I start by creating a shared understanding of the business objective and the outcomes we are trying to achieve, so different functions are working toward a common purpose rather than optimizing their individual priorities.
+
+I then establish clear roles, decision rights, and accountability, while maintaining open and transparent communication. When priorities conflict, I bring the discussion back to customer value and overall business impact rather than functional interests. 
+
+My role is often to connect commercial, technical, operational, and other stakeholders, align resources around shared priorities, and remove barriers so the team can execute effectively.
+
+Common Purpose → Alignment → Clear Roles → Trust → Execution
+`,
+    tips: [
+      "Common purpose",
+      "Alignment", 
+      "Clear roles",
+      "Customer value and business impact overwhelm functional interest"     
+    ]
+  },
   {
     id: "trans_brief",
     title: "Transformation Brief",
