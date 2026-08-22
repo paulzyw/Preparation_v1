@@ -289,6 +289,21 @@ export default function App() {
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
+  // --- Formatting & Bold Parsing ---
+  // Parses raw string sections to support standard HTML <b> and markdown ** tags
+  const renderFormattedText = (str: string): React.ReactNode[] => {
+    const parts = str.split(/(<b>.*?<\/b>|\*\*.*?\*\*)/g);
+    return parts.map((part, index) => {
+      if (part.startsWith('<b>') && part.endsWith('</b>')) {
+        return <strong key={index} className="font-bold text-slate-900">{part.slice(3, -4)}</strong>;
+      }
+      if (part.startsWith('**') && part.endsWith('**')) {
+        return <strong key={index} className="font-bold text-slate-900">{part.slice(2, -2)}</strong>;
+      }
+      return <span key={index}>{part}</span>;
+    });
+  };
+
   // --- Substring Highlight Algorithm ---
   // Renders script text segmented by search hits, hovered tips, and default tips presence
   const renderScriptWithHighlights = (
@@ -379,7 +394,7 @@ export default function App() {
     nonOverlapping.forEach((interval, idx) => {
       // Normal prefix text
       if (interval.start > pointer) {
-        segments.push(<span key={`text-${pointer}`}>{text.substring(pointer, interval.start)}</span>);
+        segments.push(<span key={`text-${pointer}`}>{renderFormattedText(text.substring(pointer, interval.start))}</span>);
       }
 
       const segmentText = text.substring(interval.start, interval.end);
@@ -391,7 +406,7 @@ export default function App() {
             key={`mark-search-${idx}`} 
             className="bg-amber-100 text-amber-950 font-medium px-0.5 rounded shadow-xs border-b border-amber-300"
           >
-            {segmentText}
+            {renderFormattedText(segmentText)}
           </mark>
         );
       } else if (interval.type === 'hovered') {
@@ -402,7 +417,7 @@ export default function App() {
             transition={{ duration: 0.2 }}
             className="bg-slate-900 text-white px-1.5 py-0.5 rounded font-medium border-b border-slate-950 shadow-sm inline-block"
           >
-            {segmentText}
+            {renderFormattedText(segmentText)}
           </motion.span>
         );
       } else {
@@ -412,7 +427,7 @@ export default function App() {
             className="bg-slate-100 text-slate-900 px-1 py-px border-b border-slate-400 cursor-help transition-all duration-200 hover:bg-slate-200 font-medium"
             title="核心输出词汇 (Target Delivery Word)"
           >
-            {segmentText}
+            {renderFormattedText(segmentText)}
           </span>
         );
       }
@@ -421,10 +436,10 @@ export default function App() {
     });
 
     if (pointer < text.length) {
-      segments.push(<span key={`text-end`}>{text.substring(pointer)}</span>);
+      segments.push(<span key={`text-end`}>{renderFormattedText(text.substring(pointer))}</span>);
     }
 
-    return segments.length > 0 ? segments : <span>{text}</span>;
+    return segments.length > 0 ? segments : <span>{renderFormattedText(text)}</span>;
   };
 
   return (
