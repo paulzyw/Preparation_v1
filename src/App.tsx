@@ -100,6 +100,14 @@ const CATEGORY_COLORS: Record<string, { bg: string; hover: string; selected: str
     textSelected: 'text-fuchsia-950 font-bold',
     borderSelected: 'border-fuchsia-600',
     accentBg: 'bg-fuchsia-100/50'
+  },
+  "Collaboration": { 
+    bg: 'bg-blue-100/70', 
+    hover: 'hover:bg-blue-100/90', 
+    selected: 'bg-blue-100',
+    textSelected: 'text-blue-950 font-bold',
+    borderSelected: 'border-blue-600',
+    accentBg: 'bg-blue-100/50'
   }
 };
 
@@ -569,10 +577,10 @@ export default function App() {
                       setSelectedId(item.id);
                       setActiveMobileTab('script');
                     }}
-                    className={`w-full text-left py-2.5 px-4 text-xs font-sans transition-all duration-300 mb-1.5 flex items-center justify-between border border-transparent cursor-pointer group rounded-lg shadow-2xs
+                    className={`w-full text-left py-2.5 px-4 text-xs font-sans transition-all duration-300 mb-1.5 flex items-center justify-between border-2 cursor-pointer group rounded-lg shadow-2xs
                       ${isSelected 
-                        ? `${colors.selected} ${colors.textSelected} border-r-3 ${colors.borderSelected} ring-1 ring-black/5` 
-                        : `${colors.bg} ${colors.hover} text-slate-700`}`}
+                        ? `${colors.selected} ${colors.textSelected} ${colors.borderSelected} ring-1 ring-black/5` 
+                        : `${colors.bg} ${colors.hover} text-slate-700 border-transparent`}`}
                   >
                     <div className="flex items-center gap-3 min-w-0 pr-2">
                       {/* Check dot instead of heavy box */}

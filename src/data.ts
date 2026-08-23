@@ -187,7 +187,28 @@ Overall, this approach has helped me build **strong teams**, strengthen **custom
 
 Regarding LGMRT, my understanding is that it is a joint venture between Sandvik and Lingong Group, established in 2016 to address the **midmarket**. It combines Sandvik's mining and rock technology with Lingong's midmarket manufacturing and operating capabilities, covering **surface drilling**, **underground drilling**, and **underground loading** and **hauling**. It was originally focused on China, with the **ambition to expand into** selected international markets.
 
-What particularly **interests** me is the next stage of that journey: moving LGMRT from a **strong Chinese midmarket business** into a s**calable international second-tier offering**, with differentiated positioning, dealer channels, and stronger equipment-plus-aftermarket lifecycle economics. That's the transformation challenge I find particularly compelling, because it closely matches my experience in P&L leadership, internationalization, industrial transformation, and lifecycle business development.`,
+What particularly **interests** me is the next stage of that journey: moving LGMRT from a **strong Chinese midmarket business** into a s**calable international second-tier offering**, with differentiated positioning, dealer channels, and stronger equipment-plus-aftermarket lifecycle economics. That's the transformation challenge I find particularly compelling, because it closely matches my experience in P&L leadership, internationalization, industrial transformation, and lifecycle business development.
+
+**LGMRT Competitiveness:**
+
+LGMRT occupies a distinct and strategically attractive competitive position in the global mining equipment market. Its core strength lies in combining Sandvik's mining technology and engineering heritage with China's localized manufacturing economics, supply-chain advantages, and market responsiveness. 
+
+This enables LGMRT to compete in the space between premium global OEMs and lower-cost domestic manufacturers—a segment increasingly populated by mining customers seeking dependable productivity and reliability without the capital intensity of premium equipment.
+
+1. A Differentiated Mid-Market Value Proposition (Ability to offer “optimized value” rather than simply lower-priced equipment.) 
+
+2. Strong Technology and Product Credibility
+
+3. Competitive Cost Structure and Local Responsiveness
+
+4. Broadening from Equipment Competitiveness to Lifecycle Competitiveness
+
+5. Significant Global Scalability, but with Increasing Competitive Pressure
+
+**Overall Assessment of Competitiveness**
+LGMRT's competitive strength lies in its ability to bridge two traditionally separate worlds: premium global mining technology and localized, cost-efficient manufacturing. 
+
+This gives the company a differentiated position in the global mining mid-market, where customers increasingly demand reliable productivity and lifecycle performance without the capital intensity of premium equipment.`,
     tips: [
       "Global industrial technology group with strong positions",
       "Drilling, underground loading and hauling, rock tools, aftermarket",
@@ -197,8 +218,35 @@ What particularly **interests** me is the next stage of that journey: moving LGM
     ]
   },
   {
-    id: "transformation",
-    title: "Transformation Case",
+    id: "transformation_a",
+    title: "Transformation Alstom",
+    group: 2,
+    category: "Case Studies",
+    script: `One transformation case that I believe is particularly relevant to this opportunity was my experience at Alstom, where I was Sales Director Asia. 
+
+When I joined Alstom in 2008, I was responsible for transforming a China-based AQCS business unit, which was **originally focused primarily on the domestic market**, into a **competitive second-tier international offering**.
+
+The **strategic challenge** was very **similar** to what I understand **LGMRT** is facing. Alstom's **Sweden business** was positioned as the **premium** offering, while our China-based business needed to develop a **differentiated value proposition** for more price-sensitive international markets **without** directly **competing** with the premium portfolio.
+
+I **designed** the **operating model** and lead its implementation, including market prioritization, commercial positioning, customer engagement, partner engagement, partnership strategy, and international go-to-market execution. 
+
+A particularly important part of the model was **leveraging Alstom's existing local presence** and **capabilities** in target markets. Rather than building everything from scratch, we used **local offices** and their customer relationships, market knowledge, and operational support to **accelerate** the internationalization of the China-based business.
+
+As a result, we successfully **expanded** into markets including Vietnam, Malaysia, Indonesia, India, Saudi Arabia, Turkey, and Thailand, while growing annual revenue from approximately US$10 million to US$150 million and exceeding our sales target by 60%.
+
+What I learned from that transformation is that a successful second-tier international business needs a **clear market position**, a **differentiated operating mode**l, and the ability to leverage the strengths of the broader global organization. 
+
+I see a very strong parallel with the opportunity to develop LGMRT into an international midmarket platform within Sandvik.`,
+    tips: [
+      "China-based into competitive second-tier international offering",
+      "Similar challenge with LGMRT, coexistance with Sweden as premium offering",
+      "Leverage existing presence in target markets",
+      "Learned:"
+    ]
+  },
+  {
+    id: "transformation_h",
+    title: "Transformation Hamon",
     group: 2,
     category: "Case Studies",
     script: `A strong example would be my experience at Hamon.
@@ -967,6 +1015,55 @@ A mining-domain partner that can reduce asset performance risk, prove measurable
       "Digital transformation",
       "Drilling solutions",
       "Buying predictive maintenance"
+    ]
+  },
+ {
+      id: "drilling_market",
+    title: "China Drilling Market",
+    group: 0,
+    category: "Market Knowledge",
+    script: `Mining Drilling Equipment market in China:
+
+**A. Market Characterization**
+1. China's mining drilling market is transitioning from **volume-driven expansion** toward **structural upgrading**. 
+
+2. While conventional equipment segments remain highly fragmented and vulnerable to commoditization, value and profit are increasingly concentrating in **higher-performance underground equipment**, **intelligent** and automated drilling systems, electrification, **specialized application engineering**, and lifecycle services. 
+
+3. The market is undergoing simultaneous consolidation and premiumization: **undifferentiated manufacturers face increasing pressure**, while large industrial groups and specialized application leaders are positioned to capture a growing share of higher-value opportunities.
+
+**B. Strategic conclusion**
+1. The future of competition in China's mining drilling industry will not be determined primarily by who can manufacture a drilling rig at the lowest cost. 
+
+2. It will increasingly be determined by who can **help a mine drill more productively, operate more safely, reduce lifecycle cost, and sustain equipment performance** throughout the life of the asset.`,
+    tips: [
+      "not applicable"      
+    ]
+  },
+   {
+      id: "lgmrt_intl",
+    title: "LGMRT Internationalization",
+    group: 0,
+    category: "Market Knowledge",
+    script: `Internationalization Advantage and Strategy
+    
+  **LGMRT Advantage of Internationalization**
+
+LGMRT has a potentially significant structural advantage in international mining equipment markets because it combines capabilities that are rarely available within a single mid-market mining equipment company: global mining technology and brand heritage, Chinese manufacturing economics, and access to an established international mining ecosystem.
+
+Its international opportunity is therefore not simply based on exporting lower-cost equipment from China. The more important strategic advantage is that LGMRT has the potential to industrialize and globalize a mid-market mining equipment value proposition that combines proven technology, competitive economics, and localized lifecycle support.
+
+LGMRT's international advantage lies in its ability to combine the cost competitiveness and manufacturing agility of a Chinese equipment platform with the credibility, engineering heritage, and international operating experience and existing presence across over 150 countries associated with Sandvik, a global mining technology leader. 
+
+This creates a differentiated opportunity to serve the global mining mid-market, customers seeking a more economically accessible alternative to premium OEM equipment without compromising on the reliability, application capability, and lifecycle support required for professional mining operations.
+
+**LGMRT’s Internationalization Strategy**
+
+LGMRT's greatest international opportunity is to transform its unique hybrid heritage—global mining technology, Chinese manufacturing economics, and international operating capability—into a repeatable global growth engine. 
+
+Success will depend less on how quickly the company enters new countries and more on how effectively it builds profitable installed bases, trusted reference customers, scalable service capability, and recurring lifecycle revenue within carefully selected mining markets.
+`,
+    tips: [
+      "not applicable"      
     ]
   }
 ];
