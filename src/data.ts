@@ -154,15 +154,12 @@ I would complement that with the deep mining-equipment expertise already present
     title: "Leadership Style",
     group: 3,
     category: "Leadership",
-    script: `I would describe my leadership style as:
+    script: `I would describe my **leadership style** as:
     
-    outcome-oriented but people-focused, 
-    
-    customer-first, 
-    
-    strategic but hands-on, 
-    
-    and grounded in innovation and adaptability. 
+    1. Outcome-oriented but people-focused, 
+    2. Customer-first,     
+    3. Strategic but hands-on,     
+    4. and grounded in innovation and adaptability. 
 
 I believe **leadership starts** with creating a clear vision and direction, then **translating that into** meaningful goals and building collaborative, high-performing teams that are empowered, skillful, and accountable for delivering results.
 
