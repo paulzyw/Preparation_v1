@@ -225,7 +225,7 @@ When I joined Alstom in 2008, I was responsible for transforming a China-based A
 
 The **strategic challenge** was very **similar** to what I understand **LGMRT** is facing. Alstom's **Sweden business** was positioned as the **premium** offering, while our China-based business needed to develop a **differentiated value proposition** for more price-sensitive international markets **without** directly **competing** with the premium portfolio.
 
-I **designed** the **operating model** and lead its implementation, including market prioritization, commercial positioning, customer engagement, partner engagement, partnership strategy, and international go-to-market execution. 
+I **designed** the **operating model** and lead its implementation, including market prioritization, commercial positioning, pricing model, customer engagement, partnership strategy, and international go-to-market execution. 
 
 A particularly important part of the model was **leveraging Alstom's existing local presence** and **capabilities** in target markets. Rather than building everything from scratch, we used **local offices** and their customer relationships, market knowledge, and operational support to **accelerate** the internationalization of the China-based business.
 
