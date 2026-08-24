@@ -214,9 +214,9 @@ export default function App() {
   // Dynamically update the browser tab title with active item
   useEffect(() => {
     if (activeItem) {
-      document.title = `Sandvik Prep | ${activeItem.title}`;
+      document.title = `PfI | ${activeItem.title}`;
     } else {
-      document.title = "Sandvik Prep";
+      document.title = "PfI";
     }
   }, [activeItem]);
 
