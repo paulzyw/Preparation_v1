@@ -1036,7 +1036,7 @@ A mining-domain partner that can reduce asset performance risk, prove measurable
       "not applicable"      
     ]
   },
-   {
+  {
       id: "lgmrt_intl",
     title: "LGMRT Internationalization",
     group: 0,
@@ -1059,6 +1059,58 @@ LGMRT's greatest international opportunity is to transform its unique hybrid her
 
 Success will depend less on how quickly the company enters new countries and more on how effectively it builds profitable installed bases, trusted reference customers, scalable service capability, and recurring lifecycle revenue within carefully selected mining markets.
 `,
+    tips: [
+      "not applicable"      
+    ]
+  },
+  {
+      id: "study_sandvik",
+    title: "Insights on Sandvik",
+    group: 0,
+    category: "Market Knowledge",
+    script: `Study Sandvik Business, Market Position, Competitiveness
+
+**1. Market Position**
+
+My understanding is that Sandvik is one of the **global leaders** in mining equipment, particularly in **technologically demanding segments** such as rock drilling, underground mining, rock tools, automation, and increasingly electrification and digitalization. 
+
+What differentiates its position is not simply the breadth of its equipment portfolio, but the depth of its capability in critical parts of the mining value chain.
+
+**2. Core Competitive Advantage**
+
+Sandvik's strongest moat is the integration of technology, consumables, equipment, automation, and aftermarket—not any single machine.
+
+I see Sandvik's competitive moat as **being built around lifecycle economics**. A customer may initially buy a drill rig, but the long-term value is created through consumables, parts, service, automation, data, and productivity improvement. This creates both recurring revenue and a deeper relationship with the installed base.
+
+**3. Product Advantage**
+
+The strategic advantage is shifting from “selling better equipment” to “**delivering better mining outcomes**.”
+
+The future competitive advantage of mining equipment will increasingly come from the integration of equipment, automation, digital intelligence, and lifecycle services.
+
+**4. Competitive Landscape**
+
+Sandvik is facing competition from two fundamentally different directions: global premium competitors and increasingly capable **value-oriented manufacturers**.
+
+**5. Differentiation—and the Strategic Challenge**
+
+Sandvik's advantage is its ability to combine deep technology with global lifecycle capabilities; its challenge is to extend market coverage without diluting its premium model.
+
+**6. Insights:**
+
+My understanding is that Sandvik has built its leadership around **deep rock and mining expertise**, **high-performance equipment and tools**, and an increasingly **integrated lifecycle business** spanning automation, digitalization, service, and aftermarket. 
+
+However, the market is becoming increasingly polarized between premium technology providers and rapidly improving value-oriented competitors. I see LGMRT as strategically important because it potentially allows Sandvik to extend its reach into the global midmarket without compromising the positioning of its premium portfolio. 
+
+The key will be ensuring that LGMRT is not positioned simply as a lower-cost alternative, but as a differentiated offering with the right combination of reliability, productivity, lifecycle value, and competitive economics.
+
+**7. My Insight Statement**
+
+The more I have studied Sandvik and the LGMRT opportunity, the more I see a **strong connection** with my own experience. 
+
+The transformation is **not simply about** exporting Chinese-manufactured equipment. It is about designing a **differentiated position** between premium technology and pure price competition, building the **right international operating model**, and creating **lifecycle value** beyond the initial equipment sale. 
+
+That combination of China-to-global transformation, differentiated market positioning, operating-model development, and lifecycle value creation is very close to the transformations I have led during my career.`,
     tips: [
       "not applicable"      
     ]
