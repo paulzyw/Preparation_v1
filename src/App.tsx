@@ -206,6 +206,20 @@ export default function App() {
     localStorage.setItem('sandvik_practiced_map', JSON.stringify(practicedMap));
   }, [practicedMap]);
 
+  // --- Helpers & Computed Stats ---
+  const activeItem = useMemo(() => {
+    return CHEATSHEET_DATA.find(item => item.id === selectedId) || CHEATSHEET_DATA[0];
+  }, [selectedId]);
+
+  // Dynamically update the browser tab title with active item
+  useEffect(() => {
+    if (activeItem) {
+      document.title = `Sandvik Prep | ${activeItem.title}`;
+    } else {
+      document.title = "Sandvik Prep";
+    }
+  }, [activeItem]);
+
   // Reset checked tips map and timer when switching active item
   useEffect(() => {
     setCheckedTipsMap({});
@@ -227,11 +241,6 @@ export default function App() {
       if (timerRef.current) clearInterval(timerRef.current);
     };
   }, [isTimerRunning]);
-
-  // --- Helpers & Computed Stats ---
-  const activeItem = useMemo(() => {
-    return CHEATSHEET_DATA.find(item => item.id === selectedId) || CHEATSHEET_DATA[0];
-  }, [selectedId]);
 
   // Filter items in sidebar based on query and group filter
   const filteredItems = useMemo(() => {
