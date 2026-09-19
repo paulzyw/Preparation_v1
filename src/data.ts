@@ -26,25 +26,25 @@ export const CHEATSHEET_DATA: CheatsheetItem[] = [
     title: "Self-Introduction",
     group: 0,
     category: "Profile",
-    script: `First and foremost, I would like to **thank you** for your interest in my profile and taking the time for having me for this interview session.
+    script: `First and foremost, I would like to **thank you** for your interest in my profile and taking the time for having me in this interview session.
 
 In the next, I will take a few minutes to give you a quick overview about my background, experiences of **value engineering** and what has **brought** me to this opportunity.
 
-I’ve spent more than 15 years working in enterprise technology, business transformation, commercial value creation and value realization, and I have been playing role to help customers understand why change matters, quantify the economic value, build the case for investment, and then connect that value case to adoption and measurable outcomes.
+I’ve spent more than **15 years** working in **enterprise technology**, **business transformation**, **commercial value creation** and **alue realization**, and I have been **playing role** to help customers understand why change matters, quantify the economic value, build the **business case** helping customer to make their **decision of investment**, and then **connect** that value case to adoption and measurable outcomes.
 
 At Aspen Technology, I’ve worked with large enterprise customers across pharmaceutical, energy, utilities, manufacturing, and other highly-regulated industries etc., helping them address complex business challenges, operational pains, and business priorities through industrial software, data-driven solutions, AI, and digital transformation.
 
-Over time, a significant part of my role has become very closely aligned with Value Engineering. I work with customers and account teams to understand their business problems, strategic priorities, and value drivers, establish the baseline, quantify economic impact, and develop ROI, TCO, NPV, Payback etc. financial models, and executive business cases that support investment decisions.
+Over time, a significant part of my role has become very closely aligned with Value Engineering. I work with customers and account teams to understand their business problems, strategic priorities, and value drivers, establish the baseline, quantify economic impact, and build financial models for ROI, TCO, NPV, Payback etc., and executive business cases that support customer's investment decisions.
 
-From my perspective, my experience tells me, Value Engineering is much more than building a financial model. It is about connecting the technology to the outcomes that matter most to the customer, and then helping the organization turn those outcomes into a credible business case and, ultimately, realized value.
+From my perspective, my experience tells me, Value Engineering is much more than building a financial model, it is about connecting the technology to the outcomes that matter most to the customer, and then helping the customer turn those outcomes into a credible business case and, ultimately, realized value.
 
-A good example is a pharmaceutical manufacturing customer where several critical rotating assets were causing unplanned shutdowns, which could stop the production line and create significant margin leakage. Instead of positioning our predictive maintenance simply as a technology solution, we connected the technical capability to the customer's financial exposure and business priorities. The customer adopted the solution for five critical assets, unplanned shutdowns were reduced by more than 95%, and net margin increased by $1.6M every year, equivalent to 0.8 percentage points increase for net margin ratio.
+A good example is a pharmaceutical manufacturing customer where several critical rotating assets were causing unplanned shutdowns, which caused the production line shutdown and significant margin leakage. Instead of positioning our predictive maintenance simply as a technology solution, we connected the technical capability to the customer's financial exposure and business priorities. The customer adopted the solution for five critical assets, unplanned shutdowns were reduced by more than 95%, and net margin increased by $1.6M every year, equivalent to 0.8 percentage points increase on top of their net margin ratio before adoption.
 
 That experience captures how I approach value: start with the business problem, quantify the economic impact, build the financial models, align the executive stakeholders, build the business case, and then connect adoption to measurable outcomes.
 
 Internally, I also work closely with account executive, consulting, professional service teams, and leadership to shape value narratives, strengthen deal strategies, align stakeholders, and support complex enterprise opportunities.
 
-So when I look at this opportunity at Medidata, I see a very natural continuation of what I’ve been doing—bringing hands-on Value Engineering, executive engagement, commercial influence, and value realization into life sciences, and applying that discipline across APAC as a senior value engineering contributor.
+So when I look at this opportunity at Medidata, I see a very natural continuation of what I’ve been doing, bringing my hands-on Value Engineering experience, executive engagement, commercial influence, and value realization into life sciences sector, and applying that discipline across APAC as a senior value engineering contributor.
 `,
     tips: [
       "Thank you for...",
@@ -188,9 +188,9 @@ One example that comes to mind is a supply-chain optimization initiative with Si
 
 The customer’s crude-oil purchasing process involved more than 200 variables and over 200 people, and the monthly planning cycle could take around three weeks. So the key question wasn’t simply whether the technology could improve the process, but whether the improvement could create a meaningful economic return.
 
-I approached the business case from both sides. On the benefit side, I defined the value drivers and quantified the 1) potential saving from optimized crude oil procurement basket, 2) potential saving from manpower reduction, 3) and additional gain from producing and selling more high-value products by comparing the existing purchasing baseline with optimized scenarios. From conclusion on the value in dollar from our financial models, average annual benefit of $29M over five years after deployment is more than 95% possibility.
+I approached the business case from both sides. On the benefit side, I defined the value drivers and quantified the 1) potential saving from optimized crude oil procurement basket, 2) potential saving from manpower reduction, 3) and additional gain from producing and selling more high-value products by comparing the existing purchasing baseline with optimized scenarios. From conclusion on the value in dollar from our financial models, average annual benefit of $28M over five years after deployment is more than 95% possibility.
 
-On the cost side, I built a five-year TCO, including software license fee, implementation & modeling (only in year 0), model maintenance, training, internal resources, and ongoing support etc., the annual cost is around $4.9 million, the five-year TCO would be around $24.6 million, versus the average annual cashflow in around $25M, the payback is around 12 months.
+On the cost side, I built a five-year TCO, including software license fee, implementation & modeling (only in year 0), model maintenance, training, internal resources, and ongoing support etc., the annual cost is around $4.9 million, the five-year TCO would be around $24.7 million, versus the average annual cashflow in around $23.8M, the payback is around 12 months, and the 5-year NPV reach around $89.6M.
 
 I then phased in benefits realistically and assess ROI, NPV, IRR, and payback, using the net discount rate given by the customer (their WACC), while validating the values and assumption with finance, procurement, operations, and IT at customer side.
 
