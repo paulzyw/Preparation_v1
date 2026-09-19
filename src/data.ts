@@ -119,13 +119,17 @@ So for me, this is really about focus and progression—taking a capability I've
     title: "About Medidata",
     group: 4,
     category: "Market Knowledge",
-    script: `What stands out to me is that Medidata is not simply a collection of clinical-trial applications. It has been building a connected platform across the clinical development lifecycle, bringing together Study, Patient, and Data Experiences.
+    script: `Medidata, a Dassault Systèmes brand, is a global leader in clinical-trial technology, supporting sponsors and CROs through a unified platform connecting Study, Patient and Data Experiences. 
 
-The scale is also significant. Medidata says its technology has supported more than 38,000 clinical trials and 12 million patients, with a very large clinical dataset. Its current strategy is also increasingly centered on AI, including Dot and the Medidata Plus AI layer.
+Its capabilities include clinical operations, electronic data capture, patient engagement, data management, analytics and AI-enabled trial planning and execution. These solutions help customers improve data quality, streamline workflows, reduce trial complexity and accelerate development timelines. 
+
+With 38,000-plus trials and 12 million patients represented, Medidata has substantial industry scale and established market presence.
+
+What stands out to me is that Medidata is not simply a collection of clinical-trial applications. It has been building a connected platform across the clinical development lifecycle, bringing together Study, Patient, and Data Experiences.
 
 From a Value Engineering perspective, I think that creates an interesting value conversation. The opportunity isn't just to demonstrate the value of an individual application; it is to quantify the impact of connecting workflows, reducing fragmentation, improving trial execution, accelerating decisions, managing risk, and potentially expanding value across the platform.
 
-That's one of the things that makes the role particularly interesting to me: the value discussion can be both point-solution specific and enterprise-platform oriented.`,
+This's one of the things that makes the role particularly interesting to me.`,
     tips: [
       "**Likely question:** “What do you know about Medidata?”"
       
