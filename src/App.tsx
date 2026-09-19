@@ -471,7 +471,7 @@ export default function App() {
       >
         <div className="flex items-center gap-2">
           <Layers className="w-4 h-4 text-[#0f172a]" />
-          <span className="text-[11px] font-bold tracking-widest text-[#0f172a] font-mono">SANDVIK PREP</span>
+          <span className="text-[11px] font-bold tracking-widest text-[#0f172a] font-mono">Medidata PREP</span>
         </div>
         
         {/* iOS-style slide pill switcher */}
@@ -522,7 +522,7 @@ export default function App() {
             <div className="flex items-center justify-between">
               <div>
                 <div className="text-[11px] font-bold tracking-widest text-[#0f172a] uppercase">PREPARATION</div>
-                <p className="text-[11px] text-[#64748b] mt-1">VP Midmarket Cheatsheet</p>
+                <p className="text-[11px] text-[#64748b] mt-1">Sr. Director VE Cheatsheet</p>
               </div>
               
               {/* Collapse toggle (Desktop view) */}
@@ -1063,7 +1063,7 @@ export default function App() {
         </div>
         <div className="flex items-center gap-6 text-[#94a3b8]">
           <span className="hidden sm:inline">CURRENT STATUS: PRACTICING "{activeItem.title}"</span>
-          <span>SANDVIK • VP MIDMARKET CHINA • 2026</span>
+          <span>Mediadata • Senior Director VE CHINA • 2026</span>
         </div>
       </footer>
 
