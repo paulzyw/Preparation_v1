@@ -36,11 +36,11 @@ At Aspen Technology, I’ve worked with large enterprise customers across pharma
 
 Over time, a significant part of my role has become very closely aligned with Value Engineering. I work with customers and account teams to understand their business problems, strategic priorities, and value drivers, establish the baseline, quantify economic impact, and build financial models for ROI, TCO, NPV, Payback etc., and executive business cases that support customer's investment decisions.
 
-From my perspective, my experience tells me, Value Engineering is much more than building a financial model, it is about connecting the technology to the outcomes that matter most to the customer, and then helping the customer turn those outcomes into a credible business case and, ultimately, realized value.
+From my perspective, my experience tells me, Value Engineering is much more than building a financial model, it is about **connecting the technology to the outcomes** that matter most to the customer, and then helping the customer turn those outcomes into a credible business case and, ultimately, realized value.
 
 A good example is a pharmaceutical manufacturing customer where several critical rotating assets were causing unplanned shutdowns, which caused the production line shutdown and significant margin leakage. Instead of positioning our predictive maintenance simply as a technology solution, we connected the technical capability to the customer's financial exposure and business priorities. The customer adopted the solution for five critical assets, unplanned shutdowns were reduced by more than 95%, and net margin increased by $1.6M every year, equivalent to 0.8 percentage points increase on top of their net margin ratio before adoption.
 
-That experience captures how I approach value: start with the business problem, quantify the economic impact, build the financial models, align the executive stakeholders, build the business case, and then connect adoption to measurable outcomes.
+That experience captures how I approach value: start with the **business problem**, develop **value drivers**, quantify the **economic impact**, build the **financial models**, align the **executive stakeholders**, build the **business case**, and then connect **adoption** to **measurable outcomes**.
 
 Internally, I also work closely with account executive, consulting, professional service teams, and leadership to shape value narratives, strengthen deal strategies, align stakeholders, and support complex enterprise opportunities.
 
@@ -48,7 +48,12 @@ So when I look at this opportunity at Medidata, I see a very natural continuatio
 `,
     tips: [
       "Thank you for...",
-      "15 years working in"
+      "15 years working in VE across industries",
+      "Value engineering experience",
+      "Pharmaceutical case",
+      "Learned from VE experience",
+      "Internal collaboration",
+      "Wrap-up"
 
     ]
   },
@@ -57,13 +62,13 @@ So when I look at this opportunity at Medidata, I see a very natural continuatio
     title: "Interest in the Medidata Value Engineering Role",
     group: 1,
     category: "Motivation",
-    script: `What attracted me to this role is that it brings together several things that have become central to my career at Aspen: understanding complex customer problems, quantifying business value, engaging senior executives, and using that value to influence both the investment decision and the commercial strategy.
+    script: `What attracted me to this role is that it brings together several things that have become **central to my career** at Aspen: understanding complex **customer problems**, defining **value drivers**, quantifying **business value**, engaging **senior executives**, and developing **executive business case** to influence both the investment decision and the commercial strategy.
 
-What particularly interests me is that Medidata's Value Engineering role covers the whole value lifecycle, from business problem discovery, value driver identification, value hypothesis, value quantification & financial modeling, business-case development, and commercial decision through adoption, value realization, and optimization, and I believe my experiences in value engineering can be helpful both Medidata and its customers in their journey of pursuing value creation.
+What particularly interests me is that Medidata's Value Engineering role covers the **whole value lifecycle**, from **business problem** discovery, **value driver** identification, **value hypothesis**, value **quantification** & financial **modeling**, **business-case** development, and **commercial decision** through adoption, value realization, and optimization, and I believe my experiences in value engineering can be **helpful both** Medidata and its customers in the journey of pursuing value creation.
 
-I also see a very interesting opportunity to bring my experience into life sciences. I have already worked with pharmaceutical customers on technology investments where the conversation had to move from technical capability to operational and financial outcomes.
+I also see a very interesting opportunity to bring my experience into **life sciences** sector. I have already worked with **pharmaceutical** customers on **technology investments** where the conversation had to move from technical capability to **operational and financial outcomes**.
 
-So I see this opportunity more as applying a capability I've developed over many years to a highly relevant industry and a company where the economic impact of technology can be very significant.`,
+So I see this opportunity more as applying a capability I've developed over many years to a **highly relevant industry** and a **company** where the **economic impact of technology** can be very significant.`,
     tips: [
       "**Likely question:** “Why are you interested in this role?”",
       "brings together several things",
@@ -80,17 +85,22 @@ So I see this opportunity more as applying a capability I've developed over many
     category: "Role & Fit",
     script: `I see the fit in four areas.
 
-First, I have hands-on experience with Value Engineering— developing value drivers, building financial models for ROI, TCO, NPV, IRR and Payback, value hypotheses, financial impact, and executive business cases.
+**First**, I have **hands-on experience** with Value Engineering— developing value drivers, building financial models for ROI, TCO, NPV, IRR and Payback, value hypotheses, financial impact, and executive business cases.
 
-Second, I've spent years engaging enterprise customers at senior levels. I'm comfortable moving between operational stakeholders, technical teams, finance, commercial leaders, and executives, and translating their different priorities into one value story.
+**Second**, I've spent years **engaging enterprise customers** at senior levels. I'm comfortable moving between operational stakeholders, technical teams, finance, commercial leaders, and executives, and **translating** their different priorities into **one value story**.
 
-Third, I've worked very closely with sales, consulting, professional service, and leadership teams, At Aspen, value wasn't an isolated analytical exercise; it was part of opportunity strategy, competitive positioning, commercial justification, adoption, and expansion.
+**Third**, I've worked very closely with sales/account, consulting, professional service, and leadership teams, At Aspen, value wasn't an isolated analytical exercise; it was part of **opportunity strategy, competitive positioning, commercial justification, adoption, and expansion**.
 
-And fourth, I understand value realization. I don't see the job as proving value just before the contract. The real test is whether the customer adopts the solution and achieves the outcomes that justified the investment.
+And **fourth**, I understand value realization. I don't see the job as proving value just before the contract. The real test is whether the customer adopts the solution and **achieves the outcomes that justified the investment**.
 
-That combination of value expertise, commercial experience, executive engagement, and APAC experience is what I believe is particularly relevant to this position.`,
+That **combination** of **value expertise**, **commercial experience**, **executive engagement**, and **APAC experience** is what I believe is particularly relevant to this position.`,
     tips: [
-      "**Likely question:** “Why do you think you are a good fit for this role?”"
+      "**Likely question:** “Why do you think you are a good fit for this role?”",
+      "Hands-on experience",
+      "engaging enterprise customers at senior level",
+      "cross-functional collaboration",
+      "value realization",
+      "Combination relevant to this role"
 
     ]
   },
@@ -99,17 +109,20 @@ That combination of value expertise, commercial experience, executive engagement
     title: "Leave for Medidata",
     group: 5,
     category: "Motivation",
-    script: `I’ve had a very valuable experience at Aspen, and I'm not looking to leave because of a negative experience.
+    script: `I’ve had a very **valuable and rewarded** experience at Aspen, and I'm **not** looking to leave because of a **negative experience**.
 
-What I'm looking for now is the next stage of my career where I can make Value Engineering an even more central part of what I do.
+What I'm looking for now is the **next stage** of my career where I can make my **expertise** of Value Engineering an even more **central part** of what I do so that I can **create more values** to both my employer and customers.
 
-At Aspen, I've progressively moved toward value-based selling, executive business cases, financial modeling, and value realization. The Medidata role gives me the opportunity to bring those capabilities together in a dedicated Value Engineering function and apply them in life sciences.
-I’m also attracted by the complexity of the customer problems. Clinical development involves major investments, long timelines, operational complexity, and significant economic consequences when things don't work as planned.
+At Aspen, I've progressively moved toward value-based selling, executive business cases, financial modeling, and value realization. The Medidata role gives me the opportunity to **bring those capabilities together** in a dedicated Value Engineering function and apply them in life sciences sector.
+I’m also attracted by the complexity of the customer problems. Clinical development involves **major investments**, **long timelines**, **operational complexity**, and **significant economic consequences** when things don't work as planned.
 
-So for me, this is really about focus and progression—taking a capability I've built in industrial technology and applying it more directly as a senior Value Engineering practitioner across APAC.
+So for me, this is really about focus and progression—taking a capability I've built in industrial technology and applying it more directly as a senior **Value Engineering practitioner** across APAC.
 `,
     tips: [
-      "**Likely question:** “Why are you considering leaving Aspen?”"
+      "**Likely question:** “Why are you considering leaving Aspen?”",
+      "Rewared experience, not leave because of negative experience",
+      "Next-step career, VE expertise to be central part to create more value",
+      "Value engineering practitioner"
       
     ]
   },  
@@ -119,17 +132,17 @@ So for me, this is really about focus and progression—taking a capability I've
     title: "About Medidata",
     group: 4,
     category: "Market Knowledge",
-    script: `Medidata, a Dassault Systèmes brand, is a global leader in clinical-trial technology, supporting sponsors and CROs through a unified platform connecting Study, Patient and Data Experiences. 
+    script: `Medidata, a Dassault Systèmes brand, is a **global leader** in **clinical-trial technology**, supporting **sponsors**, **CROs**, and **research institutes** through a **unified platform** connecting **Study**, **Patient** and **Data Experiences**. 
 
-Its capabilities include clinical operations, electronic data capture, patient engagement, data management, analytics and AI-enabled trial planning and execution. These solutions help customers improve data quality, streamline workflows, reduce trial complexity and accelerate development timelines. 
+Its capabilities include **clinical operations**, **electronic data capture**, **patient engagement**, **data management**, **analytics and AI-enabled trial planning and execution**. These solutions help customers **improve data quality**, **streamline workflows**, **reduce trial complexity** and **accelerate development timelines**. 
 
-With 38,000-plus trials and 12 million patients represented, Medidata has substantial industry scale and established market presence.
+With **38,000**-plus trials and **12 million** patients represented, Medidata has substantial industry scale and **established market presence**.
 
-What stands out to me is that Medidata is not simply a collection of clinical-trial applications. It has been building a connected platform across the clinical development lifecycle, bringing together Study, Patient, and Data Experiences.
+What stands out to me is that Medidata is not simply a collection of clinical-trial applications. It has been building a **connected platform** across the **clinical development lifecycle**, bringing together Study, Patient, and Data Experiences.
 
 From a Value Engineering perspective, I think that creates an interesting value conversation. The opportunity isn't just to demonstrate the value of an individual application; it is to quantify the impact of connecting workflows, reducing fragmentation, improving trial execution, accelerating decisions, managing risk, and potentially expanding value across the platform.
 
-This's one of the things that makes the role particularly interesting to me.`,
+This's one of the things that makes the role **particularly compelling** to me.`,
     tips: [
       "**Likely question:** “What do you know about Medidata?”"
       
@@ -140,18 +153,18 @@ This's one of the things that makes the role particularly interesting to me.`,
     title: "Value Engineering Experience",
     group: 2,
     category: "Case Studies",
-    script: `At Aspen, Value Engineering has increasingly become an important part of how I work with enterprise customers and account teams.
+    script: `At Aspen, Value Engineering has been an **important part** of how I work with enterprise customers and internal stakeholders.
 
 My approach starts with understanding the customer's business problem and strategic priorities rather than starting with the product.
 
-From there, I identify the relevant value drivers, establish a baseline, quantify the economic impact, develop financial models including ROI, TCO, NPV, IRR and Payback, my experience tells me, they help executives understand the investment, the expected value, the assumptions, and the risks, they have been the powerful tools in helping my customers made their decision on solution vender selection upon us..
+From there, I identify the relevant value drivers, establish a baseline, quantify the economic impact, develop financial models including ROI, TCO, NPV, IRR and Payback, my experience tells me, these tools help executives understand the investment, the expected value, the assumptions, and the risks, they have been the powerful tools in helping my customers made their decision on investment and solution vender selection upon us..
 
-Then I work with the account team and customer stakeholders to translate that analysis into an executive value narrative that can influence the investment decision.
+Then I work with the account team and customer stakeholders to translate that analysis into an **executive value narrative** that can influence the **investment decision**.
 
 And I don't stop at the business case. I also look at adoption, value realization, benefits tracking, and expansion.
 
 So I would describe my experience as spanning the full value chain:
-**business problem → value hypothesis → quantification → business case → commercial decision → adoption → realized value**.
+**business problem → Value Drivers → Economic impact quantification → quantification → Financial Modeling → Executive Alignment → usiness case → commercial decision → adoption → realization of value**.
 
 That's how I personally think about Value Engineering.`,
     tips: [
@@ -165,15 +178,15 @@ That's how I personally think about Value Engineering.`,
     title: "Value Engineering Case",
     group: 4,
     category: "Case Studies",
-    script: `One example was a pharmaceutical manufacturing customer with several critical rotating assets where unplanned equipment failures could shut down the production line and create significant margin leakage.
+    script: `One example was a **pharmaceutical manufacturing customer** with several critical rotating assets where unplanned equipment failures could shut down the production line and create significant margin leakage.
 
-The challenge was to demonstrate that predictive maintenance was not simply a technical improvement, but a financially meaningful business investment.
+The challenge was to demonstrate that predictive maintenance was not simply a technical improvement, but a **financially meaningful business investment**.
 
-I worked with the customer and our technical team to connect the predictive-maintenance capability to the business impact of avoiding unplanned production interruptions. We focused on the most business-critical assets rather than trying to model everything.
+I worked with the customer and our technical team to connect the **predictive-maintenance capability** to the **business impact** of avoiding unplanned production interruptions. We focused on the most business-critical assets rather than trying to model everything.
 
-The customer ultimately adopted the solution for five critical assets. Unplanned shutdowns were reduced by more than 95%, and the customer's net margin increased by $1.6M every year, equivalent to 0.8 percentage points increase for the net margin ratio.
+The customer ultimately adopted the solution for five critical assets. Unplanned shutdowns were reduced by more than 95%, and the customer's net margin increased by $1.6M every year, equivalent to 0.8 percentage points increase on top of the net margin ratio before the adoption.
 
-What I took from that case is that good Value Engineering starts with the economic consequence of the problem. Telling the quantified value of avoiding the business consequence of equipment failure matters to the customer much more than telling solution.`,
+What I took from that case is that **good Value Engineering** starts with the **economic consequence of the problem**. Telling the quantified value of avoiding the business consequence of equipment failure **matters** to the customer **much more than** telling solution.`,
     tips: [
       "Likely question: “Can you give me an example of Value Engineering you've done?”"
       
@@ -188,13 +201,13 @@ What I took from that case is that good Value Engineering starts with the econom
 
 The tools that I have used as decision-support tools include not only ROI and TCO, but also IRR, NPV, Payback etc.
 
-One example that comes to mind is a supply-chain optimization initiative with Sinopec, the largest petrochemical company in China.
+One example that comes to mind is a supply-chain optimization initiative with a customer named Sinopec, the largest petrochemical company in China.
 
-The customer’s crude-oil purchasing process involved more than 200 variables and over 200 people, and the monthly planning cycle could take around three weeks. So the key question wasn’t simply whether the technology could improve the process, but whether the improvement could create a meaningful economic return.
+The customer’s crude-oil purchasing process involved more than 200 variables and over 200 people, and the monthly planning cycle could take around three weeks, caused high oil procurement spending, less flexibility of plan adjustment in highly price-fluctuated market, and purchased oil hard to meet downstream market price change for high-value products. So the key question wasn’t simply whether the technology could improve the process, but whether the improvement could create a meaningful economic return.
 
 I approached the business case from both sides. On the benefit side, I defined the value drivers and quantified the 1) potential saving from optimized crude oil procurement basket, 2) potential saving from manpower reduction, 3) and additional gain from producing and selling more high-value products by comparing the existing purchasing baseline with optimized scenarios. From conclusion on the value in dollar from our financial models, average annual benefit of $28M over five years after deployment is more than 95% possibility.
 
-On the cost side, I built a five-year TCO, including software license fee, implementation & modeling (only in year 0), model maintenance, training, internal resources, and ongoing support etc., the annual cost is around $4.9 million, the five-year TCO would be around $24.7 million, versus the average annual cashflow in around $23.8M, the payback is around 12 months, and the 5-year NPV reach around $89.6M.
+On the cost side, I built a five-year TCO, including software license fee, implementation & modeling (only in year 0), hardware, model maintenance, training, internal resources, and ongoing support etc., in five years as the calculation period, the annual cost is about $4.9 million, the five-year TCO is around $24.7 million, versus the average annual cashflow in around $23.8M, the payback is around 12 months, and the 5-year NPV reach around $89.6M.
 
 I then phased in benefits realistically and assess ROI, NPV, IRR, and payback, using the net discount rate given by the customer (their WACC), while validating the values and assumption with finance, procurement, operations, and IT at customer side.
 
@@ -589,6 +602,61 @@ The transferable principle is the value chain. In this case, the starting point 
     tips: [
       "Proof Point: I can personally perform Value Engineering."
       
+    ]
+  },
+
+    {
+    id: "note_self",
+    title: "Note",
+    group: 0,
+    category: "Profile",
+    script: `Note
+
+
+    **A. Medidata:**
+
+**General summary**
+A global leader in clinical-trial technology
+A **unified platform** bringing study, patient and Data experiences **together** crossing clinical development lifecycle
+
+**Capabilities:**
+Clinical Operations
+Electronic Data Capture (EDC)
+Patient Management
+Data Management
+Analytical and AI-Enabled trial planning and execution
+
+**Value to customer**
+**Improve** data quality
+**Streamline** workflows
+**Reduce** trial complexity
+**Accelerate** development timelines
+
+**Market achievement**
+**38,000**-plus trials
+**12 million** patients
+
+**B. Full value chain:**
+**1**. Business problem → 
+**2**. Develop value drivers →
+**3**. Economic impact quantification → 
+**4**. Financial Modeling → 
+**5**. Executive Alignment → 
+**6**. Business case → 
+**7**. Commercial Decision → 
+**8**. adoption → 
+**9**. realized value.
+
+**C. My Perspective on Value Engineering**
+Value engineering is **connecting** the technologies to the outcomes which **matter most** to the customer
+
+Helping customer turn those outcomes into a credible **business case** supporting **investment decision** and, ultimately, **realize** value.
+
+`,
+    tips: [
+      "Medidata knowledge",
+      "Ful value chain"
+
     ]
   }
 
