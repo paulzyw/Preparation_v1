@@ -225,20 +225,26 @@ For all these financial tools including ROI, TCO, NPV, IRR and Payback, my exper
     title: "Business Case Development",
     group: 2,
     category: "Case Studies",
-    script: `I normally build a business case from the customer's decision backwards.
-First, I understand what decision the customer is trying to make and what outcomes matter to the executive sponsor.
+    script: `I normally build a business case from the customer's **decision backwards**.
 
-Then I establish the current-state baseline and identify the major value drivers—whether that's revenue, cost, productivity, risk, cycle time, quality, or capital efficiency.
+**First**, I understand **what **decision the customer is trying to make and **what outcomes** matter to the executive sponsor.
 
-Next, I quantify the impact and develop the financial models including ROI, TCO, NPV, IRR and Payback, making the assumptions transparent and validating them with the relevant stakeholders.
+**Then** I establish the **current-state baseline** and identify the **major value drivers**, whether that's revenue, cost, productivity, risk, cycle time, quality, or capital efficiency.
 
-Then I connect the financial analysis with the strategic narrative: why change, why now, why this solution, and what happens if the customer does nothing.
+**Next**, I **quantify the impact** and develop the **financial models** including ROI, TCO, NPV, IRR and Payback, making the **assumptions transparent** and **validating them with** the relevant stakeholders.
+
+Then I **connect** the financial analysis **with** the strategic narrative: why change, why now, why this solution, and what happens if the customer does nothing.
 
 Finally, I make the business case actionable—linking it to the commercial proposal, implementation priorities, adoption metrics, and ultimately value realization.
 
-So I don't see a business case as a document. I see it as a decision framework.`,
+So I don't see a business case as a document. I see it as a **decision framework**.`,
     tips: [
-      "Likely question: “How do you build a business case?”"
+      "Likely question: “How do you build a business case?”",
+      "what decision, what outcomes",
+      "establish current-state baseline, identify major value drivers",
+      "Quantify impact, develop financial models",
+      "connect financial analysis with strategic narrative",
+      "business case is seen as a decision framework"
       
     ]
   },
@@ -250,14 +256,15 @@ So I don't see a business case as a document. I see it as a decision framework.`
     category: "Collaboration",
     script: `I’m very comfortable working in environments where I don't have direct authority over all the people I need to work with and influence.
 
-At Aspen, a complex opportunity could involve the account executive, sales leadership, solution consultants, product manager, professional services, partners, finance, and the customer.
-My role is to create alignment around the value story.
+At Aspen, a complex opportunity could involve the account executive, sales leadership, solution consultants, product manager, professional services, partners, finance, and the customer etc.
+
+My role is to **create alignment** around the value story.
 
 I try to make sure everyone understands the customer's business problem, the value hypothesis, the economic drivers, the evidence behind the numbers, and how the value case supports the commercial strategy.
 
 Despite the value engineering serves the goal of driving revenue growth, however I also think Value Engineering should be independent enough to challenge the deal team when the value case isn't credible.
 
-So my approach is collaborative, but not simply supportive. I bring an objective value perspective that helps the broader team make better decisions and gives the customer a more credible business case.
+So my approach is **collaborative**, but not simply supportive. I bring an objective value perspective that helps the broader team make better decisions and gives the customer a more credible business case.
 
 Common Purpose → Alignment → Clear Roles → Trust → Execution
 `,
@@ -272,16 +279,17 @@ Common Purpose → Alignment → Clear Roles → Trust → Execution
     title: "Strengths",
     group: 5,
     category: "Growth & Career",
-    script: `I would say my strongest capability is connecting technology, business value, and commercial outcomes.
+    script: `I would say my **strongest capability** is connecting technology, business value, and commercial outcomes.
 
-I'm comfortable going deep enough into a complex technology solution to understand what it can actually change, but I naturally step back and ask what that change means economically for the customer.
+I'm comfortable going deep enough into a complex technology **solution** to understand what it can **actually change**, but I naturally step back and ask what that **change means economically** for the **customer**.
 
-That allows me to move between different levels of conversation—from technical teams, to operational leaders, to finance, to C-suite executives.
+That allows me to move between different levels of conversation—from **technical teams**, to **operational leaders**, to **finance**, to **C-level executives**.
 
-I also think my commercial background is important. I'm not doing Value Engineering as an academic exercise. I've spent years in real enterprise sales environments where the value case has to withstand customer scrutiny, competitive pressure, budget constraints, and ultimately a purchasing decision.
+I also think my commercial background is important. I'm not doing Value Engineering as an academic exercise. I've spent years in real enterprise sales environments where the value case has to **withstand** **customer scrutiny**, **competitive pressure**, **budget constraints**, and ultimately a **purchasing decision**.
 
 So if I had to summarize the strength in one sentence, it would be:
-I can turn a complex technology proposition into a credible business case that executives can understand, challenge, and act on.`,
+
+I can turn a complex **technology proposition** into a **credible business case** that executives can understand, challenge, and act on.`,
     tips: [
       "Likely question: “What is your greatest strength?”"
       
@@ -292,17 +300,17 @@ I can turn a complex technology proposition into a credible business case that e
     title: "Weaknesses",
     group: 5,
     category: "Growth & Career",
-    script: `The area where I have the most to learn is the depth of the clinical-development domain itself.
+    script: `The area where I have the most to learn is the **depth of the clinical-development domain itself**.
 
-I have experience working with pharmaceutical and life-sciences organizations, but I haven't spent my entire career inside clinical development or clinical-trial operations.
+I have **experience working with pharmaceutical and life-sciences organizations**, but I haven't spent my career **inside clinical development** or clinical-trial operations.
 
 I don't see that as something to minimize. It's a domain I would need to learn deeply.
 
-What gives me confidence is that the underlying Value Engineering discipline is highly transferable. I already know how to engage customers, understand complex processes, identify economic drivers, quantify value, build business cases, and work with technical experts.
+**What gives me confidence** is that the underlying **Value Engineering discipline** is highly **transferable**. I already know how to engage customers, understand complex processes, identify economic drivers, quantify value, build business cases, and work with technical experts.
 
-So my approach would be to accelerate the domain learning by spending significant time with Medidata customers, product experts, clinical specialists, and account teams, while bringing the Value Engineering methodology I already have.
+So my approach would be to **accelerate the domain learning** by spending significant time with Medidata customers, product experts, clinical specialists, and account teams etc., while bringing the **Value Engineering methodology** I already have.
 
-I would expect to learn the clinical context quickly, but I would never pretend to have domain expertise that I haven't earned.`,
+I would expect to learn the clinical context quickly.`,
     tips: [
       "Likely question: “What's an area you need to develop?”"
 
@@ -313,21 +321,27 @@ I would expect to learn the clinical context quickly, but I would never pretend 
     title: "How to Start",
     group: 1,
     category: "Vision & Strategy",
-    script: `I would start with listening and learning.
+    script: `I would start with **listening and learning**.
 
-First, I would understand Medidata's Value Engineering methodology, existing value models, tools, customer evidence, sales process, and success metrics.
+**First**, I would **understand** Medidata's Value Engineering methodology, existing value models, tools, customer evidence, sales process, and success metrics.
 
-Second, I would spend time with the sales organization in the region and understand where the biggest strategic opportunities and value challenges are—especially where deals are complex, competitive, or require stronger executive business cases.
+**Second**, I would spend time with the **sales organization** in the region and understand where the **biggest strategic opportunities** and **value challenges** are—especially where deals are complex, competitive, or require stronger executive business cases.
 
-Third, I would talk directly with customers and learn how they currently think about clinical-trial economics, operational efficiency, risk, timelines, adoption, and investment decisions.
+**Third**, I would talk directly with **customers** and **learn** how they currently think about **clinical-trial economics**, **operational efficiency, risk, timelines, adoption, and investment decisions**.
 
-Then I would identify a small number of high-value opportunities where I could contribute directly and generate early proof points.
+**Then** I would **identify** a small number of **high-value opportunities** where I could contribute directly and generate early proof points.
 
 In parallel, I would build a value library around recurring use cases, customer benchmarks, assumptions, value drivers, and proven outcomes.
 
-My goal in the first phase would be simple: learn the domain quickly, earn credibility with the field and customers, and start creating measurable value rather than simply producing activity.`,
+My goal in the first phase would be simple: **learn** the domain quickly, **earn** credibility with the field and customers, and **start creating measurable value** rather than simply producing activity.`,
     tips: [
-      "Likely question: “If you joined, what would you do first?”"
+      "Likely question: “If you joined, what would you do first?”",
+      "Learn internal process",
+      "Learn from Sales 1) the biggest strategic opportunity and value challenges",
+      "Learn from customer how they think about:...",
+      "Identify high-value opportunities where I can contribute",
+      "BUild value library",
+      "Learn domain..., earn credibility, start creating measurable value"
       
     ]
   },
@@ -344,7 +358,9 @@ I would also expect close partnership with the field organization—helping acco
 
 At the same time, I would want to contribute beyond individual deals by helping develop reusable value models, benchmarks, tools, and best practices across APAC.
 
-And because this is an individual contributor role based on what I learned from recruiter Anna, I'm very comfortable with being personally accountable for outcomes. I would expect to be measured not simply by the number of analyses I produce, but by the quality of the customer conversations, the opportunities influenced, and ultimately the value realized.
+And because this is an individual contributor role based on what I learned from recruiter Anna, I'm very comfortable with being personally accountable for outcomes. 
+
+I would expect to be measured not simply by the number of analyses I produce, but by the quality of the customer conversations, the opportunities influenced, and ultimately the value realized.
 
 That's the kind of accountability I enjoy.`,
     tips: [
@@ -360,15 +376,19 @@ That's the kind of accountability I enjoy.`,
     category: "Questions",
     script: `Questions:
     
-    1.	I’d love to understand your perspective on success. If we were having this conversation six or twelve months after I joined, what would I have accomplished for you to say, “This has been a very successful hire”?
+    1.	I’d love to understand your **perspective on success**. 
+    If we were having this conversation six or twelve months after I joined, what would I have accomplished for you to say, “This has been a very successful hire”?
 
-2.	From your perspective, where is the biggest opportunity for Value Engineering in APAC today? Is it primarily around strengthening value-based selling in strategic opportunities, improving executive engagement, accelerating value realization, or something else?
+2.	From your perspective, where is the **biggest opportunity** for Value Engineering in APAC today? 
+Is it primarily around strengthening value-based selling in strategic opportunities, improving executive engagement, accelerating value realization, or something else?
 
-3.	I'm interested in how you envision the partnership between Value Engineering and the field organization. At what point in a strategic opportunity would you ideally like VE to become involved, and where do you see VE having the greatest influence on the sales process?
+3.	I'm interested in how you **envision the partnership** between **Value Engineering** and the **field organization**. 
+At what point in a strategic opportunity would you ideally like Value Engineering to become involved, and where do you see Value Engineering having the greatest influence on the sales process?
 
-4.	One thing that attracted me to the role is that Medidata seems to position Value Engineering as broader than traditional pre-sales. From your perspective, what really differentiates the Value Engineering approach here from a traditional solution consulting or value-selling approach?
+4.	One thing that attracted me to the role is that Medidata seems to position Value Engineering as broader than traditional pre-sales. From your perspective, what really **differentiates** the Value Engineering approach here from a **traditional solution consulting** or value-selling approach?
 
-5.	As Medidata continues to expand its platform and AI capabilities, I'm curious where you see the biggest Value Engineering challenge going forward. Is it primarily about quantifying the value of individual solutions, or increasingly about demonstrating the broader enterprise value of connecting capabilities across the clinical development lifecycle?
+5.	As Medidata continues to expand its platform and AI capabilities, I'm curious where you see the **biggest Value Engineering challenge** going forward. 
+Is it primarily about quantifying the value of individual solutions, or increasingly about demonstrating the broader enterprise value of connecting capabilities across the clinical development lifecycle?
 
 **Could respond:**
 “That's interesting. I've seen exactly the same dynamic at Aspen. In my experience, the biggest difference comes when VE gets involved before the solution is fully defined, because then we can shape the value hypothesis together with the customer rather than simply validate a solution that's already been positioned. Is that also what you're trying to change in APAC?”`,
@@ -387,17 +407,17 @@ That's the kind of accountability I enjoy.`,
     category: "Profile",
     script: `Yes. I would leave you with one thought.
 
-What makes me particularly interested in this role is that I believe my experience has prepared me to operate at the intersection of customer value, executive engagement, and commercial execution.
+What makes me particularly interested in this role is that I believe **my experience has prepared me** to operate at the **intersection** of **customer value**, **executive engagement**, and **commercial execution**.
 
 I've spent years working with complex enterprise customers where technology alone was never enough. The customer needed to understand the business problem, the economic impact, the investment case, and ultimately whether the promised value could actually be realized.
 
 That's the discipline I've developed at Aspen, and it's what I would bring to Medidata.
 
-I also understand that I have a new domain to master in clinical development, and I'm approaching that with genuine curiosity and humility.
+I also understand that I have a **new domain to master** in clinical development, and I'm approaching that with genuine curiosity and humility.
 
-But the core capability—helping customers understand, quantify, communicate, and realize the value of technology—is something I've been doing for years.
+But the core capability, **helping customers understand, quantify, communicate, and realize the value of technology**, it is something I've been doing for years.
 
-That's why I believe I could make a meaningful contribution to the Medidata Value Engineering organization in APAC.`,
+That's why I believe I could make a **meaningful contribution** to the Medidata Value Engineering organization in APAC.`,
     tips: [
       "Likely question: “Is there anything else you'd like us to know?”"
       
@@ -650,7 +670,13 @@ Analytical and AI-Enabled trial planning and execution
 **C. My Perspective on Value Engineering**
 Value engineering is **connecting** the technologies to the outcomes which **matter most** to the customer
 
-Helping customer turn those outcomes into a credible **business case** supporting **investment decision** and, ultimately, **realize** value.
+1. Helping customer turn those outcomes into a credible **business case** supporting **investment decision** and, ultimately, **realize** value.
+
+2. I don't see the **Business Case** as a document, I see it as a **Decision Framework**.
+
+3. Value case has to withstand customer scrutiny, competitive pressure, budget constraints, and ultimately a purchasing decision.
+
+4. I can turn a complex **technology proposition** into a **credible business case** that executives can understand, challenge, and act on.
 
 `,
     tips: [
