@@ -527,56 +527,56 @@ Customer problem → Value hypothesis → Quantification → Business case → C
   },
 
   {
-    id: "Turn_problem_to_case",
-    title: "Turning a Customer Problem into a Quantified Business Case",
+    id: "master_story_sinopec",
+    title: "Sinopec: Value Engineering Case",
     group: 2,
     category: "Case Studies",
-    script: `Story 1 — Value Engineering: Turning a Customer Problem into a Quantified Business Case
+    script: `**Sinopec Supply-Chain Optimization**
 
-**Proof Point:** I can personally perform Value Engineering.
-
-**Likely questions this story can answer:**
-•	“Tell me about your Value Engineering experience.” 
-•	“Give me an example of how you've quantified customer value.” 
-•	“How do you build an ROI/business case?” 
-•	“How do you identify value drivers?” 
-•	“How do you validate the assumptions behind your value model?” 
-•	“What is your approach to ROI and TCO?”
+This case demonstrates how I personally apply Value Engineering crossing the overall value chain, connect customer value to commercial decisions, engage executives, and focus on realized outcomes—while operating across functions as a senior individual contributor.
 
 **Situation**
-At Aspen Technology, I worked with Sinopec, one of China's largest oil and gas companies. They had a very complex crude-oil procurement planning process. Every month, they had to make purchasing decisions involving more than 200 variables, but the process was largely manual and required more than 200 people across the organization. It took around three weeks to develop the monthly purchase plan, and it was extremely difficult to determine whether the plan was actually the most profitable option.
+At Sinopec, crude-oil purchasing planning was highly complex, involving more than 200 variables and over 100 people. The monthly planning cycle took around three weeks, making it difficult to evaluate purchasing options efficiently and identify the most economically attractive plan, caused:
+1) high oil procurement spending, 
+2) less flexibility of plan adjustment in highly price-fluctuated market, and 
+3) purchased oil hard to meet downstream market price change for high-value products selling requirement. 
+
+During the early stage of COVID, their pain from their very low efficiency oil procurement planning got even worse.
 
 **Task**
-Sinopec was evaluating whether to invest in software, analytics and optimization technology to improve this process. My role was to help them move beyond a technology evaluation and establish the business value of the investment—essentially, to answer: What would this transformation be worth to Sinopec, and how would we prove it?
+Therefore, after our lots of effort of lobbying and promoting, the customer initiated the process to evaluating whether to invest in software, analytics and optimization technology to improve this process.
+
+During their evaluation process, my role was to help translate this operational challenge and pains into a compelling, quantified business case—aligning customer stakeholders and our internal teams around measurable business outcomes, supporting the commercial opportunity, and connecting the value proposition to adoption and realization.
 
 **Action**
-I worked with the customer to understand the existing process, the decision complexity and the economic drivers behind crude procurement. We connected the optimization opportunity with the business outcomes that mattered—reducing procurement cost, improving the quality and speed of decision-making, and ultimately increasing profitability.
-Rather than presenting optimization simply as a technology capability, we built the value case around measurable business outcomes. We then used that value proposition to engage the relevant business and functional stakeholders and support the investment decision and subsequent adoption.
+I worked across the Value Engineering lifecycle, starting with discovery to understand the planning process, methodologies, existing tools, workflows, business priorities, and economic challenges.
+
+Based on the defined pains, I developed three value drivers: 1) optimizing the crude-oil purchasing basket, 2) improving planning productivity, and 3) capturing potential downstream product-mix benefits, and these value drivers were fully aligned with key stakeholders at customer side.
+
+I then quantified the potential impact and structured a five-year ROI/TCO model, including implementation, software, infrastructure, modeling, and maintenance costs, alongside annual benefits, cash flows, NPV, IRR, and payback. The model indicated, assuming $28 million in full-run-rate annual benefits and $24.7 million in five-year TCO, the average annual cash-in flow around $23.8M, and the model also indicated approximately 480% ROI and $90 million NPV at a 9.0% discount rate which was given by customer, the Payback is only 12 and half months.
+
+I partnered with customer stakeholders to address questions around benefit credibility, investment exposure, and operational feasibility, while collaborating with consulting and professional service colleagues to connect the quantified value to the commercial business case. I adapted the discussion to executive, finance, planning, and IT priorities, keeping the conversation focused on business outcomes rather than features alone.
 
 **Result**
-The solution was ultimately adopted by 52 teams, including subsidiaries and functional departments at headquarters, with more than 150 active users. The monthly planning cycle was reduced from approximately three weeks to less than one week, and Sinopec achieved an average annual procurement cost saving of approximately $30 million.
+The solution was adopted by 52 teams, with more than 150 active users. The planning cycle fell from approximately three weeks to less than one week, planning efficiency increased by 300%, and the customer reported around $30 million in average annual procurement savings.
 
-**Takeaway**
-This experience shaped my view of Value Engineering. The objective is not simply to show that a technology works. It is to connect a customer's complex business problem to measurable economic value, build a credible investment case, and then demonstrate that the value is actually realized at scale.
-
-**My Role**
-My role was to understand the customer's business problem, translate the technical capability into economic value, build and communicate the value case, align the relevant stakeholders, and connect that value case with the commercial and adoption process.
-
-The value case created the economic justification, but adoption required stakeholders to see how the solution addressed their own business needs. We therefore had to translate the value proposition across different organizational stakeholders and demonstrate that the solution could work at enterprise scale.`,
+`,
     tips: [
-      "Proof Point: I can personally perform Value Engineering."
+      "I can personally perform Value Engineering.",
+      "I know how to turn customer value into commercial value",
+      "I can engage executives around business outcomes",
+      " I can drive value realization, not just promise value",
+      "I can independently operate as a senior APAC value engineering individual contributor."
       
     ]
   },
 
   {
     id: "connect_value",
-    title: "Connecting Value to Commercial Results",
+    title: "Parmaceutical: Connecting Value to Commercial Results",
     group: 2,
     category: "Case Studies",
-    script: `Story 2 — Value-Based Selling: Connecting Value to Commercial Results
-
-**Proof Point:** I can turn customer value into commercial impact.
+    script: `**Value-Based Selling: Connecting Value to Commercial Results**
 
 **Likely questions:**
 •	“How have you used Value Engineering in sales?” 
