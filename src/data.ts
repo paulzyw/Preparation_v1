@@ -30,7 +30,7 @@ export const CHEATSHEET_DATA: CheatsheetItem[] = [
 
 In the next, I will take a few minutes to give you a quick overview about my background, experiences of **value engineering** and what has **brought** me to this opportunity.
 
-I’ve spent more than **15 years** working in **enterprise technology**, **business transformation**, **commercial value creation** and **realization**, and I have been **playing the role** to help customers understand why change matters, quantify the economic value, build the **business case** helping customer to make their **decision invest in technology**, and then **connect** that value case to adoption and measurable outcomes.
+I’ve spent more than **15 years** working in **enterprise technology**, **business transformation**, **commercial value creation** and **realization**, and I have been **playing the role** to help customers understand why change matters, quantify the economic value, build the **business case** helping customer to make their **decision to invest in technology**, and then **connect** that value case to adoption and measurable outcomes.
 
 At Aspen Technology, I’ve worked with large enterprise customers across pharmaceutical, energy, utilities, manufacturing, and other highly-regulated industries, helping them address complex business challenges, operational pains, and business priorities through industrial software, data-driven solutions, AI, and digital transformation.
 
@@ -64,9 +64,9 @@ So when I look at this opportunity at Medidata, I see a very natural continuatio
     category: "Motivation",
     script: `What attracted me to this role is that it brings together several things that have become **central to my career** at Aspen: understanding complex **customer problems**, defining **value drivers**, quantifying **business value**, engaging **senior executives**, and developing **executive business case** to influence both the investment decision and the commercial strategy.
 
-What particularly interests me is that Medidata's Value Engineering role covers the **whole value lifecycle**, from **business problem** discovery, **value driver** identification, **value hypothesis**, value **quantification** & financial **modeling**, **business-case** development, and **commercial decision** through adoption, value realization, and optimization, and I believe my experiences in value engineering can be **helpful both** Medidata and its customers in the journey of pursuing value creation.
+What particularly interests me is that Medidata's Value Engineering role covers the **whole value lifecycle**, from **business problem** discovery, **value driver** identification, **value hypothesis**, value **quantification** & financial **modeling**, **business-case** development, and **commercial decision** through adoption, value realization, and optimization, and I believe my experiences in value engineering can be **helpful for both** Medidata and its customers in the journey of pursuing value creation.
 
-I also see a very interesting opportunity to bring my experience into **life sciences** sector. I have already worked with **pharmaceutical** customers on **technology investments** where the conversation had to move from technical capability to **operational and financial outcomes**.
+I also see a very interesting opportunity to bring my experience into **life sciences** sector. I have already worked with **pharmaceutical** customers on **technology investments** where the conversation have moved from technical capability to **operational and financial outcomes**.
 
 So I see this opportunity more as applying a capability I've developed over many years to a **highly relevant industry** and a **company** where the **economic impact of technology** can be very significant.`,
     tips: [
@@ -85,7 +85,7 @@ So I see this opportunity more as applying a capability I've developed over many
     category: "Role & Fit",
     script: `I see the fit in four areas.
 
-**First**, I have **hands-on experience** with Value Engineering— developing value drivers, building financial models for ROI, TCO, NPV, IRR and Payback, value hypotheses, financial impact, and executive business cases.
+**First**, I have **hands-on experience** with Value Engineering crossing the entire value chain — discovering customer's business problem, developing value drivers, quantifying business impact, building financial models, aligning executives, building business cases, influencing commercial decisions, and connecting quantified economic outcomes to adoption and value realization.
 
 **Second**, I've spent years **engaging enterprise customers** at senior levels. I'm comfortable moving between operational stakeholders, technical teams, finance, commercial leaders, and executives, and **translating** their different priorities into **one value story**.
 
@@ -157,14 +157,24 @@ This's one of the things that makes the role **particularly compelling** to me.`
 
 My approach starts with understanding the customer's business problem and strategic priorities rather than starting with the product.
 
-From there, I identify the relevant value drivers, establish a baseline, quantify the economic impact, develop financial models including ROI, TCO, NPV, IRR and Payback, my experience tells me, these tools help executives understand the investment, the expected value, the assumptions, and the risks, they have been the powerful tools in helping my customers made their decision on investment and solution vender selection upon us..
+From there, I identify the relevant value drivers, establish a baseline, quantify the economic impact, develop financial models (including ROI, TCO, NPV, IRR and Payback), my experience tells me, these tools help executives understand the investment, the expected value, the assumptions, and the risks, they have been the powerful tools in helping my customers made their decision on investment and on the selection of solution vender upon us..
 
-Then I work with the account team and customer stakeholders to translate that analysis into an **executive value narrative** that can influence the **investment decision**.
+Then I work with the customer stakeholders to translate that financial models into an **executive value narrative** that can influence the **investment decision**.
 
 And I don't stop at the business case. I also look at adoption, value realization, benefits tracking, and expansion.
 
-So I would describe my experience as spanning the full value chain:
-**business problem → Value Drivers → Economic impact quantification → quantification → Financial Modeling → Executive Alignment → usiness case → commercial decision → adoption → realization of value**.
+So I would describe my experience as inclusion of the full value chain:
+
+1. Discover Business problem → 
+2. Develop value drivers →
+3. Economic impact quantification → 
+4. Financial Modeling → 
+5. Executive Alignment → 
+6. Develop Business case → 
+7. Influence Commercial Decision → 
+8. Adoption → 
+9. Realization of Value
+
 
 That's how I personally think about Value Engineering.`,
     tips: [
@@ -203,15 +213,15 @@ The tools that I have used as decision-support tools include not only ROI and TC
 
 One example that comes to mind is a supply-chain optimization initiative with a customer named Sinopec, the largest petrochemical company in China.
 
-The customer’s crude-oil purchasing process involved more than 200 variables and over 200 people, and the monthly planning cycle could take around three weeks, caused high oil procurement spending, less flexibility of plan adjustment in highly price-fluctuated market, and purchased oil hard to meet downstream market price change for high-value products. So the key question wasn’t simply whether the technology could improve the process, but whether the improvement could create a meaningful economic return.
+The customer’s crude-oil purchasing process involved more than 200 variables and over 200 people, and the monthly planning cycle could take around three weeks, caused 1) High crude-oil procurement expenditure, 2) Limited flexibility in plan adjustments in highly price-fluctuated market, and 3) The difficulty aligning crude purchases with changing downstream market requirements. So the key question wasn’t simply whether the technology could improve the process, but whether the improvement could create a meaningful economic return.
 
-I approached the business case from both sides. On the benefit side, I defined the value drivers and quantified the 1) potential saving from optimized crude oil procurement basket, 2) potential saving from manpower reduction, 3) and additional gain from producing and selling more high-value products by comparing the existing purchasing baseline with optimized scenarios. From conclusion on the value in dollar from our financial models, average annual benefit of $28M over five years after deployment is more than 95% possibility.
+I approached the business case from both sides. On the benefit side, I defined the value drivers and quantified the 1) optimizing the crude-oil purchasing baske, 2) improving planning productivity, and 3) capturing more potential benefits from enabling to produce and sell more high-value products in downstream market by comparing the existing purchasing baseline with optimized scenarios. From conclusion on the value in dollar from our financial models, average annual benefit of $28M over five years after deployment is achieveable with 95% possibility.
 
 On the cost side, I built a five-year TCO, including software license fee, implementation & modeling (only in year 0), hardware, model maintenance, training, internal resources, and ongoing support etc., in five years as the calculation period, the annual cost is about $4.9 million, the five-year TCO is around $24.7 million, versus the average annual cashflow in around $23.8M, the payback is around 12 months, and the 5-year NPV reach around $89.6M.
 
 I then phased in benefits realistically and assess ROI, NPV, IRR, and payback, using the net discount rate given by the customer (their WACC), while validating the values and assumption with finance, procurement, operations, and IT at customer side.
 
-The actual solution scaled to 52 teams and over 150 active users, reduced the planning cycle to less than a week, and based on customer report, generated average approximately $30 million in annual benefit from the defined three value drivers.
+The actual solution scaled to 52 teams including HQ funcitons and its subsidiaries with over 150 active users, reduced the planning cycle to less than a week, and based on customer report, generated average approximately $30 million in annual benefit from the defined three value drivers.
 
 For all these financial tools including ROI, TCO, NPV, IRR and Payback, my experience tells me, they help executives understand the investment, the expected value, the assumptions, and the risks, they have been the powerful tools in helping my customers made their decision on solution vender selection upon us.`,
     tips: [
@@ -555,12 +565,12 @@ Based on the defined pains, I developed three value drivers: 1) optimizing the c
 
 I then quantified the potential impact and structured a five-year ROI/TCO model, including implementation, software license fee, infrastructure, modeling, and maintenance costs, alongside annual benefits, cash flows, NPV, and payback. 
 
-The model indicated, at the base scenario, $28 million annual benefits in full-running could be achieved with 95% possibility, and five-year TCO is $24.7 million, the annual average net cash-in flow is around $23.8M, therefore, the Payback is only 12 and half months, and the model also indicated approximately 480% ROI and $90 million NPV at 9% discount rate which was given by customer.
+The model indicated, at the base scenario, $28 million annual benefits in full-running could be achieved with 95% possibility, and five-year TCO is $24.7 million, the annual average net cash-in flow is around $23.8M, therefore, the Payback is only 12 and half months, and the model also indicated approximately 480% ROI and $90 million NPV at 9% discount rate are highly reachable.
 
 I partnered with customer stakeholders to address questions around benefit credibility, investment exposure, and operational feasibility, at the same time, collaborated with consulting and professional service colleagues to connect the quantified value to the commercial business case.
 
 **Result**
-The solution was adopted by 52 teams including its HQ functions and subsidiaries, with more than 150 active users. The planning cycle reduced from approximately three weeks to less than one week, planning efficiency increased by 300%, and the customer reported around $30 million in average annual procurement savings.
+The solution was adopted by 52 teams including its HQ functions and subsidiaries, with more than 150 active users. The planning cycle reduced from approximately three weeks to less than one week, planning efficiency increased by 300%, and the customer reported around $30 million in average annual procurement savings achieved, that is 110% benefit achievement over the model indication.
 
 `,
     tips: [
