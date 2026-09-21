@@ -553,19 +553,21 @@ I worked across the Value Engineering lifecycle, starting with discovery to unde
 
 Based on the defined pains, I developed three value drivers: 1) optimizing the crude-oil purchasing basket, 2) improving planning productivity, and 3) capturing more potential benefits from enabling to produce and sell more high-value products in downstream market, and these value drivers were fully aligned with key stakeholders at customer side.
 
-I then quantified the potential impact and structured a five-year ROI/TCO model, including implementation, software, infrastructure, modeling, and maintenance costs, alongside annual benefits, cash flows, NPV, IRR, and payback. The model indicated, assuming $28 million in full-run-rate annual benefits and $24.7 million in five-year TCO, the average annual cash-in flow around $23.8M, and the model also indicated approximately 480% ROI and $90 million NPV at a 9.0% discount rate which was given by customer, the Payback is only 12 and half months.
+I then quantified the potential impact and structured a five-year ROI/TCO model, including implementation, software license fee, infrastructure, modeling, and maintenance costs, alongside annual benefits, cash flows, NPV, and payback. 
 
-I partnered with customer stakeholders to address questions around benefit credibility, investment exposure, and operational feasibility, while collaborating with consulting and professional service colleagues to connect the quantified value to the commercial business case. I adapted the discussion to executive, finance, planning, and IT priorities, keeping the conversation focused on business outcomes rather than features alone.
+The model indicated, at the base scenario, $28 million annual benefits in full-running could be achieved with 95% possibility, and five-year TCO is $24.7 million, the annual average net cash-in flow is around $23.8M, therefore, the Payback is only 12 and half months, and the model also indicated approximately 480% ROI and $90 million NPV at 9% discount rate which was given by customer.
+
+I partnered with customer stakeholders to address questions around benefit credibility, investment exposure, and operational feasibility, at the same time, collaborated with consulting and professional service colleagues to connect the quantified value to the commercial business case.
 
 **Result**
-The solution was adopted by 52 teams, with more than 150 active users. The planning cycle fell from approximately three weeks to less than one week, planning efficiency increased by 300%, and the customer reported around $30 million in average annual procurement savings.
+The solution was adopted by 52 teams including its HQ functions and subsidiaries, with more than 150 active users. The planning cycle reduced from approximately three weeks to less than one week, planning efficiency increased by 300%, and the customer reported around $30 million in average annual procurement savings.
 
 `,
     tips: [
       "I can personally perform Value Engineering.",
       "I know how to turn customer value into commercial value",
       "I can engage executives around business outcomes",
-      " I can drive value realization, not just promise value",
+      "I can drive value realization, not just promise value",
       "I can independently operate as a senior APAC value engineering individual contributor."
       
     ]
@@ -598,7 +600,7 @@ We then connected the predictive maintenance capability to the customer's busine
 Rather than positioning the solution simply as an equipment-monitoring technology, I framed the value around the economic consequence of avoiding unplanned production interruptions.
 
 **Result**
-The customer adopted the predictive maintenance solution for the five critical rotating assets. Unplanned shutdowns were reduced by more than 95%, and the improvement in production continuity contributed to net margin increased by $1.6M every year, equivalent to 0.8 percentage points increase for net margin ratio.
+The customer adopted the predictive maintenance solution for the five critical rotating assets. Unplanned shutdowns were reduced by more than 95%, and the improvement in production continuity contributed to net margin increased by $1.6M every year, equivalent to 0.8 percentage points increase on top of their net margin ratio before the adoption.
 
 **Takeaway**
 What I particularly value about this case is that the conversation started with equipment reliability but ended with a financial outcome. That's how I approach Value Engineering: connect the technology to the operational driver, then connect the operational driver to the economic result that matters to the executive decision-maker.
@@ -678,6 +680,90 @@ Value engineering is **connecting** the technologies to the outcomes which **mat
 
 4. I can turn a complex **technology proposition** into a **credible business case** that executives can understand, challenge, and act on.
 
+**D. My Value Proposition Statement**
+
+I help customers turn complex business challenges into quantified economic value and confident investment decisions. 
+
+I bring hands-on Value Engineering, executive engagement, and commercial experience, with a strong focus on connecting value creation to value realization. 
+
+At Medidata, I would bring that discipline to help customers articulate the business impact of transforming clinical development, and help translate that value into stronger strategic and commercial outcomes.
+
+**E. Financial Modeling Interview Cheat Sheet**
+
+**Q1. How do you build an ROI model?**
+Business problem → baseline → value drivers → quantify impact → investment → cash flows → ROI → sensitivity → validation
+
+**Q2. What's the difference between ROI and TCO?**
+ROI measures return efficiency; TCO measures total cost exposure.
+
+**Q3. When would you use NPV?**
+When timing of multi-year cash flows materially affects the investment decision.
+
+**Q4. How do you handle uncertain assumptions?**
+Make assumptions explicit → validate → sensitivity analysis → conservative/base/upside scenarios.
+
+**Q5. How do you ensure the business case is credible?**
+Customer-owned baseline + transparent assumptions + validated value drivers + finance alignment + no double counting + benefits realization tracking.
+
+Financial modeling is the mechanism that translates an operational improvement into an economic decision.
+
+**Sensitivity analysis and scenario modeling:** Conservative, Base, Upside
+
+**F. Financial Models**
+
+**ROI** tells the customer the **efficiency of the investment**. 
+
+**TCO** shows the **total cost exposure**. 
+
+**Payback** tells them **how quickly** they recover the investment.
+
+If the customer is concerned about **investment efficiency**, I use **ROI**. If they're **comparing** alternative solutions or architectures, **TCO** becomes important. If cash recovery is the concern, I emphasize payback. For a larger strategic investment, I would also bring in NPV and cash-flow analysis.
+
+**NPV**, Today's value of future cash flows, future benefits and costs are discounted back to today's value using a discount rate.
+
+**ROI** treats benefits and costs largely as aggregate amounts, while NPV incorporates the timing of those cash flows. For a multi-year transformation, I prefer NPV when the timing of benefits and investment matters, because it gives the customer a better picture of the economic value in today's dollars.
+
+**Payback**: Time to recover investment
+
+**Discount Rate**: Rate used to convert future cash flows into today's value, Ideally from the customer's finance methodology, for example, their WACC(Weighted Average Capital Coat). I would not arbitrarily choose one simply to make the business case attractive.
+
+**G. Business Problem Discovery Framework**
+
+**O-B-G-C-I-V**
+Outcome → Baseline → Gap → Cause → Impact → Value
+
+**Outcome** (Business Outcome): What business outcome are customer trying to achieve?
+- Revenue growth
+- Cost reduction
+- Productivity
+- Speed / cycle time
+- Quality
+- Risk reduction
+- Capacity
+- Compliance
+- Customer/patient outcomes
+- Capital efficiency
+
+**Baseline**: What is happening today?
+4 Dimensions: Volume × Time × Cost × Quality
+
+**Gap**: Where are the customer falling short of the target?
+Current state vs. desired state — what is the gap?
+
+**Cause**: Why does the gap exist?
+Framework: Symptom → Cause → Business consequence
+
+**Impact**: What does the problem mean operationally and financially?
+What does this problem cost the business? 
+Time × Volume × Unit economic value
+
+**Value**: What would solving it be worth?
+Identify the business owner and decision relevance, Who actually cares about solving this problem?
+**Map**: Problem owner → Economic owner → Decision maker → Influencers
+
+**Executive principle**
+I start by understanding what business outcome matters, establish the current-state baseline, identify the gap and its root causes, and then quantify the economic consequence. 
+Only then do I connect the problem to a potential solution and value case.
 `,
     tips: [
       "Medidata knowledge",
