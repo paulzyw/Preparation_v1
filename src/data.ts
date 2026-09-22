@@ -28,7 +28,7 @@ export const CHEATSHEET_DATA: CheatsheetItem[] = [
     category: "Profile",
     script: `First and foremost, I would like to **thank you** for your interest in my profile and taking the time for having me in this interview session.
 
-In the next, I will take a few minutes to give you a quick overview about my background, experiences of **value engineering** and what has **brought** me to this opportunity.
+I am delighted to have this opportunity to speak with you about the hiring role at Medidata, I will take a few minutes to give you a quick overview about my background, experiences of **value engineering** and what has **brought** me to this opportunity.
 
 I’ve spent more than **15 years** working in **enterprise technology**, **business transformation**, **commercial value creation** and **realization**, and I have been **playing the role** to help customers understand why change matters, quantify the economic value, build the **business case** helping customer to make their **decision to invest in technology**, and then **connect** that value case to adoption and measurable outcomes.
 
@@ -45,6 +45,10 @@ That experience captures how I approach value: start with the **business problem
 Internally, I also work closely with consulting, professional service, and leadership team to shape value narratives, strengthen deal strategies, align stakeholders, and support complex enterprise opportunities.
 
 So when I look at this opportunity at Medidata, I see a very natural continuation of what I’ve been doing, bringing my hands-on Value Engineering experience, executive engagement, commercial influence, and value realization into life sciences sector, and applying that discipline across APAC as a senior value engineering contributor.
+
+I am excited about this potential opportunity of joining your team and working together to achieve our shared goals. 
+
+Thank you for considering me as one of candidates for this role, and I look forward to having discussion on how I can contribute to the success of Value Engineering at Medidata in this region.
 `,
     tips: [
       "Thank you for...",
@@ -563,14 +567,14 @@ I worked across the Value Engineering lifecycle, starting with discovery to unde
 
 Based on the defined pains, I developed three value drivers: 1) optimizing the crude-oil purchasing basket, 2) improving planning productivity, and 3) capturing more potential benefits from enabling to produce and sell more high-value products in downstream market, and these value drivers were fully aligned with key stakeholders at customer side.
 
-I then quantified the potential impact and structured a five-year ROI/TCO model, including implementation, software license fee, infrastructure, modeling, and maintenance costs, alongside annual benefits, cash flows, NPV, and payback. 
+I then quantified the potential impact and structured a five-year ROI/TCO model, including costs contributed from implementation, software license fee, infrastructure, modeling, and model maintenance, alongside annual benefits, cash flows, NPV, and Payback. 
 
-The model indicated, at the base scenario, $28 million annual benefits in full-running could be achieved with 95% possibility, and five-year TCO is $24.7 million, the annual average net cash-in flow is around $23.8M, therefore, the Payback is only 12 and half months, and the model also indicated approximately 480% ROI and $90 million NPV at 9% discount rate are highly reachable.
+The model indicated, at the base scenario, $28 million annual benefits in full-running could be achieved with 95% possibility, and five-year TCO is $24.7 million, the annual average net cash-in flow is around $23.8M, therefore, the Payback is only 12 and half months, and the model also indicated that 480% ROI and $90 million NPV at 9% discount rate are highly reachable.
 
 I partnered with customer stakeholders to address questions around benefit credibility, investment exposure, and operational feasibility, at the same time, collaborated with consulting and professional service colleagues to connect the quantified value to the commercial business case.
 
 **Result**
-The solution was adopted by 52 teams including its HQ functions and subsidiaries, with more than 150 active users. The planning cycle reduced from approximately three weeks to less than one week, planning efficiency increased by 300%, and the customer reported around $30 million in average annual procurement savings achieved, that is 110% benefit achievement over the model indication.
+The solution was adopted by 52 teams including its HQ functions and subsidiaries, with more than 150 active users. The planning cycle reduced from three weeks to less than one week, planning efficiency increased by 300%, and the customer reported around $30 million in average in annual crude oil purchasing savings have been achieved, that is 110% benefit achievement over the model indication.
 
 `,
     tips: [
