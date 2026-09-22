@@ -161,7 +161,7 @@ This's one of the things that makes the role **particularly compelling** to me.`
 
 My approach starts with understanding the customer's business problem and strategic priorities rather than starting with the product.
 
-From there, I identify the relevant value drivers, establish a baseline, quantify the economic impact, develop financial models (including ROI, TCO, NPV, IRR and Payback), my experience tells me, these tools help executives understand the investment, the expected value, the assumptions, and the risks, they have been the powerful tools in helping my customers made their decision on investment and on the selection of solution vender upon us..
+From there, I identify the relevant value drivers, establish a baseline, quantify the economic impact, develop financial models (including ROI, TCO, NPV, IRR and Payback), my experience tells me, these tools help executives understand the investment, the expected value, the assumptions, and the risks, they have been the powerful tools in helping my customers made their decision on investment and on the selection of solution vender upon us.
 
 Then I work with the customer stakeholders to translate that financial models into an **executive value narrative** that can influence the **investment decision**.
 
@@ -180,7 +180,7 @@ So I would describe my experience as inclusion of the full value chain:
 9. Realization of Value
 
 
-That's how I personally think about Value Engineering.`,
+That's how I personally have been experiencing Value Engineering.`,
     tips: [
       "Likely question: “Tell me about your Value Engineering experience.”"
       
@@ -217,9 +217,9 @@ The tools that I have used as decision-support tools include not only ROI and TC
 
 One example that comes to mind is a supply-chain optimization initiative with a customer named Sinopec, the largest petrochemical company in China.
 
-The customer’s crude-oil purchasing process involved more than 200 variables and over 200 people, and the monthly planning cycle could take around three weeks, caused 1) High crude-oil procurement expenditure, 2) Limited flexibility in plan adjustments in highly price-fluctuated market, and 3) The difficulty aligning crude purchases with changing downstream market requirements. So the key question wasn’t simply whether the technology could improve the process, but whether the improvement could create a meaningful economic return.
+The customer’s crude-oil purchasing process involved more than 200 variables and over 200 people, and the monthly planning cycle could take around three weeks, which caused negative impact: 1) High crude-oil procurement expenditure, 2) Limited flexibility in plan adjustments in highly price-fluctuated market, and 3) The difficulty aligning crude purchases with changing downstream market requirements. So the key question wasn’t simply whether the technology could improve the process, but whether the improvement could create a meaningful economic return.
 
-I approached the business case from both sides. On the benefit side, I defined the value drivers and quantified the 1) optimizing the crude-oil purchasing baske, 2) improving planning productivity, and 3) capturing more potential benefits from enabling to produce and sell more high-value products in downstream market by comparing the existing purchasing baseline with optimized scenarios. From conclusion on the value in dollar from our financial models, average annual benefit of $28M over five years after deployment is achieveable with 95% possibility.
+I approached the business case from both sides. On the benefit side, I defined the value drivers and quantified them, including 1) optimizing the crude-oil purchasing baske, 2) improving planning productivity, and 3) capturing more potential benefits from enabling to produce and sell more high-value products in downstream market by comparing the existing purchasing baseline with optimized scenarios. From conclusion on the value in dollar from our financial models, average annual benefit of $28M over five years after deployment is achieveable with 95% possibility.
 
 On the cost side, I built a five-year TCO, including software license fee, implementation & modeling (only in year 0), hardware, model maintenance, training, internal resources, and ongoing support etc., in five years as the calculation period, the annual cost is about $4.9 million, the five-year TCO is around $24.7 million, versus the average annual cashflow in around $23.8M, the payback is around 12 months, and the 5-year NPV reach around $89.6M.
 
