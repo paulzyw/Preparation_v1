@@ -38,7 +38,7 @@ Over time, a significant part of my role has become very closely aligned with Va
 
 From my perspective, my experience tells me, Value Engineering is much more than building a financial model, it is about **connecting the technology to the quantified outcomes** that matter most to the customer, and then helping the customer turn those outcomes into a credible business case and, ultimately, realized value.
 
-One good example was a supply-chain optimization initiative with a giant company in energy sector. I personally applied value engineering across the entire value chain, translated a high-complex crude-oil purchasing planning challenge into an executive business case, and the solution ultimately scaled to its 52 subsidiaries and with more than 150 users. As result, the purchasing planning cycle reduced 70%, and $30 million in average in annual purchasing savings is reported.
+One good example was a supply-chain optimization initiative with a giant company in energy sector, in this case, I led with my hands-on effort crossing the entire Value Engineering lifecycle. I personally applied value engineering across the entire value chain, translated a high-complex crude-oil purchasing planning challenge into an executive business case, and the solution ultimately scaled to its 52 subsidiaries and with more than 150 users. As result, the purchasing planning cycle reduced 70%, and $30 million in average in annual purchasing savings is reported.
 
 That experience captures how I approach value: start with the **business problem**, develop **value drivers**, quantify the **economic impact**, build the **financial models**, align the **executive stakeholders**, build the **business case**, and then connect **adoption** to **measurable outcomes**.
 
@@ -585,52 +585,33 @@ The solution was adopted by 52 teams including its HQ functions and subsidiaries
 
   {
     id: "connect_value",
-    title: "Parmaceutical: Connecting Value to Commercial Results",
+    title: "Parmaceutical: Predictive Maintenance",
     group: 2,
     category: "Case Studies",
-    script: `**Value-Based Selling: Connecting Value to Commercial Results**
-
-**Likely questions:**
-•	“How have you used Value Engineering in sales?” 
-•	“How do you partner with Sales?” 
-•	“Tell me about a deal where value influenced the customer's decision.” 
-•	“How does VE contribute to revenue?” 
-•	“How do you differentiate value-based selling from traditional solution selling?” 
-•	“What commercial results have you delivered?”
+    script: `**Master STAR Story — Pharmaceutical Predictive Maintenance**
 
 **Situation**
-At Aspen Technology, I worked with a pharmaceutical manufacturing company that had a significant operational and financial problem. Several critical rotating assets could fail unexpectedly, and when one of these assets shut down, it could stop the production line. The consequence was not simply maintenance cost—it was lost production and margin leakage.
+At a pharmaceutical manufacturing customer, unplanned equipment shutdowns created a significant operational challenge, with potential consequences for production continuity and overall business performance. We identified an opportunity to apply predictive maintenance to five critical rotating equipment assets.
 
 **Task**
-The customer was evaluating a predictive maintenance solution, and my role was to help connect the technical capability with the business case. We needed to establish whether proactively detecting equipment deterioration could create enough financial value to justify the investment.
+My responsibility was to help the customer see this not simply as a maintenance technology project, but as a business investment. I needed to connect the operational challenge to measurable business outcomes, build a credible value case, and engage customer executives so they could understand why investing in the technology made business sense.
 
 **Action**
-I worked with the customer to focus the analysis on the most business-critical assets rather than trying to monitor everything at once. We identified five key rotating equipment assets where unplanned failure had the greatest potential impact on production.
-We then connected the predictive maintenance capability to the customer's business outcomes: detecting abnormal equipment conditions earlier, enabling maintenance to be planned before failure, avoiding production-line shutdowns, and ultimately protecting production margin.
-Rather than positioning the solution simply as an equipment-monitoring technology, I framed the value around the economic consequence of avoiding unplanned production interruptions.
+I approached the opportunity through a Value Engineering lens. First, I connected equipment reliability to the outcomes that mattered to the business: production continuity, reduced disruption, and improved financial performance.
+
+I then helped translate the technical opportunity into a business case, focusing the discussion on the economic implications of reducing unplanned shutdowns and improving operational reliability—not just on the capabilities of the technology.
+
+Importantly, I engaged customer executives around those business outcomes and the investment rationale. Rather than leading with product features, I focused the conversation on the business problem, the expected impact, and how the proposed solution could contribute to the customer’s performance objectives. This helped make the value proposition relevant at the executive decision-making level and supported their decision to invest in our technology.
 
 **Result**
-The customer adopted the predictive maintenance solution for the five critical rotating assets. Unplanned shutdowns were reduced by more than 95%, and the improvement in production continuity contributed to net margin increased by $1.6M every year, equivalent to 0.8 percentage points increase on top of their net margin ratio before the adoption.
+The customer proceeded with the investment, and the results were substantial based on their report: across the five targeted assets, unplanned shutdowns were reduced by more than 95%, the improvement in production continuity contributed to net margin increased by $1.6M every year, equivalent to 0.8 percentage points increase on top of their net margin ratio before the adoption.
 
-**Takeaway**
-What I particularly value about this case is that the conversation started with equipment reliability but ended with a financial outcome. That's how I approach Value Engineering: connect the technology to the operational driver, then connect the operational driver to the economic result that matters to the executive decision-maker.
+**My Takeaway**
+For me, this case demonstrates the full Value Engineering journey—from understanding the business problem and quantifying its impact, through executive engagement and influencing an investment decision, to connecting the technology adoption with measurable business results. 
 
-**1. “How did you convince the customer that predictive maintenance was worth paying for?”**
+It also reflects how I can independently drive a value-led opportunity played as a senior individual contributor, working across customer and internal stakeholders to turn technology into business value.
 
-We didn't start by asking the customer to invest in predictive maintenance technology. We started with the cost of the existing problem. If a critical asset failed, the consequence was a production shutdown and margin leakage. So we quantified the business impact of that problem and then asked whether the predictive capability could materially reduce the probability and consequence of those events. Once the customer could see the connection between avoiding shutdowns and improving financial performance, the technology investment became an economic decision rather than simply a technology purchase.
-This is exactly the kind of answer I would expect a VE leader to appreciate.
-
-**2. “What was your personal contribution?”**
-
-My role was to connect the technical solution with the customer's business and financial priorities. I wasn't the person developing the predictive algorithm or performing the equipment engineering myself. I worked with the customer and our technical team to understand the operational problem, identify the critical assets, establish the value drivers, quantify the potential business impact, and translate that into an investment case that senior stakeholders could understand and act on.
-
-**3. “How would you explain this value proposition to a CFO?”**
-
-I would not lead with predictive maintenance. I would lead with the economic exposure. I would say: these five assets create a material production risk; when they fail, the production line stops and margin is lost. We can use predictive analytics to detect deterioration earlier and move intervention from an unplanned failure to a planned maintenance event. Then I would quantify the avoided production loss, investment required and expected financial return. For a CFO, the conversation is ultimately about risk, economics and return on investment.
-
-**4. “What does this case tell you about Value Engineering at Medidata?”**
-
-The transferable principle is the value chain. In this case, the starting point was an operational problem—equipment failure. We then identified the business consequence—production interruption and margin leakage—quantified the potential impact, connected it to the solution and measured the outcome after implementation. At Medidata, the specific business problems will obviously be different, but the discipline is the same: understand the customer's business outcome, quantify the economic impact, establish a credible value hypothesis, and ultimately measure whether the value is realized.`,
+`,
     tips: [
       "Proof Point: I can personally perform Value Engineering."
       
@@ -774,6 +755,18 @@ Identify the business owner and decision relevance, Who actually cares about sol
 **Executive principle**
 I start by understanding what business outcome matters, establish the current-state baseline, identify the gap and its root causes, and then quantify the economic consequence. 
 Only then do I connect the problem to a potential solution and value case.
+
+**Sinopec Case**
+
+Annual Crude Oil **Purchasing Capacit**y: **1.9 billion barrels**
+
+Annual Crude Oil **Purchasing Expenditure**: **$180 billion** @ Brent Price on Sept 21
+
+Sinopec annual revenue 2025: $410 billion (Chevron, $189 billion 2025)
+
+Sinopec net marging 2025: $4.7 billion, 1.15% of Annual Revenue 2025
+
+**Savings** from Planning Optimization ($30M per year) to **Net Margin**: **0.65%**
 `,
     tips: [
       "Medidata knowledge",
