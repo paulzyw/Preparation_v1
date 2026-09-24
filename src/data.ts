@@ -636,6 +636,21 @@ It also reflects how I can independently drive a value-led opportunity played as
 A global leader in clinical-trial technology
 A **unified platform** bringing study, patient and Data experiences **together** crossing clinical development lifecycle
 
+Medidata has driven ground-breaking technological innovation across **38,000+ trials** and **12 million patients**, delivering industry-leading expertise, **analytics-powered insights**, and one of the **largest clinical trial data sets** in the industry.
+
+Today, one million users across 2,300 organizations trust Medidata's seamless, **end-to-end platform** to:
+1) **improve** patient experiences, 
+2) **accelerate** clinical breakthroughs, and,
+3) bring therapies to market **faster**.
+
+**Powering** Smarter Treatments and Healthier People
+
+Medidata offers a cloud-based platform for clients to build their own clinical trials and perform medical research. The platform allows physicians and scientists to collect and share clinical trial data. The company helps biopharmaceutical and medical device companies run clinical trials, and streamlines the process for life science firms designing the trials. Clients include biotechnology companies, government institutions, and contract research organizations.
+
+A leading technology company that provides a **cloud-based platform** to **power clinical trials and medical research** for life science firms, pharmaceutical companies, and academic researchers.
+
+Operator of a comprehensive software and data analytics system platform intended for the process of clinical research, integrating functions for clinical data management, encompassing advanced electronic data capture and standardization tools, as well as core clinical operations features like site monitoring and electronic trial master file management, enabling pharma organizations to accelerate study timelines, improve data quality, and drive smarter global clinical studies.
+
 **Capabilities:**
 Clinical Operations
 Electronic Data Capture (EDC)
