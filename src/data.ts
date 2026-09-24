@@ -622,7 +622,7 @@ It also reflects how I can independently drive a value-led opportunity played as
     ]
   },
 
-    {
+  {
     id: "note_self",
     title: "Note",
     group: 0,
@@ -775,6 +775,104 @@ Sinopec net marging 2025: $4.7 billion, 1.15% of Annual Revenue 2025
     tips: [
       "Medidata knowledge",
       "Ful value chain"
+
+    ]
+  },
+
+    {
+    id: "value_selling",
+    title: "Value-Selling",
+    group: 0,
+    category: "Profile",
+    script: `Note
+
+**A. Value-based Selling vs. Feature-based selling:**
+
+1. Selling features focuses on what your product does (specifications, capabilities, technical characteristics). 
+
+2. Selling value focuses on what business problems your product solves and what measurable outcomes it delivers.
+
+3. Value selling connects technical capabilities directly to business impact, making it easier for buyers to justify purchasing decisions. 
+
+4. Value selling is not about hiding technical details—it is about leading with business impact and supporting with technical proof.
+
+
+**B. What Customer Buys:**
+
+1. Engineers buy from engineers they trust, but they buy solutions to problems, not impressive specifications.
+
+2. Prospects are not buying engineering solutions. They are buying business outcomes. When you lead with features and specifications, you are essentially asking your prospects to do the mental work of translating those capabilities into business value.
+
+**C. Three levels of Selling: Features vs. Benefits vs. Value**
+
+**1. Features:**
+
+**Definition:** What your product does or has
+**Example:** Machine learning algorithms that analyze vibration patterns and predict failures 30 days in advance
+**Impact on Buyer:** Requires mental translation to value
+
+**2. Benefits:**
+
+**Definition:** What features mean for the user
+**Example:** Maintenance teams receive early warnings, allowing scheduled repairs during planned downtime
+**Impact on Buyer:** Understands user advantage
+
+**3. Value:**
+
+**Definition:** Business impact that benefits deliver
+**Example:** Reduces unplanned downtime by 60%, eliminates $50,000 emergency repair costs, increases OEE by 15% = $2.3M additional annual capacity
+**Impact on Buyer:** Drives purchasing decision
+
+When you present value first, you create a completely different conversation dynamic. Instead of asking prospects to evaluate your technical capabilities, you are demonstrating understanding of their business challenges and presenting quantified solutions.
+
+**D. Three-Level Selling Example: **
+
+Consider a high-precision temperature sensor in a pharmaceutical manufacturing application. Feature: The technical capability is measurement accuracy within ±0.01°C. Benefit: The immediate benefit is precise temperature control during critical manufacturing processes. But the business impact extends much further: Value/Business Impact: consistent temperature control ensures batch quality, reduces product waste, maintains regulatory compliance, and prevents costly production delays.
+
+**E. Power of Quantified Value:**
+
+1. Quantified value **beats** technical superiority every time in **competitive evaluations**.
+
+2. Present quantified value in formats that different stakeholders can easily understand and use in their **decision-making processes**. executive buyers prefer summary metrics and ROI calculations.
+
+**F. How to Sell Value:**
+
+Start by understanding the key performance indicators (KPIs) that matter most to your target customers. These vary significantly across industries and applications, but common categories include operational efficiency, cost reduction, revenue enhancement, risk mitigation, and competitive advantage.
+
+**G. Some of Value Drivers:**
+
+1. For **operational efficiency**, focus on metrics like throughput improvement, cycle time reduction, yield increases, or resource utilization optimization.
+
+2. **Cost reduction** opportunities often provide the most compelling value propositions because they directly impact profitability. 
+
+**H. How to Start Value-focused Discovery:**
+
+1. Value-focused discovery starts with **understanding the business problem** that technical requirements are meant to solve. **Question example:** “What happens when measurements aren’t accurate enough?", “What’s preventing you from achieving the throughput levels your business requires?”
+
+2. Start with operational challenges: what problems are they trying to solve, what inefficiencies are they experiencing, what limitations are constraining their performance.
+
+** I. Technical Credibility vs. Presenting Value:**
+
+Technical credibility does not come from demonstrating comprehensive product knowledge—it comes from demonstrating deep understanding of customer challenges and the ability to solve complex problems. When you present value effectively, you are actually demonstrating higher-level technical competence. 
+
+**J. How to present with value-selling approach:**
+
+1. Structuring your presentations to **lead with value** while **supporting with technical proof**. Start by establishing the business problem and quantifying its impact. Present your solution in terms of the outcomes it delivers. Then provide the technical details that explain how those outcomes are achieved.
+
+2. When you mention a technical specification, immediately **connect it to the business benefit it enables**. "Our sensor provides 0.1% accuracy, which eliminates the quality control failures that have been costing you $200,000 annually in rework and warranty claims."
+
+**K. From Technical Expert to Value Champion: **
+
+1. The journey requires developing **new skills and perspectives** that complement your existing technical knowledge. You need to understand business operations, financial metrics, competitive dynamics, and decision-making processes. You need to learn how to quantify value, present business cases, and communicate with stakeholders who don’t share your technical background.
+
+2. Need to shift your **mental model** from product-focused to problem-focused thinking. Instead of starting with what your solution can do, **start with what problems customers need to solve**. Instead of proving technical superiority, demonstrate business impact.
+
+3. Your technical expertise becomes a sales superpower when you use it to solve business problems, not showcase product capabilities.
+
+`,
+    tips: [
+      "Value-Selling vs. Fearture-Selling",
+      "How to..."
 
     ]
   }
