@@ -221,7 +221,7 @@ The customer’s crude-oil purchasing process involved more than 200 variables a
 
 I approached the business case from both sides. On the benefit side, I defined the value drivers and quantified them, including 1) optimizing the crude-oil purchasing baske, 2) improving planning productivity, and 3) capturing more potential benefits from enabling to produce and sell more high-value products in downstream market by comparing the existing purchasing baseline with optimized scenarios. From conclusion on the value in dollar from our financial models, average annual benefit of $28M over five years after deployment is achieveable with 95% possibility.
 
-On the cost side, I built a five-year TCO, including software license fee, implementation & modeling (only in year 0), hardware, model maintenance, training, internal resources, and ongoing support etc., in five years as the calculation period, the annual cost is about $4.9 million, the five-year TCO is around $24.7 million, versus the average annual cashflow in around $23.8M, the payback is around 12 months, and the 5-year NPV reach around $89.6M.
+On the cost side, I built a five-year TCO, including software license fee, implementation & modeling (only in year 0), hardware, model maintenance, training, internal resources, and ongoing support etc., in five years as the calculation period, beside the initial modeling cost $700k, the annual cost is about $4.8 million, the five-year TCO is around $24 million, versus the average annual cashflow in around $23.9M, the payback is around 12 months, and the 5-year NPV reach around $90M.
 
 I then phased in benefits realistically and assess ROI, NPV, IRR, and payback, using the net discount rate given by the customer (their WACC), while validating the values and assumption with finance, procurement, operations, and IT at customer side.
 
@@ -569,7 +569,7 @@ Based on the defined pains, I developed three value drivers: 1) optimizing the c
 
 I then quantified the potential impact and structured a five-year ROI/TCO model, including costs contributed from implementation, software license fee, infrastructure, modeling, and model maintenance, alongside annual benefits, cash flows, NPV, and Payback. 
 
-The model indicated, at the base scenario, $28 million annual benefits in full-running could be achieved with 95% possibility, and five-year TCO is $24.7 million, the annual average net cash-in flow is around $23.8M, therefore, the Payback is only 12 and half months, and the model also indicated that 480% ROI and $90 million NPV at 9% discount rate are highly reachable.
+The model indicated, at the base scenario, $28.7 million annual benefits in full-running could be achieved with 95% possibility, and five-year TCO is $24 million, the annual average net cash-in flow is around $23.9M, therefore, the Payback is only 12 and half months, and the model also indicated that 500% ROI, 1,483% IRR and $90 million NPV at 9% discount rate are highly reachable.
 
 I partnered with customer stakeholders to address questions around benefit credibility, investment exposure, and operational feasibility, at the same time, collaborated with consulting and professional service colleagues to connect the quantified value to the commercial business case.
 
