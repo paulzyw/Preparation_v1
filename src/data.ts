@@ -239,26 +239,29 @@ For all these financial tools including ROI, TCO, NPV, IRR and Payback, my exper
     title: "Business Case Development",
     group: 2,
     category: "Case Studies",
-    script: `I normally build a business case from the customer's **decision backwards**.
+    script: `When I build a business case, in my scheme, the business case is tasked to be used as a powerful instrument and essentially a **decision-making framework** that answers customer: 
+1. **Why** should the customer **invest**, 
+2. **what value** will the investment create, and 
+3. **what** does it **take** to realize that value? (cost)
 
-**First**, I understand **what **decision the customer is trying to make and **what outcomes** matter to the executive sponsor.
+A business case I have built typically brings together **the business problem and baseline, value drivers and expected benefits, investment and TCO, financial returns such as ROI, NPV, IRR and payback, key assumptions and risks, and ultimately the path to value realization.**
 
-**Then** I establish the **current-state baseline** and identify the **major value drivers**, whether that's revenue, cost, productivity, risk, cycle time, quality, or capital efficiency.
+A good example is a Supply Chian Optimization Project with my customer Sinopec, the largest oil & gas company in China. Their crude-oil planning process involved more than 200 variables and over 200 people, with a monthly planning cycle of around three weeks. I worked with the customer to discover the business problems, establish the baseline, identify the key value drivers, and translate those operational improvements into economic impact.
 
-**Next**, I **quantify the impact** and develop the **financial models** including ROI, TCO, NPV, IRR and Payback, making the **assumptions transparent** and **validating them with** the relevant stakeholders.
+I then built the financial case around benefits, implementation and operating costs, benefit ramp, cash flows, and return scenarios. 
 
-Then I **connect** the financial analysis **with** the strategic narrative: why change, why now, why this solution, and what happens if the customer does nothing.
+But the most important part was using that business case to engage executives, helping customer executives understand the economics of the problem, the value opportunity, the investment required, and the returns of investment behind the case.
 
-Finally, I make the business case actionable—linking it to the commercial proposal, implementation priorities, adoption metrics, and ultimately value realization.
+That shifted the conversation from “What does the technology do?” to “Does this investment make economic sense for our business?”
 
-So I don't see a business case as a document. I see it as a **decision framework**.`,
+The solution was ultimately adopted across 52 business units including HQ functions and subsidiaries and with 150 active users. Planning time fell from about three weeks to less than one week, and the customer reported approximately $30 million in average annual procurement savings.
+
+So, for me, the purpose of a business case is to **connect customer value with an informed investment decision—and then provide a foundation for measuring whether that value is actually realized.**
+
+    `,
     tips: [
-      "Likely question: “How do you build a business case?”",
-      "what decision, what outcomes",
-      "establish current-state baseline, identify major value drivers",
-      "Quantify impact, develop financial models",
-      "connect financial analysis with strategic narrative",
-      "business case is seen as a decision framework"
+      "Business case development with SInopec case"
+      
       
     ]
   },
@@ -786,6 +789,21 @@ Sinopec annual revenue 2025: $410 billion (Chevron, $189 billion 2025)
 Sinopec net marging 2025: $4.7 billion, 1.15% of Annual Revenue 2025
 
 **Savings** from Planning Optimization ($30M per year) to **Net Margin**: **0.65%**
+
+**Business Case**:
+
+**1. What is a business case?**
+A decision-making framework for determining whether an investment makes economic and strategic sense.
+
+**2. What purpose does it serve?**
+It connects the customer's problem and expected business outcomes to the investment decision.
+
+**3. What does it include?**
+Business Problems(Expected Outcomes→Baseline→Gap→Cause→Impact→Value) → value drivers → benefits → investment/TCO → financial returns → assumptions/risks → realization plan.
+
+**4. What do you personally do with it?**
+You use the business case to engage executives, align stakeholders, influence the investment decision, and establish the foundation for value realization.
+
 `,
     tips: [
       "Medidata knowledge",
