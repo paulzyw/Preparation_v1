@@ -310,12 +310,49 @@ export default function App() {
   // Parses raw string sections to support standard HTML <b> and markdown ** tags
   const renderFormattedText = (str: string): React.ReactNode[] => {
     const parts = str.split(/(<b>.*?<\/b>|\*\*.*?\*\*)/g);
-    return parts.map((part, index) => {
+    return parts.flatMap((part, index) => {
+      let isBold = false;
+      let textContent = part;
       if (part.startsWith('<b>') && part.endsWith('</b>')) {
-        return <strong key={index} className="font-bold text-slate-900">{part.slice(3, -4)}</strong>;
+        isBold = true;
+        textContent = part.slice(3, -4);
+      } else if (part.startsWith('**') && part.endsWith('**')) {
+        isBold = true;
+        textContent = part.slice(2, -2);
       }
-      if (part.startsWith('**') && part.endsWith('**')) {
-        return <strong key={index} className="font-bold text-slate-900">{part.slice(2, -2)}</strong>;
+
+      // Parse [text](url) markdown link
+      const linkRegex = /(\[.*?\]\(.*?\))/g;
+      if (linkRegex.test(textContent)) {
+        const subparts = textContent.split(linkRegex);
+        const renderedSubparts = subparts.map((subpart, subIndex) => {
+          if (subpart.startsWith('[') && subpart.includes('](')) {
+            const closingBracketIndex = subpart.indexOf('](');
+            const text = subpart.slice(1, closingBracketIndex);
+            const url = subpart.slice(closingBracketIndex + 2, -1);
+            return (
+              <a 
+                key={`${index}-${subIndex}`}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 underline font-semibold inline-flex items-center gap-1 hover:opacity-90 transition-opacity"
+              >
+                {text}
+              </a>
+            );
+          }
+          return subpart;
+        });
+
+        if (isBold) {
+          return <strong key={index} className="font-bold text-slate-900">{renderedSubparts}</strong>;
+        }
+        return renderedSubparts;
+      }
+
+      if (isBold) {
+        return <strong key={index} className="font-bold text-slate-900">{textContent}</strong>;
       }
       return <span key={index}>{part}</span>;
     });

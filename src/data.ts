@@ -46,7 +46,7 @@ Internally, I also work closely with consulting, professional service, and leade
 
 So when I look at this opportunity at Medidata, I see a very natural continuation of what I’ve been doing, bringing my hands-on Value Engineering experience, executive engagement, commercial influence, and value realization into life sciences sector, and applying that discipline across APAC as a senior value engineering contributor.
 
-I am excited about this potential opportunity of joining your team and working together to achieve our shared goals. 
+I am excited about this potential opportunity of joining Medidata and working together the team to achieve our shared goals. 
 
 Thank you for considering me as one of candidates for this role, and I look forward to having discussion on how I can contribute to the success of Value Engineering at Medidata in this region.
 `,
@@ -570,7 +570,7 @@ I worked across the Value Engineering lifecycle, starting with discovery to unde
 
 Based on the defined pains, I developed three value drivers: 1) optimizing the crude-oil purchasing basket, 2) improving planning productivity, and 3) capturing more potential benefits from enabling to produce and sell more high-value products in downstream market, and these value drivers were fully aligned with key stakeholders at customer side.
 
-I then quantified the potential impact and structured a five-year ROI/TCO model, including costs contributed from implementation, software license fee, infrastructure, modeling, and model maintenance, alongside annual benefits, cash flows, NPV, and Payback. 
+I then quantified the potential impact and structured a five-year ROI/TCO model by using initial data input from public sources and informed assumptions and then updated and validated by the customer, including costs contributed from implementation, software license fee, infrastructure, modeling, and model maintenance and calibration, alongside annual benefits, cash flows, NPV, IRR and Payback. 
 
 The model indicated, at the base scenario, $28.7 million annual benefits in full-running could be achieved with 95% possibility, and five-year TCO is $24 million, the annual average net cash-in flow is around $23.9M, therefore, the Payback is only 12 and half months, and the model also indicated that 500% ROI, 1,483% IRR and $90 million NPV at 9% discount rate are highly reachable.
 
@@ -592,7 +592,7 @@ The solution was adopted by 52 teams including its HQ functions and subsidiaries
 
   {
     id: "connect_value",
-    title: "Parmaceutical: Predictive Maintenance",
+    title: "Pharmaceutical: Predictive Maintenance",
     group: 2,
     category: "Case Studies",
     script: `**Master STAR Story — Pharmaceutical Predictive Maintenance**
@@ -792,6 +792,8 @@ Sinopec net marging 2025: $4.7 billion, 1.15% of Annual Revenue 2025
 
 **Business Case**:
 
+Sinopec Supply Chain Optimization Investment Project **[Business Case Document](/source_files/A Business Case with Sinopec Case.pdf)**
+
 **1. What is a business case?**
 A decision-making framework for determining whether an investment makes economic and strategic sense.
 
@@ -799,7 +801,7 @@ A decision-making framework for determining whether an investment makes economic
 It connects the customer's problem and expected business outcomes to the investment decision.
 
 **3. What does it include?**
-Business Problems(Expected Outcomes→Baseline→Gap→Cause→Impact→Value) → value drivers → benefits → investment/TCO → financial returns → assumptions/risks → realization plan.
+**Business Problems**(Business need vs. Current state, Case for change, Business objectives) → **Value Drivers** → **Benefits Model** → **Investment/TCO** → **Financial Returns** → **Cash-flow Model** → **Sensitivity Analysis** → **Risks Analysis** → **Realization Plan**.
 
 **4. What do you personally do with it?**
 You use the business case to engage executives, align stakeholders, influence the investment decision, and establish the foundation for value realization.
