@@ -38,9 +38,9 @@ Over time, a significant part of my role has become very closely aligned with Va
 
 From my perspective, my experience tells me, Value Engineering is much more than building a financial model, it is about **connecting the technology to the quantified outcomes** that matter most to the customer, and then helping the customer turn those outcomes into a credible business case and, ultimately, realized value.
 
-One good example was a supply-chain optimization initiative with a giant company in energy sector, in this case, I led with my hands-on effort crossing the entire Value Engineering lifecycle, started with discovering and defining their business problems, then translated a high-complex crude-oil purchasing planning challenge into an executive business case, and the solution ultimately scaled to its 52 subsidiaries and with more than 150 users. As result, the purchasing planning cycle reduced 70%, and $30 million in average in annual purchasing savings is reported.
+One good example was a supply-chain optimization initiative with a giant company in energy sector, in this case, I led with my hands-on effort crossing the entire Value Engineering lifecycle, started with discovering, defining and validating their business problems, then translated a high-complex crude-oil purchasing planning challenge into an executive business case, and the solution ultimately scaled to its 52 subsidiaries and with more than 150 users. As result, the purchasing planning cycle reduced 70%, and $30 million in average in annual purchasing savings is reported.
 
-That experience captures how I approach value: start with the **business problem**, develop **value drivers**, quantify the **economic impact**, build the **financial models**, align the **executive stakeholders**, build the **business case**, and then connect **adoption** to **measurable outcomes**.
+That experience captures how I approach value: start with the **business problem discovery**, **business problem validation**, develop **value drivers**, quantify the **economic impact**, build the **financial models**, align the **executive stakeholders**, build the **business case**, and connect **adoption** to **measurable outcomes**, then get value tracked.
 
 Internally, I also work closely with consulting, professional service, and leadership team to shape value narratives, strengthen deal strategies, align stakeholders, and support complex enterprise opportunities.
 
@@ -68,7 +68,7 @@ Thank you for considering me as one of candidates for this role, and I look forw
     category: "Motivation",
     script: `What attracted me to this role is that it brings together several things that have become **central to my career** at Aspen: understanding complex **customer problems**, defining **value drivers**, quantifying **business value**, engaging **senior executives**, and developing **executive business case** to influence both the investment decision and the commercial strategy.
 
-What particularly interests me is that Medidata's Value Engineering role covers the **whole value lifecycle**, from **business problem** discovery, **value driver** identification, **value hypothesis**, value **quantification** & financial **modeling**, **business-case** development, and **commercial decision** through adoption, value realization, and optimization, and I believe my experiences in value engineering can be **helpful for both** Medidata and its customers in the journey of pursuing value creation.
+What particularly interests me is that Medidata's Value Engineering role covers the **whole value lifecycle**, from **business problem** discovery & validation, **value driver** identification, economic impact **quantification** & financial **modeling**, **business-case** development, and **commercial decision** through adoption, value realization, and optimization, and I believe my experiences in value engineering can be **helpful for both** Medidata and its customers in the journey of pursuing value creation.
 
 I also see a very interesting opportunity to bring my experience into **life sciences** sector. I have already worked with **pharmaceutical** customers on **technology investments** where the conversation have moved from technical capability to **operational and financial outcomes**.
 
@@ -566,9 +566,9 @@ Therefore, after I led team to spend lots of effort to lobbying and promoting, t
 During their evaluation process, my role was to help translate this operational challenge and pains into a compelling, quantified business case, at the same time, aligning customer stakeholders and our internal teams around measurable business outcomes, supporting the commercial opportunity, and connecting the value proposition to adoption and realization.
 
 **Action**
-I worked across the Value Engineering lifecycle, starting with discovery to understand their planning process, methodologies, existing tools, workflows, business priorities, and economic challenges etc.
+I worked across the Value Engineering lifecycle, starting with a structured discovery process with Sinopec. Through a series of workshops with business and functional stakeholders, I mapped their existing planning process, methodologies, tools, workflows, business priorities, and economic challenges. We moved from symptoms and operational pain points to root causes, business impact, and the underlying economic opportunity, and then validated the key business problems with stakeholders.
 
-Based on the defined pains, I developed three value drivers: 1) optimizing the crude-oil purchasing basket, 2) improving planning productivity, and 3) capturing more potential benefits from enabling to produce and sell more high-value products in downstream market, and these value drivers were fully aligned with key stakeholders at customer side.
+Based on those validated business problems, I developed three value drivers: 1) optimizing the crude-oil purchasing basket, 2) improving planning productivity, and 3) capturing more potential benefits from enabling to produce and sell more high-value products in downstream market, I then worked with key customer stakeholders to validate the logic, assumptions, and relevance of these value drivers, ensuring that the value framework was aligned with their strategic priorities and business objectives.
 
 I then quantified the potential impact and structured a five-year ROI/TCO model by using initial data input from public sources and informed assumptions and then updated and validated by the customer, including costs contributed from implementation, software license fee, infrastructure, modeling, and model maintenance and calibration, alongside annual benefits, cash flows, NPV, IRR and Payback. 
 
@@ -672,15 +672,16 @@ Analytical and AI-Enabled trial planning and execution
 **12 million** patients
 
 **B. Full value chain:**
-**1**. Business problem → 
-**2**. Develop value drivers →
-**3**. Economic impact quantification → 
-**4**. Financial Modeling → 
-**5**. Executive Alignment → 
-**6**. Business case → 
-**7**. Commercial Decision → 
-**8**. adoption → 
-**9**. realized value.
+**1**. Business problem discovery → 
+**2**. Business problem validation →
+**3**. Develop value drivers →
+**4**. Economic impact quantification → 
+**5**. Financial Modeling → 
+**6**. Executive Alignment → 
+**7**. Business case → 
+**8**. Commercial Decision → 
+**9**. adoption → 
+**10**. value realization & tracking.
 
 **C. My Perspective on Value Engineering**
 Value engineering is **connecting** the technologies to the outcomes which **matter most** to the customer
@@ -778,7 +779,7 @@ Identify the business owner and decision relevance, Who actually cares about sol
 I start by understanding what business outcome matters, establish the current-state baseline, identify the gap and its root causes, and then quantify the economic consequence. 
 Only then do I connect the problem to a potential solution and value case.
 
-**Sinopec Case**
+**H. Sinopec Case**
 
 Annual Crude Oil **Purchasing Capacit**y: **1.9 billion barrels**
 
@@ -790,7 +791,7 @@ Sinopec net marging 2025: $4.7 billion, 1.15% of Annual Revenue 2025
 
 **Savings** from Planning Optimization ($30M per year) to **Net Margin**: **0.65%**
 
-**Business Case**:
+**I. Business Case**:
 
 Sinopec Supply Chain Optimization Investment Project **[Business Case Document](/source_files/A Business Case with Sinopec Case.pdf)**
 
@@ -806,6 +807,31 @@ It connects the customer's problem and expected business outcomes to the investm
 **4. What do you personally do with it?**
 You use the business case to engage executives, align stakeholders, influence the investment decision, and establish the foundation for value realization.
 
+**J. 7-Phase Workshop Program to Discover & Validate Business Problem**
+
+Phase 1 — Strategic **outcome**
+
+Phase 2 — **Current-state** process
+
+Phase 3 — **Symptom** discovery
+5 dimentions: Time, Cost, Quality, Productivity, Business Performance
+
+Phase 4 — **Root-cause** analysis
+5-Why + Fishbone approach, symptom -> why? -> why? ... -> why? -> what does that matter?
+
+Phase 5 — Business **impact**
+what does this problem actually mean for the business?
+
+Phase 6 — **Quantification**
+Volume × Frequency × Unit Impact × Economic Value
+
+Phase 7 — Executive **Validation & Prioritization**
+Validate that the identified problem is genuinely important enough to justify action
+
+**The output from workshop program:**
+
+1. Validated Business Problem Statement
+2. Business Problem Register
 `,
     tips: [
       "Medidata knowledge",
