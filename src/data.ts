@@ -815,6 +815,10 @@ It connects the customer's problem and expected business outcomes to the investm
 **4. What do you personally do with it?**
 You use the business case to engage executives, align stakeholders, influence the investment decision, and establish the foundation for value realization.
 
+1) giving customer executives a good justification for their decision of investment and building a strong and differentiated competitive advantage over competitor to win the opportunity in aspect of commercial strategy,
+
+2) supporting as a foundation to build a strong deal strategy to close the deal with most optimized commercial outcomes for both the customer and Medidata.
+
 **J. 7-Phase Workshop Program to Discover & Validate Business Problem**
 
 Phase 1 — Strategic **outcome**
