@@ -164,15 +164,16 @@ And I don't stop at the business case. I also look at adoption, value realizatio
 
 So I would describe my experience as inclusion of the full value chain:
 
-1. Discover Business problem → 
-2. Develop value drivers →
-3. Economic impact quantification → 
-4. Financial Modeling → 
-5. Executive Alignment → 
-6. Develop Business case → 
-7. Influence Commercial Decision → 
-8. Adoption → 
-9. Realization of Value
+1. Business problem discovery →
+2. Business problem validation →
+3. Develop value drivers →
+4. Economic impact quantification →
+5. Financial Modeling →
+6. Executive Alignment →
+7. Business case →
+8. Commercial Decision →
+9. adoption →
+10. value realization & tracking.
 
 
 That's how I personally have been experiencing Value Engineering.`,
@@ -234,10 +235,14 @@ For all these financial tools including ROI, TCO, NPV, IRR and Payback, my exper
     title: "Business Case Development",
     group: 2,
     category: "Case Studies",
-    script: `When I build a business case, in my scheme, the business case is tasked to be used as a powerful instrument and essentially a **decision-making framework** that answers customer: 
+    script: `When I build a business case, in my scheme, the business case is used as a powerful instrument and essentially a **decision-making framework** that answers customer: 
 1. **Why** should the customer **invest**, 
 2. **what value** will the investment create, and 
 3. **what** does it **take** to realize that value? (cost)
+
+as well as used as the foundation in formulating internal commercial strategy and deal strategy, answers us:
+1. **Why** should the **customer choose** us, and **how** should we **compete**?
+2. **How** should we **structure and negotiate** this particular deal to create the **best sustainable commercial outcome**?
 
 A business case I have built typically brings together **the business problem and baseline, value drivers and expected benefits, investment and TCO, financial returns such as ROI, NPV, IRR and payback, key assumptions and risks, and ultimately the path to value realization.**
 
@@ -245,13 +250,13 @@ A good example is a Supply Chian Optimization Project with my customer Sinopec, 
 
 I then built the financial case around benefits, implementation and operating costs, benefit ramp, cash flows, and return scenarios. 
 
-But the most important part was using that business case to engage executives, helping customer executives understand the economics of the problem, the value opportunity, the investment required, and the returns of investment behind the case.
+But the most important part was using that business case to engage executives, helping customer executives understand the economics of the problem, the value opportunity, the investment required, and the returns of investment behind the case, ultimately gave the customer good justification to make decision to invest in our solution. The business case also helped us build a strong competitive advantage over competitor, and became strong bargaining chips during negotiation enabling us close the deal with a favorable terms & conditions.
 
 That shifted the conversation from “What does the technology do?” to “Does this investment make economic sense for our business?”
 
 The solution was ultimately adopted across 52 business units including HQ functions and subsidiaries and with 150 active users. Planning time fell from about three weeks to less than one week, and the customer reported approximately $30 million in average annual procurement savings.
 
-So, for me, the purpose of a business case is to **connect customer value with an informed investment decision—and then provide a foundation for measuring whether that value is actually realized.**
+So, for me, the purpose of a business case is to **connect customer value with an informed investment decision**, and then provide a foundation for building **strong and differentiated competitiveness** to **win the opportunity**, and **strengthening the deal strategy** to close the deal with **favorable Terms & Conditions.**
 
     `,
     tips: [
@@ -558,34 +563,29 @@ Customer problem → Value hypothesis → Quantification → Business case → C
     category: "Case Studies",
     script: `**Sinopec Supply-Chain Optimization**
 
-This is the case with a Chinese enery giant company, Sinopec, this case is going to demonstrate how I personally apply Value Engineering crossing the entire value chain, connect customer value to commercial decisions, engage executives, and focus on realized outcomes, at the same time, operating across functions as a senior individual contributor.
-
 **Situation**
-At Sinopec, their crude-oil purchasing planning was highly complex, involving more than 200 variables which determines the purchases plan and invlovled over 200 people. The monthly planning cycle took around three weeks, making it difficult to evaluate purchasing options efficiently and identify the most economically optimal plan, which caused:
-1) High crude-oil procurement expenditure, 
-2) Limited flexibility in plan adjustments in highly price-fluctuated market, and 
-3) The difficulty aligning crude purchases with changing downstream market requirements. 
+One of my customers with name Sinopec, they had encountered **operational challenges** for long time, their crude-oil purchasing planning was highly complex, involving more than 200 variables which determines the purchases plan and involved over 200 people. The monthly planning cycle took around three weeks, making it difficult to evaluate purchasing options efficiently and identify the most economically optimal plan, which caused: 1) High crude-oil procurement expenditure, 2) Limited flexibility in plan adjustments in highly price-fluctuated market, and 3) The difficulty aligning crude purchases with changing downstream market requirements.
 
 During the early stage of COVID-19 in 2020, their pain stem from their low efficiency oil procurement planning got even worse.
 
-**Task**
-Therefore, after I led team to spend lots of effort to lobbying and promoting, the customer initiated the process to evaluating whether to invest in software, analytics and optimization technology to improve their planning process.
+**Task** 
+After I led team to spend lots of effort to lobbying and promoting, the customer initiated their process to evaluating whether to invest in software, analytics and optimization technology to improve their planning process.
 
 During their evaluation process, my role was to help translate this operational challenge and pains into a compelling, quantified business case, at the same time, aligning customer stakeholders and our internal teams around measurable business outcomes, supporting the commercial opportunity, and connecting the value proposition to adoption and realization.
 
-**Action**
-I worked across the Value Engineering lifecycle, starting with a structured discovery process with Sinopec. Through a series of workshops with business and functional stakeholders, I mapped their existing planning process, methodologies, tools, workflows, business priorities, and economic challenges. We moved from symptoms and operational pain points to root causes, business impact, and the underlying economic opportunity, and then validated the key business problems with stakeholders.
+**Action** 
+Throughout the Value Engineering lifecycle, I started with a structured discovery process with the customer. Through a series of workshops with business and functional stakeholders, I mapped their existing planning process, methodologies, tools, workflows, business priorities, and economic challenges. We moved from symptoms and operational pain points to root causes, business impact, and the underlying economic opportunity, and then validated the key business problems with stakeholders.
 
 Based on those validated business problems, I developed three value drivers: 1) optimizing the crude-oil purchasing basket, 2) improving planning productivity, and 3) capturing more potential benefits from enabling to produce and sell more high-value products in downstream market, I then worked with key customer stakeholders to validate the logic, assumptions, and relevance of these value drivers, ensuring that the value framework was aligned with their strategic priorities and business objectives.
 
-I then quantified the potential impact and structured a five-year ROI/TCO model by using initial data input from public sources and informed assumptions and then updated and validated by the customer, including costs contributed from implementation, software license fee, infrastructure, modeling, and model maintenance and calibration, alongside annual benefits, cash flows, NPV, IRR and Payback. 
+I then quantified the potential impact and structured a five-year ROI/TCO model by using initial data input from public sources and informed assumptions and then updated and validated by the customer, including costs contributed from implementation, software license fee, infrastructure, modeling, and model maintenance and calibration, alongside annual benefits, cash flows, NPV, IRR and Payback.
 
-The model indicated, at the base scenario, $28.7 million annual benefits in full-running could be achieved with 95% possibility, and five-year TCO is $24 million, the annual average net cash-in flow is around $23.9M, therefore, the Payback is only 12 and half months, and the model also indicated that 500% ROI, 1,483% IRR and $90 million NPV at 9% discount rate are highly reachable.
+**[ Optional]  **The model indicated, at the base scenario, $28.7 million annual benefits in full-running could be achieved with 95% possibility, and five-year TCO is $24 million, the annual average net cash-in flow is around $23.9M, therefore, the Payback is only 12 and half months, and the model also indicated that 500% ROI, 1,483% IRR and $90 million NPV at 9% discount rate are highly reachable.
 
-I partnered with customer stakeholders to address questions around benefit credibility, investment exposure, and operational feasibility, at the same time, collaborated with internal stakeholders to connect the quantified value to the commercial business case, **and then, translate the business case into the commercial strategy - how we differentiate the solution, how we position the investment, what the customer needs to see to justify the decision of investment, and how we structure the commercial discussion around the value rather than simply price.**
+I partnered with customer stakeholders to address questions around benefit credibility, investment exposure, and operational feasibility, at the same time, collaborated with internal stakeholders to connect the quantified value to the commercial business case, and then, influenced customer to make their decision of investment, translated the value case into our differentiated competitive advantage over competitors, and ultimately, the value case supported a deal strategy to closing the deal with most optimized commercial outcomes for both parties.
 
-**Result**
-The solution was adopted by 52 teams including its HQ functions and subsidiaries, with more than 150 active users. The planning cycle reduced from three weeks to less than one week, planning efficiency increased by 300%, and the customer reported around $30 million in average in annual crude oil purchasing savings have been achieved, that is 110% benefit achievement over the model indication.
+**Result** 
+As result, the customer invested in our solution, and adopted in their 52 business units including its HQ functions and subsidiaries. The planning cycle reduced from three weeks to less than one week, planning efficiency increased by 300%, and the customer reported around $30 million in average in annual crude oil purchasing savings have been achieved, that is 110% benefit achievement over the model indication.
 
 `,
     tips: [
@@ -881,7 +881,7 @@ The Value Engineering produces **value case**, and it serves for:
 
 3. VE → Deal Strategy: “How should we structure and negotiate this particular deal to create the **best sustainable and optimized commercial outcomes** for both Madidata and customer?”
 
-=====================================================
+=========================
 
 **B. Thesis for interview with Commercial Strategy:**
 
