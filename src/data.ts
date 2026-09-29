@@ -26,29 +26,24 @@ export const CHEATSHEET_DATA: CheatsheetItem[] = [
     title: "Self-Introduction",
     group: 0,
     category: "Profile",
-    script: `First and foremost, I would like to **thank you** for your interest in my profile and taking the time for having me in this interview session.
+    script: `First and foremost, I would like to **thank you** for taking the time for having me in this interview session.
 
-I am delighted to have this opportunity to speak with you about the hiring role at Medidata, I will take a few minutes to give you a quick overview about my background, experiences of **value engineering** **and leveraging value case to strengthen competitiveness in a differentiated way over competitors** and what has **brought** me to this opportunity.
+I am delighted to have this opportunity to speak with you about the hiring role at Medidata, I will take a few minutes to give you a quick overview about my **background**, experiences of **value engineering** and my experiences of how I leveraged value case to **influence** customer executives in **investment decision**, **strengthen competitiveness** over competitors, support a **deal strategy** with expectation of closing a deal with **most optimized commercial outcomes**, and what has brought me to this opportunity.
 
-I’ve spent more than **15 years** working in **enterprise technology**, **business transformation**, **commercial value creation** and **realization**, and I have been **playing the role** to help customers understand why change matters, quantify the economic value, build the **business case** helping customer to make their **decision to invest in technology**, translate business case into commercial strategy, and then **connect** that value case to adoption and measurable outcomes.
+I’ve spent more than 15 years working in enterprise technology, business transformation, commercial value creation and realization, and I have been playing the role to help customers understand why **change matters**, **quantify** the economic value, build the **business case**, translate business case into **commercial strategy**, then **influence** customer executives to make **investment decision** in technology, and ultimately close the deal with **favorable terms & conditions**.
 
-At Aspen Technology, I’ve worked with large enterprise customers across pharmaceutical, energy, utilities, manufacturing, and other highly-regulated industries, helping them address complex business challenges, operational pains, and business priorities through industrial software, data-driven solutions, AI, and digital transformation.
+At Aspen Technology, I’ve worked with large enterprise customers across **pharmaceutical, energy, utilities, manufacturing, and other highly-regulated industries**, helping them address complex business challenges, operational pains, and business priorities through industrial software, data-driven solutions, AI, and digital transformation.
 
-Over time, a significant part of my role has become very closely aligned with Value Engineering. I work with customers to understand their business problems, strategic priorities, and value drivers, establish the baseline, quantify economic impact, build financial models and executive business cases that support customer to make decisions of investment**, and more importantly, leverage the quantified economic value to make us in a strong differentiated competitive position over competitors, significantly increase winning rate**.
+Over time, a significant part of my role has become very closely aligned with **Value Engineering**. I work with customers to understand their **business problems**, **strategic priorities**, and **value drivers**, establish the **baseline**, **quantify** economic impact, build **financial models** and executive **business cases** that support customer to make decisions of investment, and more importantly, leverage the value case to build strong **competitive advantage** over competitors, and ultimately support to close the deal with **optimized commercial outcomes**.
 
-From my perspective, my experience tells me, Value Engineering is much more than building a financial model, it is about **connecting the technology to the quantified outcomes** that matter most to the customer, and then helping the customer turn those outcomes into a credible business case and, ultimately, realized value.
+From my perspective, my experience tells me, Value Engineering is much more than building a financial model, it is about **connecting the technology to the quantified outcomes** that matter most to the customer, and then helping the customer turn those outcomes into a **credible business case** which serves the purpose of influencing their investment decision making, and building competitive advantage over competitors, and ultimately wining the deal with favorable Terms & Conditions.
 
-One good example was a supply-chain optimization initiative with a giant company in energy sector, in this case, I led with my hands-on effort crossing the entire Value Engineering lifecycle, started with discovering, defining and validating their business problems, then translated a high-complex crude-oil purchasing planning challenge into an executive business case, **and then, I translated the business case into commercial strategy which gave us a very strong differentiated competitiveness over our competitors and gave customer a perfect justification on their investment decision,** and the solution ultimately implemented in its 52 subsidiaries and with more than 150 users. As result, the purchasing planning cycle reduced 70%, and $30 million in average in annual purchasing savings is reported.
+Throughout the **value engineering lifecycle**, I start with the business problem discovery & validation, develop value drivers, quantify the economic impact, build the financial models, align the executive stakeholders, build the business case, and connect adoption to measurable outcomes, ultimately, used the business case, efficiently influenced customer to make their decision of investment, built our commercial strategy supporting us to win the opportunity with strong competitive advantage and close the deal with favorable Terms & Conditions.
 
-That experience captures how I approach value: start with the **business problem discovery**, **business problem validation**, develop **value drivers**, quantify the **economic impact**, build the **financial models**, align the **executive stakeholders**, build the **business case**, and connect **adoption** to **measurable outcomes**, then get value tracked**, value, ultimately, serves the purpose of building strong differentiated competitiveness over competitors, strengthening deal strategies, and making perfect economic sense for customer in their investment decision making**.
+So when I look at this opportunity at Medidata, I see a very **natural continuation** of what I’ve been doing, bringing my **hands-on** Value Engineering experience, executive engagement, commercial influence, deal strategy formulation, and value realization into life sciences sector, and applying that discipline across APAC as a senior value engineering contributor.
 
-I also work closely with internal stakeholders, including commercial, consulting, professional service, and leadership team etc. to shape value narratives, translate value case into commercial strategy, strengthen deal strategies, align stakeholders, and support complex enterprise opportunities.
+I am excited about this potential opportunity of **joining Medidata** and working together with you and the team to **achieve our shared goals**.
 
-So when I look at this opportunity at Medidata, I see a very natural continuation of what I’ve been doing, bringing my hands-on Value Engineering experience, executive engagement, commercial influence, and value realization into life sciences sector, and applying that discipline across APAC as a senior value engineering contributor.
-
-I am excited about this potential opportunity of joining Medidata and working together the team to achieve our shared goals. 
-
-Thank you for considering me as one of candidates for this role, and I look forward to having discussion on how I can contribute to the success of Value Engineering at Medidata in this region.
 `,
     tips: [
       "Thank you for...",
@@ -393,8 +388,21 @@ That's the kind of accountability I enjoy.`,
     category: "Questions",
     script: `Questions:
     
-    1.	I’d love to understand your **perspective on success**. 
-    If we were having this conversation six or twelve months after I joined, what would I have accomplished for you to say, “This has been a very successful hire”?
+**B. Questions for VP Commercial Strategy**
+
+**1. How VE and Commercial Strategy work together**
+“From your perspective, where do you see the strongest intersection between Value Engineering and Commercial Strategy today? And in a complex strategic deal, how would you ideally see the two functions working together—from developing the customer value case through commercial strategy and ultimately the deal?”
+
+**2. What makes a differentiated commercial strategy**
+“When Medidata is competing for a strategically important opportunity, what typically differentiates a strong commercial strategy from a conventional sales approach? In particular, how important are customer-specific value economics, ROI and TCO in shaping the competitive and commercial strategy?”
+
+**3. The role of VE in deal strategy and negotiation**
+“When you are working on a complex deal where there is significant negotiation around scope, price and terms, what kind of input from Value Engineering is most valuable to you? For example, is it primarily the quantified value case, the economic justification for the investment, competitive differentiation, or modeling different commercial scenarios?”
+
+**A. Questions for VP Value Engineering**
+
+1.	I’d love to understand your **perspective on success**. 
+If we were having this conversation six or twelve months after I joined, what would I have accomplished for you to say, “This has been a very successful hire”?
 
 2.	From your perspective, where is the **biggest opportunity** for Value Engineering in APAC today? 
 Is it primarily around strengthening value-based selling in strategic opportunities, improving executive engagement, accelerating value realization, or something else?
@@ -848,7 +856,34 @@ Validate that the identified problem is genuinely important enough to justify ac
     script: `Note for Commercial
 
 
-**A. Thesis for interview with Commercial Strategy:**
+**C. Trilateral Partnerships among Value Enginnering, Commercial Strategy, and Deal Strategy**
+
+The Value Engineering produces **value case**, and it serves for:
+
+1) giving customer executives a good **justification** for their **decision of investment** and building a strong and differentiated **competitive advantage** over competitor to win the opportunity in aspect of commercial strategy, 
+
+2) supporting as a foundation to build **a strong deal strategy** to close the deal with **most optimized commercial outcomes** for **both** the customer and Medidata, of cause, for Medidata, including favorable terms & conditions, value, margin etc.
+
+**Value Engineering**
+→ builds the Customer Value Case
+↓
+**Commercial Strategy**
+→ uses the value case to develop the competitive/commercial approach
+↓
+**Deal Strategy**
+→ uses the value case + commercial strategy to design and negotiate the specific deal
+
+**Purpose Served:**
+
+1. VE answers: "Why should the customer **invest**?”
+
+2. VE → Commercial Strategy: “Why should the customer **choose us**, and how should we **compete**?”
+
+3. VE → Deal Strategy: “How should we structure and negotiate this particular deal to create the **best sustainable and optimized commercial outcomes** for both Madidata and customer?”
+
+=====================================================
+
+**B. Thesis for interview with Commercial Strategy:**
 
 **Core Statement:**
 My role as a Value Engineering leader is not simply to build ROI models. It is to **create the economic intelligence** that **enables** Sales and Commercial Strategy to **make better decisions** about how we **position**, **structure** and **negotiate** a deal.
@@ -866,7 +901,7 @@ Value Engineering establishes the economic value of the customer decision; Comme
 **Commercial Strategy** → “How should we structure the deal around that value?”
 **Sales** → “How do we win the customer?”
 
-**B. VE's role in relationship with commercial strategy** 
+**A. VE's role in relationship with commercial strategy** 
 Bring the 4 things to commercial strategy conversation:
 
 **1. Customer economic understanding**
