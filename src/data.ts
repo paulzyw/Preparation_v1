@@ -860,6 +860,11 @@ Validate that the identified problem is genuinely important enough to justify ac
     category: "Profile",
     script: `Note for Commercial
 
+**D. VE Role Statement_competitive or deal strategy:**
+
+Value Engineering doesn't own the competitive or deal strategy, but would be to provide the **economic intelligence** that makes that **strategy stronger**.
+
+I would help the team **understand** the customer's business problem, quantify the value opportunity, model the economics of the alternatives, **identify** where Medidata has **differentiated value**, and **test different commercial scenarios**. That gives Commercial Strategy and Sales a **fact-based foundation** for positioning, negotiation and deal design.
 
 **C. Trilateral Partnerships among Value Enginnering, Commercial Strategy, and Deal Strategy**
 
